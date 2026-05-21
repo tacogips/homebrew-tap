@@ -2,6 +2,10 @@
 
 Custom Homebrew tap for `tacogips` packages.
 
+## Available formulae
+
+- `divedra`
+
 ## Available casks
 
 - `chilla`
@@ -10,5 +14,6 @@ Custom Homebrew tap for `tacogips` packages.
 
 ```bash
 brew tap tacogips/tap
+brew install divedra
 brew install --cask chilla
 ```
