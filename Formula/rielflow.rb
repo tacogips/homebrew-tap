@@ -1,7 +1,7 @@
 class Rielflow < Formula
   desc "TypeScript/Bun workflow runtime for cooperative multi-agent execution"
   homepage "https://github.com/tacogips/rielflow"
-  version "0.1.9"
+  version "0.1.10"
   license "MIT"
 
   livecheck do
@@ -11,21 +11,21 @@ class Rielflow < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/rielflow/releases/download/v0.1.9/rielflow-0.1.9-darwin-arm64.tar.gz"
-      sha256 "9af40337551119fd83cf4acabf69737031e4f7320e549f9c7cb6bdf783082ef8"
+      url "https://github.com/tacogips/rielflow/releases/download/v0.1.10/rielflow-0.1.10-darwin-arm64.tar.gz"
+      sha256 "d855c07762cfc2a9616626da395296426609856dc57d97e0bc46ffbb44e345b9"
     else
-      url "https://github.com/tacogips/rielflow/releases/download/v0.1.9/rielflow-0.1.9-darwin-x64.tar.gz"
-      sha256 "433324c3112defa4da5295b261c948dfc47ff87c2f6079468781fe384c040637"
+      url "https://github.com/tacogips/rielflow/releases/download/v0.1.10/rielflow-0.1.10-darwin-x64.tar.gz"
+      sha256 "8717e33915b8f37472d1b753cb246d344149c849d51225af61e10a007d5b2cde"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/rielflow/releases/download/v0.1.9/rielflow-0.1.9-linux-arm64.tar.gz"
-      sha256 "ae4f4617184434c1ed461b83fc26bd8d370461c86d4ea0cd9fe651b5c20a44af"
+      url "https://github.com/tacogips/rielflow/releases/download/v0.1.10/rielflow-0.1.10-linux-arm64.tar.gz"
+      sha256 "60edc9ab3ea3a0cc5630243eae0fc21f09f15d6d77caa9d6a5eccead15c0696c"
     else
-      url "https://github.com/tacogips/rielflow/releases/download/v0.1.9/rielflow-0.1.9-linux-x64.tar.gz"
-      sha256 "7dfd0e6d44de5d295a946ffd270b2521d9f5391add7c133945c23d4453677fad"
+      url "https://github.com/tacogips/rielflow/releases/download/v0.1.10/rielflow-0.1.10-linux-x64.tar.gz"
+      sha256 "b0e3c0736163e939a6923f515d2d447c143155dd950a638a85e18cc3aca56925"
     end
   end
 
