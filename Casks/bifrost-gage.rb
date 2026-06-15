@@ -2,14 +2,13 @@ cask "bifrost-gage" do
   version "0.1.0"
   sha256 "7534664858d41f215abf08b756c0453c1d980cb0ba74ad73326e47f8533be907"
 
-  url "https://github.com/tacogips/bifrost-gage/releases/download/v#{version}/bifrost-gage_#{version}_aarch64.app.zip"
+  url "https://github.com/tacogips/homebrew-tap/releases/download/bifrost-gage-v#{version}/bifrost-gage_#{version}_aarch64.app.zip"
   name "bifrost-gage"
   desc "Menu bar app for local Bifrost budget status and controls"
   homepage "https://github.com/tacogips/bifrost-gage"
 
   livecheck do
-    url :url
-    strategy :github_latest
+    skip "Release assets are hosted in the shared tap repository"
   end
 
   depends_on arch: :arm64
