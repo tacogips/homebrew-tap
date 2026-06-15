@@ -1,6 +1,6 @@
 cask "bifrost-gage" do
-  version "0.1.0"
-  sha256 "7534664858d41f215abf08b756c0453c1d980cb0ba74ad73326e47f8533be907"
+  version "0.1.1"
+  sha256 "1afad9fe8fa3ee10ba2b3ec73adb1e1d4267ca189e880258ddda00c184d09c09"
 
   url "https://github.com/tacogips/homebrew-tap/releases/download/bifrost-gage-v#{version}/bifrost-gage_#{version}_aarch64.app.zip"
   name "bifrost-gage"
@@ -25,8 +25,7 @@ cask "bifrost-gage" do
         ~/.config/bifrost-gage/bifrost-gage-config.json
 
       This cask installs the current Apple Silicon app zip release artifact.
-      The current artifact is ad-hoc signed and not notarized, so macOS
-      Gatekeeper may require a manual first-launch approval.
+      The app is signed and notarized with Developer ID.
     EOS
   end
 end
