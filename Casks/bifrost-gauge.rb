@@ -5,7 +5,7 @@ cask "bifrost-gauge" do
   url "https://github.com/tacogips/homebrew-tap/releases/download/bifrost-gauge-v#{version}/bifrost-gauge_#{version}_aarch64.app.zip"
   name "bifrost-gauge"
   desc "Menu bar app for local Bifrost budget status and controls"
-  homepage "https://github.com/tacogips/ai-budget-manager"
+  homepage "https://github.com/tacogips/bifrost-gauge"
 
   livecheck do
     skip "Release assets are hosted in the shared tap repository"
