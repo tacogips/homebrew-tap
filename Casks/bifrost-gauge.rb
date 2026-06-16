@@ -1,6 +1,6 @@
 cask "bifrost-gauge" do
-  version "0.1.2"
-  sha256 "39bdaeed6b7eae55232d150aa1fb38827b25df911550818a8784742d186043a4"
+  version "0.1.3"
+  sha256 "dc0e7fe6ac21d261a791258bd144a3c0ffdd3379686fcc1eb2d4f3fc32a4c9f6"
 
   url "https://github.com/tacogips/homebrew-tap/releases/download/bifrost-gauge-v#{version}/bifrost-gauge_#{version}_aarch64.app.zip"
   name "bifrost-gauge"
@@ -17,16 +17,6 @@ cask "bifrost-gauge" do
   app "bifrost-gauge.app"
   binary "#{appdir}/bifrost-gauge.app/Contents/MacOS/bifrost-gauge", target: "bifrost-gauge"
 
-  postflight do
-    app_path = "#{appdir}/bifrost-gauge.app"
-    system_command "/usr/bin/xattr",
-                   args: ["-rd", "com.apple.quarantine", app_path],
-                   sudo: false
-    system_command "/usr/bin/codesign",
-                   args: ["--force", "--deep", "--sign", "-", app_path],
-                   sudo: false
-  end
-
   caveats do
     <<~EOS
       bifrost-gauge connects to an already-running Bifrost server. Configure the
@@ -35,7 +25,7 @@ cask "bifrost-gauge" do
         ~/.config/bifrost-gauge/bifrost-gauge-config.json
 
       This cask installs the current Apple Silicon app zip release artifact.
-      The app is ad-hoc signed locally after install.
+      The app is signed and notarized with Developer ID.
     EOS
   end
 end
