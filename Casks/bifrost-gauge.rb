@@ -17,6 +17,12 @@ cask "bifrost-gauge" do
   app "bifrost-gauge.app"
   binary "#{appdir}/bifrost-gauge.app/Contents/MacOS/bifrost-gauge", target: "bifrost-gauge"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-rd", "com.apple.quarantine", "#{appdir}/bifrost-gauge.app"],
+                   sudo: false
+  end
+
   caveats do
     <<~EOS
       bifrost-gauge connects to an already-running Bifrost server. Configure the
