@@ -12,6 +12,7 @@ Custom Homebrew tap for `tacogips` packages.
 
 - `bifrost-gauge`
 - `chilla`
+- `riela`
 
 ## Usage
 
@@ -22,4 +23,5 @@ brew install ign
 brew install riela
 brew install --cask bifrost-gauge
 brew install --cask chilla
+brew install --cask riela
 ```
