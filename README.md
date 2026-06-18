@@ -6,6 +6,7 @@ Custom Homebrew tap for `tacogips` packages.
 
 - `divedra`
 - `ign`
+- `riela`
 
 ## Available casks
 
@@ -18,6 +19,7 @@ Custom Homebrew tap for `tacogips` packages.
 brew tap tacogips/tap
 brew install divedra
 brew install ign
+brew install riela
 brew install --cask bifrost-gauge
 brew install --cask chilla
 ```
