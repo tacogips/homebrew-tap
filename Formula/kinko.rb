@@ -1,7 +1,7 @@
 class Kinko < Formula
   desc "Encrypted environment variable manager for repository and shared scopes"
   homepage "https://github.com/tacogips/kinko"
-  version "0.1.2"
+  version "0.1.4"
   license "MIT"
 
   livecheck do
@@ -11,21 +11,21 @@ class Kinko < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/kinko/releases/download/v0.1.2/kinko_0.1.2_darwin_arm64.tar.gz"
-      sha256 "6bb7887d05f26cc8e3e2520b3271b7fe47748823c779a9d4df905f3500dba86e"
+      url "https://github.com/tacogips/kinko/releases/download/v0.1.4/kinko_0.1.4_darwin_arm64.tar.gz"
+      sha256 "63ccca0901806a854c42a5f16b9a870cf8c9f3af51d8e3d2dac20cc74422b536"
     else
-      url "https://github.com/tacogips/kinko/releases/download/v0.1.2/kinko_0.1.2_darwin_amd64.tar.gz"
-      sha256 "2391e92a89040458aa8088c334a21fb4f32346b2ba48860ea3604c466c5de65c"
+      url "https://github.com/tacogips/kinko/releases/download/v0.1.4/kinko_0.1.4_darwin_amd64.tar.gz"
+      sha256 "9aa2ace6dffbd175a074d73d46faada95b50d8d1db45a30a7e986d9d8a4656ec"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/kinko/releases/download/v0.1.2/kinko_0.1.2_linux_arm64.tar.gz"
-      sha256 "80e65d6e7c439bb714f0fe9a0d914fb2e097f9c70163b2b7ea732fe75a539a68"
+      url "https://github.com/tacogips/kinko/releases/download/v0.1.4/kinko_0.1.4_linux_arm64.tar.gz"
+      sha256 "132acfc6dd86775af307aeee07b2f57a43773e9a9b8091c8223a5f5140fcc586"
     else
-      url "https://github.com/tacogips/kinko/releases/download/v0.1.2/kinko_0.1.2_linux_amd64.tar.gz"
-      sha256 "933b8e706ada9d0d8db90540b279bb3059a9f800c43f09b800fa76edc6f25687"
+      url "https://github.com/tacogips/kinko/releases/download/v0.1.4/kinko_0.1.4_linux_amd64.tar.gz"
+      sha256 "449ee4076a84cfce3cfba8ef1c95bea8932030ea28013e6f874190858135348d"
     end
   end
 
@@ -34,6 +34,6 @@ class Kinko < Formula
   end
 
   test do
-    assert_equal "0.1.2", shell_output("#{bin}/kinko version").strip
+    assert_equal "0.1.4", shell_output("#{bin}/kinko version").strip
   end
 end
