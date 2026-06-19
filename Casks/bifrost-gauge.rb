@@ -1,6 +1,6 @@
 cask "bifrost-gauge" do
-  version "0.1.5"
-  sha256 "1bd2ee87902741a01e0c06f805965bc2a283e656c4a2b9964f6762d545580523"
+  version "0.1.6"
+  sha256 "e39a8d9ec9e710330374a01c85ece15bfa9152283bf0ce161606170069446985"
 
   url "https://github.com/tacogips/homebrew-tap/releases/download/bifrost-gauge-v#{version}/bifrost-gauge_#{version}_aarch64.app.zip"
   name "bifrost-gauge"
