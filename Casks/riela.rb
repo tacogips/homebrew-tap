@@ -1,11 +1,11 @@
 cask "riela" do
-  version "0.1.2"
+  version "0.1.3"
   arch arm: "darwin-arm64", intel: "darwin-x64"
 
-  sha256 arm: "980d354c6f17ed9adbe6ddae4fbd7de64330394ab27058705f390f1bb143b1bb",
-         intel: "0aac75554aed557262ee2dbc87506ae8b66e84176b949f801e0e409d3ec20d33"
+  sha256 arm: "c6f86bae39a760ba13e2910cfe816a3db0d4c171b0db0ae3057b76cc40060012",
+         intel: "7ab7921609be50996a7fde79a708d1a18e43c056e55af94bc02fae22123ac80f"
 
-  url "https://github.com/tacogips/riela/releases/download/v0.1.2/riela-#{version}-#{arch}.dmg",
+  url "https://github.com/tacogips/riela/releases/download/v0.1.3/riela-#{version}-#{arch}.dmg",
       verified: "github.com/tacogips/riela/releases/download/"
   name "riela"
   desc "Swift-native workflow runtime for cooperative multi-agent execution"
