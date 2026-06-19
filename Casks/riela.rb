@@ -2,8 +2,8 @@ cask "riela" do
   version "0.1.2"
   arch arm: "darwin-arm64", intel: "darwin-x64"
 
-  sha256 arm: "af15d435e488703e94d4f48618fa985642990eb90fa0487cd3a5dee2e357929e",
-         intel: "f99b324e5bd356d9d04c0fd4a6b941e83f5c5bfb8cd4de96aac38e482e4536ee"
+  sha256 arm: "980d354c6f17ed9adbe6ddae4fbd7de64330394ab27058705f390f1bb143b1bb",
+         intel: "0aac75554aed557262ee2dbc87506ae8b66e84176b949f801e0e409d3ec20d33"
 
   url "https://github.com/tacogips/riela/releases/download/v0.1.2/riela-#{version}-#{arch}.dmg",
       verified: "github.com/tacogips/riela/releases/download/"
