@@ -1,7 +1,7 @@
 class Ign < Formula
   desc "Template-based code generation CLI tool"
   homepage "https://github.com/tacogips/ign"
-  version "0.1.17"
+  version "0.1.18"
   license "MIT"
 
   livecheck do
@@ -11,21 +11,21 @@ class Ign < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/ign/releases/download/v0.1.17/ign-0.1.17-darwin-arm64.tar.gz"
-      sha256 "74c5e2bf6cf58a5433cd9ed89a32f61aa3290e158941d010b29965ab51b4d350"
+      url "https://github.com/tacogips/ign/releases/download/v0.1.18/ign-0.1.18-darwin-arm64.tar.gz"
+      sha256 "472911aa9b819f1e29b8b0d91a1a0836a8af69884ec3a58aa66ae3529188a96a"
     else
-      url "https://github.com/tacogips/ign/releases/download/v0.1.17/ign-0.1.17-darwin-x64.tar.gz"
-      sha256 "f7604a7d49141de6531a6f9166fa140562187dc9588107707d9d5a1f6dfae550"
+      url "https://github.com/tacogips/ign/releases/download/v0.1.18/ign-0.1.18-darwin-x64.tar.gz"
+      sha256 "98011f0ab76823daf914ce69fa86ed692d74885142e7b5297353ed4aaad20351"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/ign/releases/download/v0.1.17/ign-0.1.17-linux-arm64.tar.gz"
-      sha256 "60deab8250e3c7b6fac0a52a66af699fe86381d27bbbe642686ebc1bae41c271"
+      url "https://github.com/tacogips/ign/releases/download/v0.1.18/ign-0.1.18-linux-arm64.tar.gz"
+      sha256 "0d93557cc320b3d4f8ec9c59390e9a7b0da205bd528bb85fb00405d7bd096761"
     else
-      url "https://github.com/tacogips/ign/releases/download/v0.1.17/ign-0.1.17-linux-x64.tar.gz"
-      sha256 "33e72185d5daff4f211aff7553867daab90af48d024a73918cb999d217358dbe"
+      url "https://github.com/tacogips/ign/releases/download/v0.1.18/ign-0.1.18-linux-x64.tar.gz"
+      sha256 "0aa3f3483a5e327fcca77aa6267912352ce76ea397d139ba24f64792e778bbf1"
     end
   end
 
@@ -34,6 +34,6 @@ class Ign < Formula
   end
 
   test do
-    assert_equal "0.1.17", shell_output("#{bin}/ign version --short").strip
+    assert_equal "0.1.18", shell_output("#{bin}/ign version --short").strip
   end
 end
