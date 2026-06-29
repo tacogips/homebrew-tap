@@ -1,7 +1,7 @@
 class Riela < Formula
   desc "Swift-native workflow runtime for cooperative multi-agent execution"
   homepage "https://github.com/tacogips/riela"
-  version "0.1.9"
+  version "0.1.10"
   license "MIT"
 
   livecheck do
@@ -11,11 +11,11 @@ class Riela < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/riela/releases/download/v0.1.9/riela-0.1.9-darwin-arm64.tar.gz"
-      sha256 "0b17e7ae2a3671ca2355254f041f975883d3f7eda8ae2050719a6100af94f770"
+      url "https://github.com/tacogips/riela/releases/download/v0.1.10/riela-0.1.10-darwin-arm64.tar.gz"
+      sha256 "e833927c8825fc010d5bf99671d94daf68aaed5c7ecd39ac13122866ee796248"
     else
-      url "https://github.com/tacogips/riela/releases/download/v0.1.9/riela-0.1.9-darwin-x64.tar.gz"
-      sha256 "ac5cb475659077b36922883525c764dad9e376385d6f05a03575f90ae52d5609"
+      url "https://github.com/tacogips/riela/releases/download/v0.1.10/riela-0.1.10-darwin-x64.tar.gz"
+      sha256 "a20ff4d50c83e60bf97c716ef84838a2eadfe458e728394a0318f7bdc9414f46"
     end
   end
 
