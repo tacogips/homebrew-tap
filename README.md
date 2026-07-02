@@ -4,6 +4,7 @@ Custom Homebrew tap for `tacogips` packages.
 
 ## Available formulae
 
+- `calendar-gateway`
 - `divedra`
 - `ign`
 - `kinko`
@@ -12,6 +13,7 @@ Custom Homebrew tap for `tacogips` packages.
 ## Available casks
 
 - `bifrost-gauge`
+- `calendar-gateway`
 - `chilla`
 - `riela`
 
@@ -19,11 +21,13 @@ Custom Homebrew tap for `tacogips` packages.
 
 ```bash
 brew tap tacogips/tap
+brew install calendar-gateway
 brew install divedra
 brew install ign
 brew install kinko
 brew install riela
 brew install --cask bifrost-gauge
+brew install --cask calendar-gateway
 brew install --cask chilla
 brew install --cask riela
 ```
