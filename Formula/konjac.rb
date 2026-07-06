@@ -1,3 +1,5 @@
+github_token = ENV["HOMEBREW_GITHUB_API_TOKEN"].to_s
+
 class Konjac < Formula
   desc "OCR memo CLI for captured multilingual text"
   homepage "https://github.com/tacogips/konjac"
@@ -11,10 +13,18 @@ class Konjac < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/konjac/releases/download/v0.1.3/konjac-0.1.3-darwin-arm64.tar.gz"
+      url "https://api.github.com/repos/tacogips/konjac/releases/assets/468223701?filename=konjac-0.1.3-darwin-arm64.tar.gz",
+      headers: [
+        "Accept: application/octet-stream",
+        "Authorization: Bearer #{github_token}",
+      ]
       sha256 "e7372bd7b95a61199dc8611cbd0cb255c15f3aa23e11a52e000a3e137b61bfc6"
     else
-      url "https://github.com/tacogips/konjac/releases/download/v0.1.3/konjac-0.1.3-darwin-x64.tar.gz"
+      url "https://api.github.com/repos/tacogips/konjac/releases/assets/468223702?filename=konjac-0.1.3-darwin-x64.tar.gz",
+      headers: [
+        "Accept: application/octet-stream",
+        "Authorization: Bearer #{github_token}",
+      ]
       sha256 "066b4b5ba838c4e98ba08e3d942f64338cac38aa6773017fb75ab971b7c80388"
     end
   end
