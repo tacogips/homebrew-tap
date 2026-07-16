@@ -15,6 +15,7 @@ Custom Homebrew tap for `tacogips` packages.
 - `bifrost-gauge`
 - `calendar-gateway`
 - `chilla`
+- `ccusage-gauge`
 - `riela`
 
 ## Usage
@@ -29,5 +30,6 @@ brew install riela
 brew install --cask bifrost-gauge
 brew install --cask calendar-gateway
 brew install --cask chilla
+brew install --cask ccusage-gauge
 brew install --cask riela
 ```
