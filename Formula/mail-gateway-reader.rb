@@ -1,7 +1,7 @@
 class MailGatewayReader < Formula
   desc "Read-only Gmail workflow gateway"
   homepage "https://github.com/tacogips/mail-gateway"
-  version "0.1.5"
+  version "0.1.6"
   license "MIT"
 
   livecheck do
@@ -11,11 +11,11 @@ class MailGatewayReader < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/mail-gateway/releases/download/v0.1.5/mail-gateway-reader-0.1.5-darwin-arm64.tar.gz"
-      sha256 "11247ca8c694c6c723065070d9d38db2fca6e5bf2fcc01c74291a53b3e69df26"
+      url "https://github.com/tacogips/mail-gateway/releases/download/v0.1.6/mail-gateway-reader-0.1.6-darwin-arm64.tar.gz"
+      sha256 "4bebcbbfabf5d56728565bd4e7758e947e140f20e45599451c76a951d63dbc29"
     else
-      url "https://github.com/tacogips/mail-gateway/releases/download/v0.1.5/mail-gateway-reader-0.1.5-darwin-x64.tar.gz"
-      sha256 "87a2c0f0f0075c4be36a80b3a247cce8907dd3b661ac02c73216beef2f913bd0"
+      url "https://github.com/tacogips/mail-gateway/releases/download/v0.1.6/mail-gateway-reader-0.1.6-darwin-x64.tar.gz"
+      sha256 "b68eb6f2be076690e40d01785835d10bec5c705fe4478232fdc3068d5d7e9a3e"
     end
   end
 
