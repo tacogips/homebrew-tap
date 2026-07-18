@@ -1,7 +1,7 @@
 class XGatewayReader < Formula
   desc "Read-only X API gateway CLI"
   homepage "https://github.com/tacogips/x-gateway"
-  version "0.1.4"
+  version "0.1.5"
   license "MIT"
 
   livecheck do
@@ -11,11 +11,11 @@ class XGatewayReader < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/x-gateway/releases/download/v0.1.4/x-gateway-0.1.4-darwin-arm64.tar.gz"
-      sha256 "e8abed1e98ab4bce44d72e9589fedc9e8c2049870f21f4ce1a18faa51245fdc6"
+      url "https://github.com/tacogips/x-gateway/releases/download/v0.1.5/x-gateway-0.1.5-darwin-arm64.tar.gz"
+      sha256 "265d6fcc249b34f72fae27da5b270e7ac5dd2691902f10736779710b88a68646"
     else
-      url "https://github.com/tacogips/x-gateway/releases/download/v0.1.4/x-gateway-0.1.4-darwin-x64.tar.gz"
-      sha256 "c99728e1c13f06870aee21e52263a6a475b196217bb93e4cff4e0c1fd97a7cd2"
+      url "https://github.com/tacogips/x-gateway/releases/download/v0.1.5/x-gateway-0.1.5-darwin-x64.tar.gz"
+      sha256 "b2d2272f01cf8dcf7e7f9dc73b73dff7d14dded05d9da1749a4c75469f2388d2"
     end
   end
 
@@ -24,6 +24,6 @@ class XGatewayReader < Formula
   end
 
   test do
-    assert_match "0.1.4", shell_output("#{bin}/x-gateway-reader version")
+    assert_match "0.1.5", shell_output("#{bin}/x-gateway-reader version")
   end
 end
