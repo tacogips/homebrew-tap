@@ -1,11 +1,11 @@
 cask "calendar-gateway" do
-  version "0.1.1"
+  version "0.1.2"
   arch arm: "darwin-arm64", intel: "darwin-x64"
 
-  sha256 arm: "2400c83cb2dc3b9873977acda253938645a44e5416edd6dab0219aa5e42024b8",
-         intel: "a88ce84ee18ad580d262bbfe2a3df39ed5b1eee96ca7daaf1a1cca63c0447f00"
+  sha256 arm: "f9d1aa6b7d6c9a901bc82427e7676d5a87868c511919d0dc2e21877029dd674b",
+         intel: "2bdfabc8106ee731b1d18371c484abc3e828cd594514067dfdfbb5bc038241e3"
 
-  url "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.1/calendar-gateway-#{version}-#{arch}.dmg"
+  url "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.2/calendar-gateway-#{version}-#{arch}.dmg"
   name "calendar-gateway"
   desc "Swift library and local CLI gateway for calendar clients"
   homepage "https://github.com/tacogips/calendar-gateway"
