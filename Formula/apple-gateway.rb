@@ -1,7 +1,7 @@
 class AppleGateway < Formula
   desc "macOS CLI and GraphQL bridge for Apple apps"
   homepage "https://github.com/tacogips/apple-gateway"
-  version "0.1.3"
+  version "0.1.4"
   license "MIT"
 
   livecheck do
@@ -11,11 +11,11 @@ class AppleGateway < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/apple-gateway/releases/download/v0.1.3/apple-gateway-0.1.3-darwin-arm64.tar.gz"
-      sha256 "59d0f91cddd25516d7dd3a721998f7dc8733e0914bee396d6a02eb205efcdc29"
+      url "https://github.com/tacogips/apple-gateway/releases/download/v0.1.4/apple-gateway-0.1.4-darwin-arm64.tar.gz"
+      sha256 "e2b4d3c42e7f15df2ed69c0d7fe3c0c1003f0c7691da3872df0a612bd9515c4a"
     else
-      url "https://github.com/tacogips/apple-gateway/releases/download/v0.1.3/apple-gateway-0.1.3-darwin-x64.tar.gz"
-      sha256 "d9dae1f14469f77b456cf1c1f288c548844e0fceaf39c97ff4c3658a0365bde7"
+      url "https://github.com/tacogips/apple-gateway/releases/download/v0.1.4/apple-gateway-0.1.4-darwin-x64.tar.gz"
+      sha256 "62333386eed0293a7fce8aaf81707d54e95585dec40365aba0bdddec363b61c1"
     end
   end
 
@@ -26,8 +26,8 @@ class AppleGateway < Formula
   end
 
   test do
-    assert_match "0.1.3", shell_output("#{bin}/apple-gateway --version")
-    assert_match "0.1.3", shell_output("#{bin}/apple-gateway-reader --version")
+    assert_match "0.1.4", shell_output("#{bin}/apple-gateway --version")
+    assert_match "0.1.4", shell_output("#{bin}/apple-gateway-reader --version")
     assert_path_exists libexec/"AppleGatewayNotifier.app"
   end
 end
