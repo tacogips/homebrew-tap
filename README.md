@@ -5,6 +5,7 @@ Custom Homebrew tap for `tacogips` packages.
 ## Available formulae
 
 - `calendar-gateway`
+- `ccusage-gauge`
 - `divedra`
 - `ign`
 - `kinko`
@@ -23,6 +24,7 @@ Custom Homebrew tap for `tacogips` packages.
 ```bash
 brew tap tacogips/tap
 brew install calendar-gateway
+brew install ccusage-gauge
 brew install divedra
 brew install ign
 brew install kinko
