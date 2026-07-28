@@ -1,6 +1,7 @@
 class CcusageGauge < Formula
   desc "Monitor AI coding-agent usage and costs"
   homepage "https://github.com/tacogips/ccusage-gauge"
+  version "0.1.21"
   license "MIT"
 
   livecheck do
@@ -10,11 +11,11 @@ class CcusageGauge < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/ccusage-gauge/releases/download/v0.1.20/ccusage-gauge-0.1.20-darwin-arm64.tar.gz?revision=2"
-      sha256 "1f86f2ee534392a9b7454e27807afd584d387d0cbcb83462321fc8cf367ddea9"
+      url "https://github.com/tacogips/ccusage-gauge/releases/download/v0.1.21/ccusage-gauge-0.1.21-darwin-arm64.tar.gz"
+      sha256 "b3e48cb5a7ed504d45c5a20aea4f9813aa3af16a11554e22e24d56d4482b0b0b"
     else
-      url "https://github.com/tacogips/ccusage-gauge/releases/download/v0.1.20/ccusage-gauge-0.1.20-darwin-x64.tar.gz?revision=2"
-      sha256 "f668cb4d75d7c83314b43be74da44153122c1781f279faec5443b34a65228fdb"
+      url "https://github.com/tacogips/ccusage-gauge/releases/download/v0.1.21/ccusage-gauge-0.1.21-darwin-x64.tar.gz"
+      sha256 "d2d50a4cc072339d181ffd76e5e379dd08a06f36e297020c33f505a27a6b524b"
     end
   end
 
@@ -24,6 +25,6 @@ class CcusageGauge < Formula
   end
 
   test do
-    assert_match "0.1.20", shell_output("#{bin}/ccusage-gauge --version")
+    assert_match "0.1.21", shell_output("#{bin}/ccusage-gauge --version")
   end
 end
