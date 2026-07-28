@@ -12,10 +12,10 @@ class CcusageGauge < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/tacogips/ccusage-gauge/releases/download/v0.1.20/ccusage-gauge-0.1.20-darwin-arm64.tar.gz"
-      sha256 "adf97a93832d8dee018cd7cd55e37ac0b1437d2d9492f9b843b6e8b5f3a34ff2"
+      sha256 "1f86f2ee534392a9b7454e27807afd584d387d0cbcb83462321fc8cf367ddea9"
     else
       url "https://github.com/tacogips/ccusage-gauge/releases/download/v0.1.20/ccusage-gauge-0.1.20-darwin-x64.tar.gz"
-      sha256 "f1b2cd2246eca9bb2cb95552631c39b0fc7ce7787a66a013da426767ed539b05"
+      sha256 "f668cb4d75d7c83314b43be74da44153122c1781f279faec5443b34a65228fdb"
     end
   end
 
