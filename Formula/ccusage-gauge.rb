@@ -1,7 +1,6 @@
 class CcusageGauge < Formula
   desc "Monitor AI coding-agent usage and costs"
   homepage "https://github.com/tacogips/ccusage-gauge"
-  version "0.1.22"
   license "MIT"
 
   livecheck do
