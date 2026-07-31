@@ -1,11 +1,11 @@
 cask "ccusage-gauge" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "0.1.22"
-  sha256 arm:   "72a0905516fb4c859da5e7b37ab1b9e808c6a3723d25a4a6492c1afc209f8de8",
-         intel: "edd8d6633ee4f9cde160d6baca78cbd5599736f3f9265f8218a59462d747c26c"
+  version "0.1.23"
+  sha256 arm:   "2a85eaa79716b26e60897506266c092b738b8b636b6df9a9758293546a7253d9",
+         intel: "2df1b8127f9de0e71e9c9fb0b7f3e62f0f268312385868b5a74ad7f7df9468a9"
 
-  url "https://github.com/tacogips/homebrew-tap/releases/download/ccusage-gauge-v0.1.22/ccusage-gauge_#{version}_#{arch}.app.zip"
+  url "https://github.com/tacogips/homebrew-tap/releases/download/ccusage-gauge-v0.1.23/ccusage-gauge_#{version}_#{arch}.app.zip"
   name "CCUsage Gauge"
   desc "Menu bar gauge and local dashboard for AI coding-agent usage costs"
   homepage "https://github.com/tacogips/ccusage-gauge"
