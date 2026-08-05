@@ -1,7 +1,6 @@
 class Kinko < Formula
   desc "Encrypted environment variable manager for repository and shared scopes"
   homepage "https://github.com/tacogips/kinko"
-  version "0.1.7"
   license "MIT"
 
   livecheck do
@@ -11,21 +10,21 @@ class Kinko < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/kinko/releases/download/v0.1.7/kinko_0.1.7_darwin_arm64.tar.gz"
-      sha256 "608bcfabfa4b8b6110c7ac76f82c22d6e76425ae7a57f6eb5abc9e29e3f9d290"
+      url "https://github.com/tacogips/kinko/releases/download/v0.1.8/kinko_0.1.8_darwin_arm64.tar.gz"
+      sha256 "82793aae92dee6dc6e4c9b032eeaf1331e1067b592ed0a209eaa888ada513f58"
     else
-      url "https://github.com/tacogips/kinko/releases/download/v0.1.7/kinko_0.1.7_darwin_amd64.tar.gz"
-      sha256 "1e096b5aacef6a31de13013a99bcb580adee9b18352efe1209cf4464782d1157"
+      url "https://github.com/tacogips/kinko/releases/download/v0.1.8/kinko_0.1.8_darwin_amd64.tar.gz"
+      sha256 "47967665e45b38aeb9da624af6ca767f8ee9b9267b22282b94d7c933dfa924ee"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/kinko/releases/download/v0.1.7/kinko_0.1.7_linux_arm64.tar.gz"
-      sha256 "91c69e55b6a214c450766ae3d42a7815c0bbbbbd6fcdf6c63b5ce8c205fa884f"
+      url "https://github.com/tacogips/kinko/releases/download/v0.1.8/kinko_0.1.8_linux_arm64.tar.gz"
+      sha256 "44bc22aedbc1c325fe5eac300965ec695c325582815884ab0190b0498133c954"
     else
-      url "https://github.com/tacogips/kinko/releases/download/v0.1.7/kinko_0.1.7_linux_amd64.tar.gz"
-      sha256 "899c8511218c770abd6089f8f6ea56ae5e40222df5f9427af087d4a7031a3bcf"
+      url "https://github.com/tacogips/kinko/releases/download/v0.1.8/kinko_0.1.8_linux_amd64.tar.gz"
+      sha256 "bd4b436bc0a3a31fca34dd994b5ad0f725d718361d21775f370fb675d403533f"
     end
   end
 
@@ -34,6 +33,6 @@ class Kinko < Formula
   end
 
   test do
-    assert_equal "0.1.7", shell_output("#{bin}/kinko version").strip
+    assert_equal "0.1.8", shell_output("#{bin}/kinko version").strip
   end
 end
