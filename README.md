@@ -4,6 +4,7 @@ Custom Homebrew tap for `tacogips` packages.
 
 ## Available formulae
 
+- `anydoc-swift`
 - `calendar-gateway`
 - `ccusage-gauge`
 - `divedra`
@@ -23,6 +24,7 @@ Custom Homebrew tap for `tacogips` packages.
 
 ```bash
 brew tap tacogips/tap
+brew install anydoc-swift
 brew install calendar-gateway
 brew install ccusage-gauge
 brew install divedra
