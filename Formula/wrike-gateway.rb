@@ -12,10 +12,10 @@ class WrikeGateway < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/tacogips/wrike-gateway/releases/download/v0.2.0/wrike-gateway-0.2.0-darwin-arm64.tar.gz"
-      sha256 "c5b3c94d0ea24b578ff7e5c8145aaffdadafd72905c46c0514b9a7b39cac0cbd"
+      sha256 "6ee6b84945234b1447c0665e3d85c536f669d4ba24f1aac510658ef16837e33b"
     else
       url "https://github.com/tacogips/wrike-gateway/releases/download/v0.2.0/wrike-gateway-0.2.0-darwin-x64.tar.gz"
-      sha256 "a4c078186505e6fe2f68d8141dd73a704c869bd0c5fabb5add40f32c9d3c0f87"
+      sha256 "2ac8140e5e13f7fd52ce66328f80fc5fdb8f43886d45704c8003d02b47b8120c"
     end
   end
 
