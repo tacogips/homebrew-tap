@@ -10,11 +10,11 @@ class AnydocSwift < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/anydoc-swift/releases/download/v0.1.1/anydoc-swift-0.1.1-darwin-arm64.tar.gz"
-      sha256 "25de4590c0ad34aae3bead5eb29dc68d368610c5848dea580036d56e649d1136"
+      url "https://github.com/tacogips/anydoc-swift/releases/download/v0.1.2/anydoc-swift-0.1.2-darwin-arm64.tar.gz"
+      sha256 "ec941df3e84fe01c0b016ec2c9fd1ebaddccdef0bc6fe668fab27b81fb682e62"
     else
-      url "https://github.com/tacogips/anydoc-swift/releases/download/v0.1.1/anydoc-swift-0.1.1-darwin-x64.tar.gz"
-      sha256 "2d3b9475e567923c65717b631eea275417ea3447969ccd91565f31a1b640f993"
+      url "https://github.com/tacogips/anydoc-swift/releases/download/v0.1.2/anydoc-swift-0.1.2-darwin-x64.tar.gz"
+      sha256 "7d845941c10bc98870d7f0b88ae17287c5f99138cbe4eb5de2fd531ea28a0792"
     end
   end
 
