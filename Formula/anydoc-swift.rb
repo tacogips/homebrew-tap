@@ -1,7 +1,6 @@
 class AnydocSwift < Formula
   desc "Convert PDF, Word, Excel, PowerPoint, OpenDocument, RTF, EPUB, CSV to Markdown"
   homepage "https://github.com/tacogips/anydoc-swift"
-  version "0.1.1"
   license "MIT"
 
   livecheck do
