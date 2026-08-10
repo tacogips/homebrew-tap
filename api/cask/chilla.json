@@ -1,0 +1,75 @@
+{
+  "artifacts": [
+    {
+      "app": [
+        "chilla.app"
+      ],
+      "target": "/Applications/chilla.app"
+    },
+    {
+      "binary": [
+        "/Applications/chilla.app/Contents/MacOS/chilla",
+        {
+          "target": "chilla"
+        }
+      ],
+      "target": "/opt/homebrew/bin/chilla"
+    }
+  ],
+  "auto_updates": null,
+  "autobump": true,
+  "bundle_short_version": null,
+  "bundle_version": null,
+  "caveats": "This cask installs the current macOS DMG release artifact.\n\nThe current DMG is not signed and notarized yet, so Gatekeeper may still block launch\nuntil the release pipeline is upgraded to publish a trusted macOS artifact.\n",
+  "caveats_rosetta": null,
+  "conflicts_with": null,
+  "container": null,
+  "depends_on": {
+    "arch": [
+      {
+        "bits": 64,
+        "type": "arm"
+      }
+    ]
+  },
+  "deprecate_args": null,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "deprecation_replacement_cask": null,
+  "deprecation_replacement_formula": null,
+  "desc": "Lightweight file and Git viewer",
+  "disable_args": null,
+  "disable_date": null,
+  "disable_reason": null,
+  "disable_replacement_cask": null,
+  "disable_replacement_formula": null,
+  "disabled": false,
+  "full_token": "tacogips/tap/chilla",
+  "homepage": "https://github.com/tacogips/chilla",
+  "installed": null,
+  "installed_time": null,
+  "languages": [],
+  "name": [
+    "chilla"
+  ],
+  "no_autobump_message": null,
+  "old_tokens": [],
+  "outdated": false,
+  "pinned": false,
+  "pinned_version": null,
+  "rename": [],
+  "ruby_source_checksum": {
+    "sha256": "2878f661e9bb7debde431ace821e15b116bf8a654f8a1069d1076984754901b6"
+  },
+  "ruby_source_path": "Casks/chilla.rb",
+  "sha256": "4ba90d9f6e2a6e62c8ae0b310b49883a0cd55cd14a2803558aadb65d4fef92c0",
+  "skip_livecheck": false,
+  "tap": "tacogips/tap",
+  "tap_git_head": "8434ac631bec7d1312f01b35997bad1694960a1c",
+  "token": "chilla",
+  "url": "https://github.com/tacogips/chilla/releases/download/v0.1.10/chilla_0.1.10_aarch64.dmg",
+  "url_specs": {},
+  "variations": {},
+  "version": "0.1.10"
+}

@@ -1,0 +1,99 @@
+{
+  "artifacts": [
+    {
+      "binary": [
+        "calendar-gateway"
+      ],
+      "target": "/opt/homebrew/bin/calendar-gateway"
+    }
+  ],
+  "auto_updates": null,
+  "autobump": true,
+  "bundle_short_version": null,
+  "bundle_version": null,
+  "caveats": "This cask installs the signed and notarized macOS command line tool.\nHomebrew links calendar-gateway into the native Homebrew prefix for this Mac.\n",
+  "caveats_rosetta": null,
+  "conflicts_with": null,
+  "container": null,
+  "depends_on": {},
+  "deprecate_args": null,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "deprecation_replacement_cask": null,
+  "deprecation_replacement_formula": null,
+  "desc": "Swift library and local CLI gateway for calendar clients",
+  "disable_args": null,
+  "disable_date": null,
+  "disable_reason": null,
+  "disable_replacement_cask": null,
+  "disable_replacement_formula": null,
+  "disabled": false,
+  "full_token": "tacogips/tap/calendar-gateway",
+  "homepage": "https://github.com/tacogips/calendar-gateway",
+  "installed": null,
+  "installed_time": null,
+  "languages": [],
+  "name": [
+    "calendar-gateway"
+  ],
+  "no_autobump_message": null,
+  "old_tokens": [],
+  "outdated": false,
+  "pinned": false,
+  "pinned_version": null,
+  "rename": [],
+  "ruby_source_checksum": {
+    "sha256": "883a7dc4c0320ea537c4d0d32a1425e9877170fcc2a4c59ae8708643aa05f7da"
+  },
+  "ruby_source_path": "Casks/calendar-gateway.rb",
+  "sha256": "f9d1aa6b7d6c9a901bc82427e7676d5a87868c511919d0dc2e21877029dd674b",
+  "skip_livecheck": false,
+  "tap": "tacogips/tap",
+  "tap_git_head": "8434ac631bec7d1312f01b35997bad1694960a1c",
+  "token": "calendar-gateway",
+  "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.2/calendar-gateway-0.1.2-darwin-arm64.dmg",
+  "url_specs": {},
+  "variations": {
+    "arm64_linux": {
+      "sha256": null
+    },
+    "big_sur": {
+      "sha256": "2bdfabc8106ee731b1d18371c484abc3e828cd594514067dfdfbb5bc038241e3",
+      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.2/calendar-gateway-0.1.2-darwin-x64.dmg"
+    },
+    "catalina": {
+      "sha256": "2bdfabc8106ee731b1d18371c484abc3e828cd594514067dfdfbb5bc038241e3",
+      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.2/calendar-gateway-0.1.2-darwin-x64.dmg"
+    },
+    "golden_gate": {
+      "sha256": "2bdfabc8106ee731b1d18371c484abc3e828cd594514067dfdfbb5bc038241e3",
+      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.2/calendar-gateway-0.1.2-darwin-x64.dmg"
+    },
+    "monterey": {
+      "sha256": "2bdfabc8106ee731b1d18371c484abc3e828cd594514067dfdfbb5bc038241e3",
+      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.2/calendar-gateway-0.1.2-darwin-x64.dmg"
+    },
+    "sequoia": {
+      "sha256": "2bdfabc8106ee731b1d18371c484abc3e828cd594514067dfdfbb5bc038241e3",
+      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.2/calendar-gateway-0.1.2-darwin-x64.dmg"
+    },
+    "sonoma": {
+      "sha256": "2bdfabc8106ee731b1d18371c484abc3e828cd594514067dfdfbb5bc038241e3",
+      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.2/calendar-gateway-0.1.2-darwin-x64.dmg"
+    },
+    "tahoe": {
+      "sha256": "2bdfabc8106ee731b1d18371c484abc3e828cd594514067dfdfbb5bc038241e3",
+      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.2/calendar-gateway-0.1.2-darwin-x64.dmg"
+    },
+    "ventura": {
+      "sha256": "2bdfabc8106ee731b1d18371c484abc3e828cd594514067dfdfbb5bc038241e3",
+      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.2/calendar-gateway-0.1.2-darwin-x64.dmg"
+    },
+    "x86_64_linux": {
+      "sha256": null,
+      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.2/calendar-gateway-0.1.2-darwin-x64.dmg"
+    }
+  },
+  "version": "0.1.2"
+}

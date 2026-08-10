@@ -1,0 +1,95 @@
+{
+  "artifacts": [
+    {
+      "app": [
+        "RielaApp.app"
+      ],
+      "target": "/Applications/RielaApp.app"
+    },
+    {
+      "binary": [
+        "riela"
+      ],
+      "target": "/opt/homebrew/bin/riela"
+    }
+  ],
+  "auto_updates": null,
+  "autobump": true,
+  "bundle_short_version": null,
+  "bundle_version": null,
+  "caveats": "This cask installs RielaApp.app and links riela into the native Homebrew prefix for this Mac.\nFor the command line tool only, install the formula instead:\n  brew install riela\n",
+  "caveats_rosetta": null,
+  "conflicts_with": null,
+  "container": null,
+  "depends_on": {
+    "macos": {
+      ">=": [
+        "14"
+      ]
+    }
+  },
+  "deprecate_args": null,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "deprecation_replacement_cask": null,
+  "deprecation_replacement_formula": null,
+  "desc": "Swift-native workflow runtime with a menu bar app and CLI",
+  "disable_args": null,
+  "disable_date": null,
+  "disable_reason": null,
+  "disable_replacement_cask": null,
+  "disable_replacement_formula": null,
+  "disabled": false,
+  "full_token": "tacogips/tap/riela",
+  "homepage": "https://github.com/tacogips/riela",
+  "installed": null,
+  "installed_time": null,
+  "languages": [],
+  "name": [
+    "riela"
+  ],
+  "no_autobump_message": null,
+  "old_tokens": [],
+  "outdated": false,
+  "pinned": false,
+  "pinned_version": null,
+  "rename": [],
+  "ruby_source_checksum": {
+    "sha256": "0e399a180758e1accbd354b22924f0c291ae3d8b5558c8b130bbf86bc258474a"
+  },
+  "ruby_source_path": "Casks/riela.rb",
+  "sha256": "1639117c1d1d987faffe7f9805a2ce8e0be0f6342d177cada300d79b27147a05",
+  "skip_livecheck": false,
+  "tap": "tacogips/tap",
+  "tap_git_head": "8434ac631bec7d1312f01b35997bad1694960a1c",
+  "token": "riela",
+  "url": "https://github.com/tacogips/riela/releases/download/v0.1.26/riela-0.1.26-darwin-arm64.dmg",
+  "url_specs": {},
+  "variations": {
+    "arm64_linux": {
+      "sha256": null
+    },
+    "golden_gate": {
+      "sha256": "594a56cd6c59473a905ff5184a5fe7aa9d9dfc0c403820170f5c85aecacac50f",
+      "url": "https://github.com/tacogips/riela/releases/download/v0.1.26/riela-0.1.26-darwin-x64.dmg"
+    },
+    "sequoia": {
+      "sha256": "594a56cd6c59473a905ff5184a5fe7aa9d9dfc0c403820170f5c85aecacac50f",
+      "url": "https://github.com/tacogips/riela/releases/download/v0.1.26/riela-0.1.26-darwin-x64.dmg"
+    },
+    "sonoma": {
+      "sha256": "594a56cd6c59473a905ff5184a5fe7aa9d9dfc0c403820170f5c85aecacac50f",
+      "url": "https://github.com/tacogips/riela/releases/download/v0.1.26/riela-0.1.26-darwin-x64.dmg"
+    },
+    "tahoe": {
+      "sha256": "594a56cd6c59473a905ff5184a5fe7aa9d9dfc0c403820170f5c85aecacac50f",
+      "url": "https://github.com/tacogips/riela/releases/download/v0.1.26/riela-0.1.26-darwin-x64.dmg"
+    },
+    "x86_64_linux": {
+      "sha256": null,
+      "url": "https://github.com/tacogips/riela/releases/download/v0.1.26/riela-0.1.26-darwin-x64.dmg"
+    }
+  },
+  "version": "0.1.26"
+}

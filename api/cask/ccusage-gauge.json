@@ -1,0 +1,98 @@
+{
+  "artifacts": [
+    {
+      "app": [
+        "CCUsageGauge.app"
+      ],
+      "target": "/Applications/CCUsageGauge.app"
+    },
+    {
+      "binary": [
+        "/Applications/CCUsageGauge.app/Contents/MacOS/ccusage-gauge",
+        {
+          "target": "ccusage-gauge"
+        }
+      ],
+      "target": "/opt/homebrew/bin/ccusage-gauge"
+    }
+  ],
+  "auto_updates": null,
+  "autobump": true,
+  "bundle_short_version": null,
+  "bundle_version": null,
+  "caveats": "CCUsage Gauge reads usage data from the ccusage command. Install ccusage\nseparately and configure an absolute path when it is not discoverable on PATH:\n\n  ~/.config/ccusage-gauge/ccusage-config.json\n\nThe app is signed and notarized with Apple Developer ID.\n",
+  "caveats_rosetta": null,
+  "conflicts_with": null,
+  "container": null,
+  "depends_on": {
+    "macos": {
+      ">=": [
+        "14"
+      ]
+    }
+  },
+  "deprecate_args": null,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "deprecation_replacement_cask": null,
+  "deprecation_replacement_formula": null,
+  "desc": "Menu bar gauge and local dashboard for AI coding-agent usage costs",
+  "disable_args": null,
+  "disable_date": null,
+  "disable_reason": null,
+  "disable_replacement_cask": null,
+  "disable_replacement_formula": null,
+  "disabled": false,
+  "full_token": "tacogips/tap/ccusage-gauge",
+  "homepage": "https://github.com/tacogips/ccusage-gauge",
+  "installed": null,
+  "installed_time": null,
+  "languages": [],
+  "name": [
+    "CCUsage Gauge"
+  ],
+  "no_autobump_message": null,
+  "old_tokens": [],
+  "outdated": false,
+  "pinned": false,
+  "pinned_version": null,
+  "rename": [],
+  "ruby_source_checksum": {
+    "sha256": "44995d51ef413e219f4b9cd3234572a01fc1996ef4a9f9e7c70f49701fd7aff3"
+  },
+  "ruby_source_path": "Casks/ccusage-gauge.rb",
+  "sha256": "e3edcedb4a7dacc27b5e295343d3eabe5a0a705b15423ade69e4cd4e8c773f44",
+  "skip_livecheck": true,
+  "tap": "tacogips/tap",
+  "tap_git_head": "8434ac631bec7d1312f01b35997bad1694960a1c",
+  "token": "ccusage-gauge",
+  "url": "https://github.com/tacogips/homebrew-tap/releases/download/ccusage-gauge-v0.1.27/ccusage-gauge_0.1.27_aarch64.app.zip",
+  "url_specs": {},
+  "variations": {
+    "arm64_linux": {
+      "sha256": null
+    },
+    "golden_gate": {
+      "sha256": "1a15c479d99fbc9f0292601efb797cbc9df05420adc45407a0597546c1fe31be",
+      "url": "https://github.com/tacogips/homebrew-tap/releases/download/ccusage-gauge-v0.1.27/ccusage-gauge_0.1.27_x86_64.app.zip"
+    },
+    "sequoia": {
+      "sha256": "1a15c479d99fbc9f0292601efb797cbc9df05420adc45407a0597546c1fe31be",
+      "url": "https://github.com/tacogips/homebrew-tap/releases/download/ccusage-gauge-v0.1.27/ccusage-gauge_0.1.27_x86_64.app.zip"
+    },
+    "sonoma": {
+      "sha256": "1a15c479d99fbc9f0292601efb797cbc9df05420adc45407a0597546c1fe31be",
+      "url": "https://github.com/tacogips/homebrew-tap/releases/download/ccusage-gauge-v0.1.27/ccusage-gauge_0.1.27_x86_64.app.zip"
+    },
+    "tahoe": {
+      "sha256": "1a15c479d99fbc9f0292601efb797cbc9df05420adc45407a0597546c1fe31be",
+      "url": "https://github.com/tacogips/homebrew-tap/releases/download/ccusage-gauge-v0.1.27/ccusage-gauge_0.1.27_x86_64.app.zip"
+    },
+    "x86_64_linux": {
+      "sha256": null,
+      "url": "https://github.com/tacogips/homebrew-tap/releases/download/ccusage-gauge-v0.1.27/ccusage-gauge_0.1.27_x86_64.app.zip"
+    }
+  },
+  "version": "0.1.27"
+}

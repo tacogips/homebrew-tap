@@ -1,0 +1,83 @@
+{
+  "artifacts": [
+    {
+      "app": [
+        "bifrost-gauge.app"
+      ],
+      "target": "/Applications/bifrost-gauge.app"
+    },
+    {
+      "binary": [
+        "/Applications/bifrost-gauge.app/Contents/MacOS/bifrost-gauge",
+        {
+          "target": "bifrost-gauge"
+        }
+      ],
+      "target": "/opt/homebrew/bin/bifrost-gauge"
+    },
+    {
+      "postflight": null
+    }
+  ],
+  "auto_updates": null,
+  "autobump": true,
+  "bundle_short_version": null,
+  "bundle_version": null,
+  "caveats": "bifrost-gauge connects to an already-running Bifrost server. Configure the\nBifrost URL and Virtual Key from the menu bar app, or edit:\n\n  ~/.config/bifrost-gauge/bifrost-gauge-config.json\n\nThis cask installs the current Apple Silicon app zip release artifact.\nThe app is signed and notarized with Developer ID.\n",
+  "caveats_rosetta": null,
+  "conflicts_with": null,
+  "container": null,
+  "depends_on": {
+    "arch": [
+      {
+        "bits": 64,
+        "type": "arm"
+      }
+    ],
+    "macos": {
+      ">=": [
+        "13"
+      ]
+    }
+  },
+  "deprecate_args": null,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "deprecation_replacement_cask": null,
+  "deprecation_replacement_formula": null,
+  "desc": "Menu bar app for local Bifrost budget status and controls",
+  "disable_args": null,
+  "disable_date": null,
+  "disable_reason": null,
+  "disable_replacement_cask": null,
+  "disable_replacement_formula": null,
+  "disabled": false,
+  "full_token": "tacogips/tap/bifrost-gauge",
+  "homepage": "https://github.com/tacogips/bifrost-gauge",
+  "installed": null,
+  "installed_time": null,
+  "languages": [],
+  "name": [
+    "bifrost-gauge"
+  ],
+  "no_autobump_message": null,
+  "old_tokens": [],
+  "outdated": false,
+  "pinned": false,
+  "pinned_version": null,
+  "rename": [],
+  "ruby_source_checksum": {
+    "sha256": "bba5790217e4443d53f00c96647e89ad93c817f466c44fc710926a55ff156767"
+  },
+  "ruby_source_path": "Casks/bifrost-gauge.rb",
+  "sha256": "bed9b689da7c1e468c2de616b62b2da78bf292fb18a4e97e23aeea73ec75e265",
+  "skip_livecheck": true,
+  "tap": "tacogips/tap",
+  "tap_git_head": "8434ac631bec7d1312f01b35997bad1694960a1c",
+  "token": "bifrost-gauge",
+  "url": "https://github.com/tacogips/homebrew-tap/releases/download/bifrost-gauge-v0.1.10/bifrost-gauge_0.1.10_aarch64.app.zip",
+  "url_specs": {},
+  "variations": {},
+  "version": "0.1.10"
+}

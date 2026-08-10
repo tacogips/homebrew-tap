@@ -1,0 +1,76 @@
+{
+  "artifacts": [
+    {
+      "app": [
+        "Your Body.app"
+      ],
+      "target": "/Applications/Your Body.app"
+    }
+  ],
+  "auto_updates": null,
+  "autobump": true,
+  "bundle_short_version": null,
+  "bundle_version": null,
+  "caveats": null,
+  "caveats_rosetta": null,
+  "conflicts_with": null,
+  "container": null,
+  "depends_on": {
+    "arch": [
+      {
+        "bits": 64,
+        "type": "arm"
+      }
+    ],
+    "macos": {
+      ">=": [
+        "14"
+      ]
+    }
+  },
+  "deprecate_args": null,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "deprecation_replacement_cask": null,
+  "deprecation_replacement_formula": null,
+  "desc": "Local-first nutrition, food photo, voice, and exercise logging",
+  "disable_args": null,
+  "disable_date": null,
+  "disable_reason": null,
+  "disable_replacement_cask": null,
+  "disable_replacement_formula": null,
+  "disabled": false,
+  "full_token": "tacogips/tap/your-body",
+  "homepage": "https://github.com/tacogips/your-body",
+  "installed": null,
+  "installed_time": null,
+  "languages": [],
+  "name": [
+    "Your Body"
+  ],
+  "no_autobump_message": null,
+  "old_tokens": [],
+  "outdated": false,
+  "pinned": false,
+  "pinned_version": null,
+  "rename": [],
+  "ruby_source_checksum": {
+    "sha256": "78d500427b98ba52bf75165a4e4497211057c0a0f636f113adc35399a05edb39"
+  },
+  "ruby_source_path": "Casks/your-body.rb",
+  "sha256": "c82204258ed481f264275134a1d969a9fc9d1e25aab21de8ab77318029313506",
+  "skip_livecheck": false,
+  "tap": "tacogips/tap",
+  "tap_git_head": "8434ac631bec7d1312f01b35997bad1694960a1c",
+  "token": "your-body",
+  "url": "https://api.github.com/repos/tacogips/your-body/releases/assets/451688848?filename=YourBody_0.1.0_aarch64.dmg",
+  "url_specs": {
+    "headers": [
+      "Accept: application/octet-stream",
+      "Authorization: Bearer "
+    ]
+  },
+  "variations": {},
+  "version": "0.1.0"
+}

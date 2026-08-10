@@ -1,0 +1,60 @@
+name: Update Homebrew API metadata
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "Formula/**"
+      - "Casks/**"
+      - ".github/scripts/generate_api_metadata.py"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: update-homebrew-api-metadata
+  cancel-in-progress: false
+
+jobs:
+  update-api-metadata:
+    runs-on: macos-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - name: Check out tap
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Use the checked-out tap source
+        env:
+          HOMEBREW_NO_AUTO_UPDATE: "1"
+        run: |
+          if brew tap | grep -qx "tacogips/tap"; then
+            tap_repo="$(brew --repository tacogips/tap)"
+            git -C "$tap_repo" fetch "$GITHUB_WORKSPACE" HEAD
+            git -C "$tap_repo" checkout --detach FETCH_HEAD
+          else
+            brew tap --custom-remote tacogips/tap "$GITHUB_WORKSPACE"
+          fi
+
+      - name: Generate metadata
+        run: python3 .github/scripts/generate_api_metadata.py
+
+      - name: Commit and push metadata
+        run: |
+          git add api/formula api/cask
+          if git diff --cached --quiet; then
+            echo "Homebrew API metadata is already current"
+            exit 0
+          fi
+          git commit -m "chore: update Homebrew API metadata"
+          git push origin HEAD:main

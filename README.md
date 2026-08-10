@@ -2,6 +2,10 @@
 
 Custom Homebrew tap for `tacogips` packages.
 
+The `api/formula/` and `api/cask/` directories publish generated Homebrew JSON
+metadata so clients such as mise can resolve packages directly from this tap.
+Metadata is regenerated automatically whenever a formula or cask changes.
+
 ## Available formulae
 
 - `anydoc-swift`

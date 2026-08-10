@@ -1,0 +1,38 @@
+min_version = "2026.8.3"
+
+[[hooks.enter]]
+shell = "bash"
+script = '''
+if command -v kinko >/dev/null 2>&1 && kinko hook --help >/dev/null 2>&1; then
+  eval "$(kinko --path "$MISE_PROJECT_ROOT" hook enter bash)"
+fi
+'''
+
+[[hooks.leave]]
+shell = "bash"
+script = '''
+if command -v kinko >/dev/null 2>&1 && kinko hook --help >/dev/null 2>&1; then
+  eval "$(kinko hook leave bash)"
+fi
+'''
+
+[tools]
+github-cli = "latest"
+
+[tasks.default]
+description = "List available tasks"
+run = "mise tasks ls"
+
+[tasks.audit]
+description = "Audit all formulae and casks in this tap"
+run = '''
+set -e
+for file in Formula/*.rb; do
+  [ -e "$file" ] || continue
+  brew audit --strict --formula "$(basename "$file" .rb)"
+done
+for file in Casks/*.rb; do
+  [ -e "$file" ] || continue
+  brew audit --strict --cask "$(basename "$file" .rb)"
+done
+'''
