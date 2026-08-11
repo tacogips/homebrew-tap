@@ -44,20 +44,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "bdaf5567405ee794dbc75ccaca638562f72ac432f2a48e05fb86521454fc4397"
+    "sha256": "745625e468dbd07b7952874e46d1d97c4f6b1992691c2a32abdbdbd37ddbade4"
   },
   "ruby_source_path": "Formula/ign.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "1b717a7a0cec849aa524fb6dd5975b7780feefbd",
+  "tap_git_head": "e2003d575ea58138acf596bdb5f7333f4bd72386",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "5f4d922e5591b4413a0dafa5f4ace3ea79a660ca12b436ddc94774bb27df6d25",
+      "checksum": "e1df70301ba4de4800f3e8c11cf1699bf7568e9382e762313f9f13042cd9a754",
       "revision": null,
       "tag": null,
-      "url": "https://github.com/tacogips/ign/releases/download/v0.1.20/ign-0.1.20-darwin-arm64.tar.gz",
+      "url": "https://github.com/tacogips/ign/releases/download/v0.1.21/ign-0.1.21-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "64"
+    "stable": "0.1.21"
   }
 }
