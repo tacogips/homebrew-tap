@@ -1,6 +1,7 @@
 class Ign < Formula
   desc "Template-based code generation CLI tool"
   homepage "https://github.com/tacogips/ign"
+  version "0.1.21"
   license "MIT"
 
   livecheck do
@@ -10,21 +11,21 @@ class Ign < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/ign/releases/download/v0.1.20/ign-0.1.20-darwin-arm64.tar.gz"
-      sha256 "5f4d922e5591b4413a0dafa5f4ace3ea79a660ca12b436ddc94774bb27df6d25"
+      url "https://github.com/tacogips/ign/releases/download/v0.1.21/ign-0.1.21-darwin-arm64.tar.gz"
+      sha256 "e1df70301ba4de4800f3e8c11cf1699bf7568e9382e762313f9f13042cd9a754"
     else
-      url "https://github.com/tacogips/ign/releases/download/v0.1.20/ign-0.1.20-darwin-x64.tar.gz"
-      sha256 "cdb0a8e588ce5a9547ed31fd1d2d3ad54f8d5eb46928a06844fd0fb0cd2fe443"
+      url "https://github.com/tacogips/ign/releases/download/v0.1.21/ign-0.1.21-darwin-x64.tar.gz"
+      sha256 "a55bbe2fb50fbac871db46a4ec3804374047eedc7010edf44ad898e7f51f895b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/ign/releases/download/v0.1.20/ign-0.1.20-linux-arm64.tar.gz"
-      sha256 "c1b88abae1fef436ed9baa4111b6bf61392400282b05d4b2b35a0683880e97c2"
+      url "https://github.com/tacogips/ign/releases/download/v0.1.21/ign-0.1.21-linux-arm64.tar.gz"
+      sha256 "90b26775bce9e1950e6d96d898f50f9c59fba51a94ba650a10c171301b507571"
     else
-      url "https://github.com/tacogips/ign/releases/download/v0.1.20/ign-0.1.20-linux-x64.tar.gz"
-      sha256 "b63c20485a7b516a77b580295f124aeaecbbb0817c214300fb3f92992f21eb6e"
+      url "https://github.com/tacogips/ign/releases/download/v0.1.21/ign-0.1.21-linux-x64.tar.gz"
+      sha256 "f167ee91315e923f8ee17e27dcbfdad1860ce089e5adb1239f63fd5bbe907e43"
     end
   end
 
@@ -33,6 +34,6 @@ class Ign < Formula
   end
 
   test do
-    assert_equal "0.1.20", shell_output("#{bin}/ign version --short").strip
+    assert_equal "0.1.21", shell_output("#{bin}/ign version --short").strip
   end
 end
