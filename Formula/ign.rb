@@ -10,21 +10,21 @@ class Ign < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/ign/releases/download/v0.1.23/ign-0.1.23-darwin-arm64.tar.gz?version=0.1.23"
-      sha256 "43efaceb9cebd8d012fe3ba7ab242173c7187927903180890981d325bca136fb"
+      url "https://github.com/tacogips/ign/releases/download/v0.1.24/ign-0.1.24-darwin-arm64.tar.gz?version=0.1.24"
+      sha256 "5e3fcbbc475db47785e1fb1c43057bc3aa569578bf15c9884119750c962a4645"
     else
-      url "https://github.com/tacogips/ign/releases/download/v0.1.23/ign-0.1.23-darwin-x64.tar.gz?version=0.1.23"
-      sha256 "389899bc321c7eaf0727120415a979c55f5c846969f0ffb8132c44ba9f4d1429"
+      url "https://github.com/tacogips/ign/releases/download/v0.1.24/ign-0.1.24-darwin-x64.tar.gz?version=0.1.24"
+      sha256 "a0595c5d91335637754f04da87061cd0fe0c609f53eb7b9f0788b794e5366024"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/ign/releases/download/v0.1.23/ign-0.1.23-linux-arm64.tar.gz?version=0.1.23"
-      sha256 "18fe91127c5b4ad6f7c15dd997506b819462d99b69f3f09b249b6f4809417eb7"
+      url "https://github.com/tacogips/ign/releases/download/v0.1.24/ign-0.1.24-linux-arm64.tar.gz?version=0.1.24"
+      sha256 "5fcb85978eaa9895d5e08c72fdde57d1e333bc2a187303b7b2b217df3cdba24d"
     else
-      url "https://github.com/tacogips/ign/releases/download/v0.1.23/ign-0.1.23-linux-x64.tar.gz?version=0.1.23"
-      sha256 "ec906bb822002fc3c11a4c3d8c9f36fdb405ceb7d6cfbfeebe982c8751e6d8f7"
+      url "https://github.com/tacogips/ign/releases/download/v0.1.24/ign-0.1.24-linux-x64.tar.gz?version=0.1.24"
+      sha256 "cf0075910806381b698f0560af3fd96f2618edbe900556a392dc2a09dcd1255e"
     end
   end
 
