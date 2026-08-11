@@ -1,7 +1,6 @@
 class Ign < Formula
   desc "Template-based code generation CLI tool"
   homepage "https://github.com/tacogips/ign"
-  version "0.1.21"
   license "MIT"
 
   livecheck do
