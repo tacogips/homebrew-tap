@@ -44,13 +44,13 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "745625e468dbd07b7952874e46d1d97c4f6b1992691c2a32abdbdbd37ddbade4"
+    "sha256": "b95bbe2fe772d822089b6b95d6cfd27b1bc4c1ea051fb09174abbec598ba92ce"
   },
   "ruby_source_path": "Formula/ign.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "e2003d575ea58138acf596bdb5f7333f4bd72386",
+  "tap_git_head": "7b20b0d522966eeaa39888651089fd2b5d1d5438",
   "test_dependencies": [],
   "urls": {
     "stable": {
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.1.21"
+    "stable": "64"
   }
 }
