@@ -44,20 +44,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "7839ee0bd455922d93774e7324c5f6ecc474f2dbbc1895fbaf3b569a6172d14e"
+    "sha256": "3eb7e9db6d1109881b94cb2123c8645d8cfedb20ede899bf2554342c7b3978a6"
   },
   "ruby_source_path": "Formula/kaiba.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "1ea37bfb37fdeaefc7f5092011f1f5f281cdd8de",
+  "tap_git_head": "ac45c2dab39dce8b5b6a5369c76b815b9ad8df1c",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "0ee30711b4966643ca2205d5f430eb63bd99c74e8179db381752b922c8a91def",
+      "checksum": "06d926a354da5d37e6eaf6b4d605565fcb80be5f2e575f7b942a6d6c8836c8d6",
       "revision": null,
       "tag": null,
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.3/kaiba-0.1.3-darwin-arm64.tar.gz",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.5/kaiba-0.1.5-darwin-arm64.tar.gz",
       "using": null
     }
   },
