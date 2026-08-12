@@ -10,11 +10,11 @@ class Kaiba < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/kaiba/releases/download/v0.1.3/kaiba-0.1.3-darwin-arm64.tar.gz"
-      sha256 "0ee30711b4966643ca2205d5f430eb63bd99c74e8179db381752b922c8a91def"
+      url "https://github.com/tacogips/kaiba/releases/download/v0.1.5/kaiba-0.1.5-darwin-arm64.tar.gz"
+      sha256 "06d926a354da5d37e6eaf6b4d605565fcb80be5f2e575f7b942a6d6c8836c8d6"
     else
-      url "https://github.com/tacogips/kaiba/releases/download/v0.1.3/kaiba-0.1.3-darwin-x64.tar.gz"
-      sha256 "4bb19e6f368b0679be48c46306595b2f9d98b17f1e354e8f91ccade346227a0a"
+      url "https://github.com/tacogips/kaiba/releases/download/v0.1.5/kaiba-0.1.5-darwin-x64.tar.gz"
+      sha256 "b7d66cb820babec68e40bea8cdd2ebce3631aab582fea1ba89262977fcb4cbaa"
     end
   end
 
@@ -23,6 +23,6 @@ class Kaiba < Formula
   end
 
   test do
-    assert_match "0.1.3", shell_output("#{bin}/kaiba --version")
+    assert_match "0.1.5", shell_output("#{bin}/kaiba --version")
   end
 end
