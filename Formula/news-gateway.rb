@@ -1,5 +1,5 @@
-class App < Formula
-  desc "A Swift command line tool"
+class NewsGateway < Formula
+  desc "News collection gateway with LLM-learned, SQLite-persisted fetch strategies"
   homepage "https://github.com/tacogips/news-gateway"
   version "0.1.0"
   license "MIT"
