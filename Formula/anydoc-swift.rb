@@ -10,17 +10,17 @@ class AnydocSwift < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/anydoc-swift/releases/download/v0.1.2/anydoc-swift-0.1.2-darwin-arm64.tar.gz"
-      sha256 "ec941df3e84fe01c0b016ec2c9fd1ebaddccdef0bc6fe668fab27b81fb682e62"
+      url "https://github.com/tacogips/anydoc-swift/releases/download/v0.1.3/anydoc-swift-0.1.3-darwin-arm64.tar.gz"
+      sha256 "bf4d04b50d3cfd596315e466bbae9693050cc9493b66b93215fa222f9489ec35"
     else
-      url "https://github.com/tacogips/anydoc-swift/releases/download/v0.1.2/anydoc-swift-0.1.2-darwin-x64.tar.gz"
-      sha256 "7d845941c10bc98870d7f0b88ae17287c5f99138cbe4eb5de2fd531ea28a0792"
+      url "https://github.com/tacogips/anydoc-swift/releases/download/v0.1.3/anydoc-swift-0.1.3-darwin-x64.tar.gz"
+      sha256 "a814b850e8d2c12a9b1c775250a282326bf2ad8a47b2d9e89ca77252d73988f6"
     end
   end
 
   def install
     bin.install "bin/anydoc-swift"
-    doc.install "README.md", "LICENSE", "THIRD-PARTY-LICENSES.md"
+    doc.install "README.md"
   end
 
   test do
