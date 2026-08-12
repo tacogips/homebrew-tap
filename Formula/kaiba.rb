@@ -1,6 +1,7 @@
 class Kaiba < Formula
   desc "System-memory service for AI agents"
   homepage "https://github.com/tacogips/kaiba"
+  version "0.1.5"
   license "MIT"
 
   livecheck do
