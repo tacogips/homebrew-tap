@@ -44,13 +44,13 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "92e1cd3d8fb7541f073f8ee9268322974932d162496d4f7083fd132a6ad614bc"
+    "sha256": "c229da0a0bdca43494a405177cb2959a82d1df035152bc94e19af164c204c0a6"
   },
   "ruby_source_path": "Formula/anydoc-swift.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "fdf8d56009cca6281682857d37f78eee9e42e738",
+  "tap_git_head": "1460171b24ea9702094c0383c10a465f3c83c1ae",
   "test_dependencies": [],
   "urls": {
     "stable": {
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "64"
+    "stable": "0.1.3"
   }
 }
