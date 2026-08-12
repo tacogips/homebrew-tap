@@ -14,22 +14,22 @@
   "deprecation_reason": null,
   "deprecation_replacement_cask": null,
   "deprecation_replacement_formula": null,
-  "desc": "TypeScript/Bun workflow runtime for cooperative multi-agent execution",
+  "desc": "News collection gateway with LLM-learned, SQLite-persisted fetch strategies",
   "disable_args": null,
   "disable_date": null,
   "disable_reason": null,
   "disable_replacement_cask": null,
   "disable_replacement_formula": null,
   "disabled": false,
-  "full_name": "tacogips/tap/divedra",
-  "homepage": "https://github.com/tacogips/divedra",
+  "full_name": "tacogips/tap/news-gateway",
+  "homepage": "https://github.com/tacogips/news-gateway",
   "installed": [],
   "keg_only": false,
   "keg_only_reason": null,
   "license": "MIT",
   "link_overwrite": [],
   "linked_keg": null,
-  "name": "divedra",
+  "name": "news-gateway",
   "no_autobump_message": null,
   "oldnames": [],
   "optional_dependencies": [],
@@ -44,9 +44,9 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "97a731f4ade7df07f87ec401f07f6d45a523e4bd1edc161053513c94800a5069"
+    "sha256": "48f9c8093afd586388bc70f55b37d0c86cbe16ddd6cd3b03a9a7e77274737ec6"
   },
-  "ruby_source_path": "Formula/divedra.rb",
+  "ruby_source_path": "Formula/news-gateway.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
@@ -54,10 +54,10 @@
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "411823e1e3fb32d7d4377991b35682b3c482cc11f3010e008d55f67b984db860",
+      "checksum": "b05b660be4cebdd450d1f09e6e8f2b5c5aace3b744e6156b227fe6ceefecebcc",
       "revision": null,
       "tag": null,
-      "url": "https://github.com/tacogips/divedra/releases/download/v0.1.0/divedra-0.1.0-darwin-arm64.tar.gz",
+      "url": "https://github.com/tacogips/news-gateway/releases/download/v0.1.0/news-gateway-0.1.0-darwin-arm64.tar.gz",
       "using": null
     }
   },
