@@ -21,15 +21,15 @@
   "disable_replacement_cask": null,
   "disable_replacement_formula": null,
   "disabled": false,
-  "full_name": "tacogips/tap/news-gateway",
-  "homepage": "https://github.com/tacogips/news-gateway",
+  "full_name": "tacogips/tap/web-gateway",
+  "homepage": "https://github.com/tacogips/web-gateway",
   "installed": [],
   "keg_only": false,
   "keg_only_reason": null,
   "license": "MIT",
   "link_overwrite": [],
   "linked_keg": null,
-  "name": "news-gateway",
+  "name": "web-gateway",
   "no_autobump_message": null,
   "oldnames": [],
   "optional_dependencies": [],
@@ -44,20 +44,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "48f9c8093afd586388bc70f55b37d0c86cbe16ddd6cd3b03a9a7e77274737ec6"
+    "sha256": "9ce5d05b35e02a16e1fd16dc33f40595d3be7daba278b48fb67df43e230c4386"
   },
-  "ruby_source_path": "Formula/news-gateway.rb",
+  "ruby_source_path": "Formula/web-gateway.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "1460171b24ea9702094c0383c10a465f3c83c1ae",
+  "tap_git_head": "a3ce4ad05c573f5c78680d9a570d3216122f3a71",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "b05b660be4cebdd450d1f09e6e8f2b5c5aace3b744e6156b227fe6ceefecebcc",
+      "checksum": "36d83219aae3b571fa3922a1b50007dc992b101bccec98f74e809bc748c3ff47",
       "revision": null,
       "tag": null,
-      "url": "https://github.com/tacogips/news-gateway/releases/download/v0.1.0/news-gateway-0.1.0-darwin-arm64.tar.gz",
+      "url": "https://github.com/tacogips/web-gateway/releases/download/v0.1.1/web-gateway-0.1.1-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.1.0"
+    "stable": "0.1.1"
   }
 }

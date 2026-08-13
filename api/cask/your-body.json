@@ -62,7 +62,7 @@
   "sha256": "c82204258ed481f264275134a1d969a9fc9d1e25aab21de8ab77318029313506",
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "1460171b24ea9702094c0383c10a465f3c83c1ae",
+  "tap_git_head": "a3ce4ad05c573f5c78680d9a570d3216122f3a71",
   "token": "your-body",
   "url": "https://api.github.com/repos/tacogips/your-body/releases/assets/451688848?filename=YourBody_0.1.0_aarch64.dmg",
   "url_specs": {
