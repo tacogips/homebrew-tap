@@ -44,13 +44,13 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "6124a142ce41a25c8b0d8404f153fede21caa279f46eddada9ee2738acc55bd9"
+    "sha256": "416c4e66da9423bf40f33f560135cbfeae1dda0bc7720d819b164e67b0e2845f"
   },
   "ruby_source_path": "Formula/document-gateway.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "add76df3c6255cb3f166ed6b0a07df903f346a8f",
+  "tap_git_head": "42353501a4c371494f9f8be612b46ea21b70c0c8",
   "test_dependencies": [],
   "urls": {
     "stable": {
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "64"
+    "stable": "0.1.0"
   }
 }
