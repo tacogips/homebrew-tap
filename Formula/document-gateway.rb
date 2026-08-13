@@ -1,7 +1,6 @@
 class DocumentGateway < Formula
   desc "Least-privilege Google Docs, Sheets, and Drive CLI gateways"
   homepage "https://github.com/tacogips/document-gateway"
-  version "0.1.0"
   license "MIT"
 
   livecheck do
