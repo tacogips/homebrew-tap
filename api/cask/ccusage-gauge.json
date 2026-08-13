@@ -65,7 +65,7 @@
   "sha256": "e3edcedb4a7dacc27b5e295343d3eabe5a0a705b15423ade69e4cd4e8c773f44",
   "skip_livecheck": true,
   "tap": "tacogips/tap",
-  "tap_git_head": "db6cc69954cb5a87713b2327406fe261b70d10fb",
+  "tap_git_head": "c28c973892b908355430509623f2c0ebb8571413",
   "token": "ccusage-gauge",
   "url": "https://github.com/tacogips/homebrew-tap/releases/download/ccusage-gauge-v0.1.27/ccusage-gauge_0.1.27_aarch64.app.zip",
   "url_specs": {},
