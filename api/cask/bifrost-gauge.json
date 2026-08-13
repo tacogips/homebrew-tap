@@ -74,7 +74,7 @@
   "sha256": "bed9b689da7c1e468c2de616b62b2da78bf292fb18a4e97e23aeea73ec75e265",
   "skip_livecheck": true,
   "tap": "tacogips/tap",
-  "tap_git_head": "42353501a4c371494f9f8be612b46ea21b70c0c8",
+  "tap_git_head": "6a809f899459801f1ca96994a15bad2d2d2dd812",
   "token": "bifrost-gauge",
   "url": "https://github.com/tacogips/homebrew-tap/releases/download/bifrost-gauge-v0.1.10/bifrost-gauge_0.1.10_aarch64.app.zip",
   "url_specs": {},
