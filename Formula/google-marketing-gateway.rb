@@ -1,9 +1,6 @@
 class GoogleMarketingGateway < Formula
   desc "Product-isolated CLI gateway for Google marketing APIs"
   homepage "https://github.com/tacogips/google-marketing-gateway"
-  # Keep this explicit: Homebrew API generation has inferred the architecture
-  # suffix as the version on some runners for these platform-specific assets.
-  version "0.1.0"
   license "MIT"
 
   livecheck do
@@ -13,10 +10,10 @@ class GoogleMarketingGateway < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/google-marketing-gateway/releases/download/v0.1.0/google-marketing-gateway-0.1.0-darwin-arm64.tar.gz"
+      url "https://github.com/tacogips/google-marketing-gateway/releases/download/v0.1.0/google-marketing-gateway-0.1.0-darwin-arm.tar.gz"
       sha256 "1c4b1a23d72c3f82807f56a633fea15056ad6bcff5a9f881da7b6ec5860a30d0"
     else
-      url "https://github.com/tacogips/google-marketing-gateway/releases/download/v0.1.0/google-marketing-gateway-0.1.0-darwin-x64.tar.gz"
+      url "https://github.com/tacogips/google-marketing-gateway/releases/download/v0.1.0/google-marketing-gateway-0.1.0-darwin-intel.tar.gz"
       sha256 "298f8dd40f07dd15c7f9011ce9c8add4e31cedcc0181274141d331c0afb2c155"
     end
   end
