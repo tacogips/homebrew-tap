@@ -14,22 +14,22 @@
   "deprecation_reason": null,
   "deprecation_replacement_cask": null,
   "deprecation_replacement_formula": null,
-  "desc": "Read-only X API gateway CLI",
+  "desc": "Google Service Usage reader and writer command line gateways",
   "disable_args": null,
   "disable_date": null,
   "disable_reason": null,
   "disable_replacement_cask": null,
   "disable_replacement_formula": null,
   "disabled": false,
-  "full_name": "tacogips/tap/x-gateway-reader",
-  "homepage": "https://github.com/tacogips/x-gateway",
+  "full_name": "tacogips/tap/google-service-gateway",
+  "homepage": "https://github.com/tacogips/google-service-gateway",
   "installed": [],
   "keg_only": false,
   "keg_only_reason": null,
   "license": "MIT",
   "link_overwrite": [],
   "linked_keg": null,
-  "name": "x-gateway-reader",
+  "name": "google-service-gateway",
   "no_autobump_message": null,
   "oldnames": [],
   "optional_dependencies": [],
@@ -44,9 +44,9 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "bd9b5282ca16e8ce67a5b8caf0f5b0655e74f8c358479ce0499ac0465d0c638d"
+    "sha256": "87ccdbb25534a89388973dc2496fe1fa479b7aef4d1c072356dfc4812b9398c0"
   },
-  "ruby_source_path": "Formula/x-gateway-reader.rb",
+  "ruby_source_path": "Formula/google-service-gateway.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
@@ -54,10 +54,10 @@
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "265d6fcc249b34f72fae27da5b270e7ac5dd2691902f10736779710b88a68646",
+      "checksum": "65be09f948e6afda1ee1988be3b3f2322306d25708f9334d09aaa67d48849088",
       "revision": null,
       "tag": null,
-      "url": "https://github.com/tacogips/x-gateway/releases/download/v0.1.5/x-gateway-0.1.5-darwin-arm64.tar.gz",
+      "url": "https://github.com/tacogips/google-service-gateway/releases/download/v0.1.0/google-service-gateway-0.1.0-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.1.5"
+    "stable": "0.1.0"
   }
 }
