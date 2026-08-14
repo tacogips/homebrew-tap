@@ -10,11 +10,11 @@ class DocumentGateway < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/document-gateway/releases/download/v0.1.0/document-gateway-0.1.0-darwin-arm64.tar.gz", tag: "v0.1.0"
-      sha256 "133acedebb0145d414d49d823ded7c4a32c16c56778224c961252fc3074ccaf7"
+      url "https://github.com/tacogips/document-gateway/releases/download/v0.2.0/document-gateway-0.2.0-darwin-arm64.tar.gz", tag: "v0.2.0"
+      sha256 "4c8f3c15d464966b11bfe42a221ce7881f9e06ba103702920cee9bfb3aed8379"
     else
-      url "https://github.com/tacogips/document-gateway/releases/download/v0.1.0/document-gateway-0.1.0-darwin-x64.tar.gz", tag: "v0.1.0"
-      sha256 "f98df4ee6f015e92bbd5a83af66a89170ebab422cd1853586d983ede1c4caa47"
+      url "https://github.com/tacogips/document-gateway/releases/download/v0.2.0/document-gateway-0.2.0-darwin-x64.tar.gz", tag: "v0.2.0"
+      sha256 "11187e3669aa48b9908187f9a7f454624ebc8adfd9d5742c89b6efdc345ff8f4"
     end
   end
 
@@ -23,6 +23,6 @@ class DocumentGateway < Formula
   end
 
   test do
-    assert_match "0.1.0", shell_output("#{bin}/document-gateway --version")
+    assert_match "0.2.0", shell_output("#{bin}/document-gateway --version")
   end
 end
