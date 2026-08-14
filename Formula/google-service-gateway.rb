@@ -1,7 +1,6 @@
 class GoogleServiceGateway < Formula
-  desc "Google Service Usage reader and writer command line gateways"
+  desc "Google Service Usage reader and writer command-line gateways"
   homepage "https://github.com/tacogips/google-service-gateway"
-  version "0.1.0"
   license "MIT"
 
   livecheck do
