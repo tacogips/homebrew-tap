@@ -1,7 +1,6 @@
 class Kaiba < Formula
   desc "System-memory service for AI agents"
   homepage "https://github.com/tacogips/kaiba"
-  version "0.1.5"
   license "MIT"
 
   livecheck do
@@ -11,11 +10,11 @@ class Kaiba < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/kaiba/releases/download/v0.1.5/kaiba-0.1.5-darwin-arm64.tar.gz"
-      sha256 "06d926a354da5d37e6eaf6b4d605565fcb80be5f2e575f7b942a6d6c8836c8d6"
+      url "https://github.com/tacogips/kaiba/releases/download/v0.1.6/kaiba-0.1.6-darwin-arm64.tar.gz"
+      sha256 "aa294716c2093bc96a961c22c6600430c362d10719ef20c67eebfe6ee604b4c4"
     else
-      url "https://github.com/tacogips/kaiba/releases/download/v0.1.5/kaiba-0.1.5-darwin-x64.tar.gz"
-      sha256 "b7d66cb820babec68e40bea8cdd2ebce3631aab582fea1ba89262977fcb4cbaa"
+      url "https://github.com/tacogips/kaiba/releases/download/v0.1.6/kaiba-0.1.6-darwin-x64.tar.gz"
+      sha256 "22aa340952773d7c1315c4347d8f09ad59dcd8669ac24841db3875b0c45598c6"
     end
   end
 
@@ -24,6 +23,6 @@ class Kaiba < Formula
   end
 
   test do
-    assert_match "0.1.5", shell_output("#{bin}/kaiba --version")
+    assert_match "0.1.6", shell_output("#{bin}/kaiba --version")
   end
 end
