@@ -1,7 +1,6 @@
 class GoogleMarketingGateway < Formula
   desc "Product-isolated CLI gateway for Google marketing APIs"
   homepage "https://github.com/tacogips/google-marketing-gateway"
-  version "0.1.0"
   license "MIT"
 
   livecheck do
