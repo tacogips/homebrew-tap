@@ -14,7 +14,7 @@
   "deprecation_reason": null,
   "deprecation_replacement_cask": null,
   "deprecation_replacement_formula": null,
-  "desc": "Google Service Usage reader and writer command line gateways",
+  "desc": "Google Service Usage reader and writer command-line gateways",
   "disable_args": null,
   "disable_date": null,
   "disable_reason": null,
@@ -44,13 +44,13 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "87ccdbb25534a89388973dc2496fe1fa479b7aef4d1c072356dfc4812b9398c0"
+    "sha256": "548a175e491d36ba75947f8ffc19c94636f1599e46e4b621cf5c48e42732786d"
   },
   "ruby_source_path": "Formula/google-service-gateway.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "63ebb973c320a4d0cec61446368cd26b21497058",
+  "tap_git_head": "17c6125aa8a2768f9d65c2f3acb92a75eb9f2e1a",
   "test_dependencies": [],
   "urls": {
     "stable": {
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.1.0"
+    "stable": "64"
   }
 }
