@@ -44,19 +44,19 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "548a175e491d36ba75947f8ffc19c94636f1599e46e4b621cf5c48e42732786d"
+    "sha256": "a59ceb3d35709336073f49428060a0d30b22b3071082dd637ca93639d55c3b3a"
   },
   "ruby_source_path": "Formula/google-service-gateway.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "17c6125aa8a2768f9d65c2f3acb92a75eb9f2e1a",
+  "tap_git_head": "7bc9cbecb8b6081a35d39764957db1a503a754cc",
   "test_dependencies": [],
   "urls": {
     "stable": {
       "checksum": "65be09f948e6afda1ee1988be3b3f2322306d25708f9334d09aaa67d48849088",
       "revision": null,
-      "tag": null,
+      "tag": "v0.1.0",
       "url": "https://github.com/tacogips/google-service-gateway/releases/download/v0.1.0/google-service-gateway-0.1.0-darwin-arm64.tar.gz",
       "using": null
     }
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "64"
+    "stable": "0.1.0"
   }
 }

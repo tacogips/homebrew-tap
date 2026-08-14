@@ -44,13 +44,13 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "6cf03a85795e3d51b9c541c00b1dd36afcfa90c97097c177fffebbd8776e1156"
+    "sha256": "094b3cc5cdf832ed5ecc8906b44e5ac4a7dc3346c2d033b1e0f969e394c97f24"
   },
   "ruby_source_path": "Formula/google-marketing-gateway.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "17c6125aa8a2768f9d65c2f3acb92a75eb9f2e1a",
+  "tap_git_head": "7bc9cbecb8b6081a35d39764957db1a503a754cc",
   "test_dependencies": [],
   "urls": {
     "stable": {
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "64"
+    "stable": "0.1.0"
   }
 }
