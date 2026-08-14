@@ -20,7 +20,7 @@
   "autobump": true,
   "bundle_short_version": null,
   "bundle_version": null,
-  "caveats": "This cask installs the current macOS DMG release artifact.\n\nThe current DMG is not signed and notarized yet, so Gatekeeper may still block launch\nuntil the release pipeline is upgraded to publish a trusted macOS artifact.\n",
+  "caveats": null,
   "caveats_rosetta": null,
   "conflicts_with": null,
   "container": null,
@@ -30,7 +30,12 @@
         "bits": 64,
         "type": "arm"
       }
-    ]
+    ],
+    "macos": {
+      ">=": [
+        "12"
+      ]
+    }
   },
   "deprecate_args": null,
   "deprecated": false,
@@ -60,16 +65,16 @@
   "pinned_version": null,
   "rename": [],
   "ruby_source_checksum": {
-    "sha256": "2878f661e9bb7debde431ace821e15b116bf8a654f8a1069d1076984754901b6"
+    "sha256": "1015030876e628ed10704e6a111aff6f5583058e309d5761e6718b7e7ba09bc2"
   },
   "ruby_source_path": "Casks/chilla.rb",
-  "sha256": "4ba90d9f6e2a6e62c8ae0b310b49883a0cd55cd14a2803558aadb65d4fef92c0",
+  "sha256": "fcb98be1dd849ea96a511d8ea573c39f59965ea725fdfe4b584d33cbc99ffd5d",
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "bc791ebecd03895dc10f114110b4dbf64fa03e1a",
+  "tap_git_head": "34dcb1199d7e052bf6e9d509396d3efee1f1c1f5",
   "token": "chilla",
-  "url": "https://github.com/tacogips/chilla/releases/download/v0.1.10/chilla_0.1.10_aarch64.dmg",
+  "url": "https://github.com/tacogips/chilla/releases/download/v0.1.12/chilla_0.1.12_aarch64.dmg",
   "url_specs": {},
   "variations": {},
-  "version": "0.1.10"
+  "version": "0.1.12"
 }
