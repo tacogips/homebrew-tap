@@ -44,13 +44,13 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "a3984cbd5c3346e7ab6c7bcc93010f1266f303902fe61c34df09a94f5e7af1bd"
+    "sha256": "648b43fc9c486f1caab6c812e563977f6adc6d0a8f96b60f10f874c7b1f1f3b5"
   },
   "ruby_source_path": "Formula/kaiba.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "ac8592782a8acf5a2ae1802c57333658ae34ca48",
+  "tap_git_head": "088360b15b190b5ab90cc843e10f715b3a45b537",
   "test_dependencies": [],
   "urls": {
     "stable": {
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "64"
+    "stable": "0.1.6"
   }
 }

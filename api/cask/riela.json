@@ -62,7 +62,7 @@
   "sha256": "b361020ea737eb62ef238092dd6b9c197024d919f577315135892a2077fc0303",
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "ac8592782a8acf5a2ae1802c57333658ae34ca48",
+  "tap_git_head": "088360b15b190b5ab90cc843e10f715b3a45b537",
   "token": "riela",
   "url": "https://github.com/tacogips/riela/releases/download/v0.1.27/riela-0.1.27-darwin-arm64.dmg",
   "url_specs": {},
