@@ -44,20 +44,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "a297529dccf77e1bf0c89b72d8affcfd5cd0b33bfab435d630d24fb5a72244c6"
+    "sha256": "f03486eec341080b1b628f088cb059c98d42db569baefd35c4af3fb8b924961e"
   },
   "ruby_source_path": "Formula/document-gateway.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "6a809f899459801f1ca96994a15bad2d2d2dd812",
+  "tap_git_head": "bc791ebecd03895dc10f114110b4dbf64fa03e1a",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "133acedebb0145d414d49d823ded7c4a32c16c56778224c961252fc3074ccaf7",
+      "checksum": "4c8f3c15d464966b11bfe42a221ce7881f9e06ba103702920cee9bfb3aed8379",
       "revision": null,
-      "tag": "v0.1.0",
-      "url": "https://github.com/tacogips/document-gateway/releases/download/v0.1.0/document-gateway-0.1.0-darwin-arm64.tar.gz",
+      "tag": "v0.2.0",
+      "url": "https://github.com/tacogips/document-gateway/releases/download/v0.2.0/document-gateway-0.2.0-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.1.0"
+    "stable": "0.2.0"
   }
 }
