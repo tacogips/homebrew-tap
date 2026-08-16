@@ -1,0 +1,92 @@
+{
+  "artifacts": [
+    {
+      "binary": [
+        "kaiba"
+      ],
+      "target": "/opt/homebrew/bin/kaiba"
+    }
+  ],
+  "auto_updates": null,
+  "autobump": true,
+  "bundle_short_version": null,
+  "bundle_version": null,
+  "caveats": "This cask installs the signed and notarized macOS command line tool.\nHomebrew links kaiba into the native Homebrew prefix for this Mac.\n",
+  "caveats_rosetta": null,
+  "conflicts_with": null,
+  "container": null,
+  "depends_on": {},
+  "deprecate_args": null,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "deprecation_replacement_cask": null,
+  "deprecation_replacement_formula": null,
+  "desc": "System-memory service for AI agents",
+  "disable_args": null,
+  "disable_date": null,
+  "disable_reason": null,
+  "disable_replacement_cask": null,
+  "disable_replacement_formula": null,
+  "disabled": false,
+  "full_token": "tacogips/tap/kaiba",
+  "homepage": "https://github.com/tacogips/kaiba",
+  "installed": null,
+  "installed_time": null,
+  "languages": [],
+  "name": [
+    "kaiba"
+  ],
+  "no_autobump_message": null,
+  "old_tokens": [],
+  "outdated": false,
+  "pinned": false,
+  "pinned_version": null,
+  "rename": [],
+  "ruby_source_checksum": {
+    "sha256": "1e9244dbf3f03121eb5c2f1cd9dc9cfdabc99f0588a0b6f38dc528dae3a1df8b"
+  },
+  "ruby_source_path": "Casks/kaiba.rb",
+  "sha256": "ed42910d184e28ec4c25e2dbae0dbd4490359105ffed07cb045449616a6255f6",
+  "skip_livecheck": false,
+  "tap": "tacogips/tap",
+  "tap_git_head": "81cfb5b29c78cc1b6d0f6d5c7afcdb972f6e9b7c",
+  "token": "kaiba",
+  "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.7/kaiba-0.1.7-darwin-arm64.dmg",
+  "url_specs": {},
+  "variations": {
+    "big_sur": {
+      "sha256": "0d1c47401d9dc7680862ed1944b4db8587f2b6f7537cd02883b8289779200bf7",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.7/kaiba-0.1.7-darwin-x64.dmg"
+    },
+    "catalina": {
+      "sha256": "0d1c47401d9dc7680862ed1944b4db8587f2b6f7537cd02883b8289779200bf7",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.7/kaiba-0.1.7-darwin-x64.dmg"
+    },
+    "golden_gate": {
+      "sha256": "0d1c47401d9dc7680862ed1944b4db8587f2b6f7537cd02883b8289779200bf7",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.7/kaiba-0.1.7-darwin-x64.dmg"
+    },
+    "monterey": {
+      "sha256": "0d1c47401d9dc7680862ed1944b4db8587f2b6f7537cd02883b8289779200bf7",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.7/kaiba-0.1.7-darwin-x64.dmg"
+    },
+    "sequoia": {
+      "sha256": "0d1c47401d9dc7680862ed1944b4db8587f2b6f7537cd02883b8289779200bf7",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.7/kaiba-0.1.7-darwin-x64.dmg"
+    },
+    "sonoma": {
+      "sha256": "0d1c47401d9dc7680862ed1944b4db8587f2b6f7537cd02883b8289779200bf7",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.7/kaiba-0.1.7-darwin-x64.dmg"
+    },
+    "tahoe": {
+      "sha256": "0d1c47401d9dc7680862ed1944b4db8587f2b6f7537cd02883b8289779200bf7",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.7/kaiba-0.1.7-darwin-x64.dmg"
+    },
+    "ventura": {
+      "sha256": "0d1c47401d9dc7680862ed1944b4db8587f2b6f7537cd02883b8289779200bf7",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.7/kaiba-0.1.7-darwin-x64.dmg"
+    }
+  },
+  "version": "0.1.7"
+}
