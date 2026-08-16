@@ -44,19 +44,19 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "3f57e1924c587a4709d83c55a260eddcc5a2d38505cdc6ea6456be9b3dee8683"
+    "sha256": "37d41996cc6e504be170ba42c478f41d3ddd73b7eac46ecfc9be4b438d42d9ce"
   },
   "ruby_source_path": "Formula/s3-gateway.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "32d6ddc252df4a165e87c6bbc05a43fb26001cc5",
+  "tap_git_head": "f61c4651b5010e24da95f142bc2c7d070fd82e61",
   "test_dependencies": [],
   "urls": {
     "stable": {
       "checksum": "ccfba2104bcd571df2a0dac7f70497691defe096fda67b15ae3055817c8b3bb1",
       "revision": null,
-      "tag": null,
+      "tag": "v0.1.0",
       "url": "https://github.com/tacogips/s3-gateway/releases/download/v0.1.0/s3-gateway-0.1.0-darwin-arm64.tar.gz",
       "using": null
     }
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "64"
+    "stable": "0.1.0"
   }
 }

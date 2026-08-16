@@ -71,7 +71,7 @@
   "sha256": "c9881fa7b42ec2802f968e43bd22a542af2290aa023fa551a0eb2645cc288ebe",
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "32d6ddc252df4a165e87c6bbc05a43fb26001cc5",
+  "tap_git_head": "f61c4651b5010e24da95f142bc2c7d070fd82e61",
   "token": "chilla",
   "url": "https://github.com/tacogips/chilla/releases/download/v0.1.14/chilla_0.1.14_aarch64.dmg",
   "url_specs": {},
