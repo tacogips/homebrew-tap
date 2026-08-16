@@ -1,7 +1,6 @@
 class S3Gateway < Formula
   desc "Bounded SigV4-authenticated S3 gateway for POSIX and upstream S3 storage"
   homepage "https://github.com/tacogips/s3-gateway"
-  version "0.1.0"
   license "MIT"
 
   livecheck do
