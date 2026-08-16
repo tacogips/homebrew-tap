@@ -1,7 +1,6 @@
 class ResendGateway < Formula
-  desc "Swift SDK and capability-scoped command line tools for the Resend API"
+  desc "Swift SDK and capability-scoped command-line tools for the Resend API"
   homepage "https://github.com/tacogips/resend-gateway"
-  version "0.1.0"
   license "MIT"
 
   livecheck do
