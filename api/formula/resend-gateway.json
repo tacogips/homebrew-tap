@@ -14,7 +14,7 @@
   "deprecation_reason": null,
   "deprecation_replacement_cask": null,
   "deprecation_replacement_formula": null,
-  "desc": "Swift SDK and capability-scoped command line tools for the Resend API",
+  "desc": "Swift SDK and capability-scoped command-line tools for the Resend API",
   "disable_args": null,
   "disable_date": null,
   "disable_reason": null,
@@ -44,13 +44,13 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "1d3d52d0d34a1376ac874ad8db9d3a988ba010b0112f3e9b1261ce137b7f732a"
+    "sha256": "4890917bad6c84964ae974d0db6bf0396e3aea24fc63aef08f2f880948527c5c"
   },
   "ruby_source_path": "Formula/resend-gateway.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "a6a9c11f63fb3c22cb4258bcfad4b5287b1e8e06",
+  "tap_git_head": "574ac10e357ebc163c2399b2cf1a05dea2752307",
   "test_dependencies": [],
   "urls": {
     "stable": {
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.1.0"
+    "stable": "64"
   }
 }
