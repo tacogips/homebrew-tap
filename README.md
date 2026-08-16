@@ -22,6 +22,7 @@ Metadata is regenerated automatically whenever a formula or cask changes.
 - `calendar-gateway`
 - `chilla`
 - `ccusage-gauge`
+- `kaiba`
 - `riela`
 
 ## Usage
@@ -39,5 +40,6 @@ brew install --cask bifrost-gauge
 brew install --cask calendar-gateway
 brew install --cask chilla
 brew install --cask ccusage-gauge
+brew install --cask kaiba
 brew install --cask riela
 ```
