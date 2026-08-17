@@ -65,16 +65,16 @@
   "pinned_version": null,
   "rename": [],
   "ruby_source_checksum": {
-    "sha256": "4ee57f16990a5b667a3c1144a5ef9b18b910ec0d744629436ad4a8ed6591bfe8"
+    "sha256": "74a923dcad22839a23ec0b268516418524eb884c6c3dc24c848e1ed93225c834"
   },
   "ruby_source_path": "Casks/chilla.rb",
-  "sha256": "85ce3afd2ed3d63d02257e6d63a4161a4d9a944b001b35770a7b513ab3cae8c3",
+  "sha256": "c6e3764c54d8171d2c84c405f42a13be97d7c6a888a58c718440053f76a48379",
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "9e1b7d8ffd0a4614a458852d55d29bf12b10c322",
+  "tap_git_head": "2f4e2f14d7e54e84ef6b25470aca9325bb67e617",
   "token": "chilla",
-  "url": "https://github.com/tacogips/chilla/releases/download/v0.1.15/chilla_0.1.15_aarch64.dmg",
+  "url": "https://github.com/tacogips/chilla/releases/download/v0.1.16/chilla_0.1.16_aarch64.dmg",
   "url_specs": {},
   "variations": {},
-  "version": "0.1.15"
+  "version": "0.1.16"
 }
