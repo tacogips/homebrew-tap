@@ -1,11 +1,11 @@
 cask "kaiba" do
-  version "0.1.7"
+  version "0.1.8"
   arch arm: "darwin-arm64", intel: "darwin-x64"
 
-  sha256 arm: "ed42910d184e28ec4c25e2dbae0dbd4490359105ffed07cb045449616a6255f6",
-         intel: "0d1c47401d9dc7680862ed1944b4db8587f2b6f7537cd02883b8289779200bf7"
+  sha256 arm: "fa45b1c0ff43e23dc7e8255c24dd87dfb339ec44a5a5ee9eed090a74e6835292",
+         intel: "0809ebc190b06fd43d95b48465d41a3848eb44509a80cde7ea11babf97873d95"
 
-  url "https://github.com/tacogips/kaiba/releases/download/v0.1.7/kaiba-#{version}-#{arch}.dmg",
+  url "https://github.com/tacogips/kaiba/releases/download/v0.1.8/kaiba-#{version}-#{arch}.dmg",
       verified: "github.com/tacogips/kaiba/releases/download/"
   name "kaiba"
   desc "System-memory service for AI agents"
