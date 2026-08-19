@@ -44,49 +44,49 @@
   "pinned_version": null,
   "rename": [],
   "ruby_source_checksum": {
-    "sha256": "1e9244dbf3f03121eb5c2f1cd9dc9cfdabc99f0588a0b6f38dc528dae3a1df8b"
+    "sha256": "7d726fe6d05e639df57ee11e5ab834aafc00c1e117af38babcd4a10b62525f30"
   },
   "ruby_source_path": "Casks/kaiba.rb",
-  "sha256": "ed42910d184e28ec4c25e2dbae0dbd4490359105ffed07cb045449616a6255f6",
+  "sha256": "fa45b1c0ff43e23dc7e8255c24dd87dfb339ec44a5a5ee9eed090a74e6835292",
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "8df8083ce71ce142c75918a1bbc7dab96f445459",
+  "tap_git_head": "605255b6c445e67fe982187bd13b4f6e3004f3cc",
   "token": "kaiba",
-  "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.7/kaiba-0.1.7-darwin-arm64.dmg",
+  "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.8/kaiba-0.1.8-darwin-arm64.dmg",
   "url_specs": {},
   "variations": {
     "big_sur": {
-      "sha256": "0d1c47401d9dc7680862ed1944b4db8587f2b6f7537cd02883b8289779200bf7",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.7/kaiba-0.1.7-darwin-x64.dmg"
+      "sha256": "0809ebc190b06fd43d95b48465d41a3848eb44509a80cde7ea11babf97873d95",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.8/kaiba-0.1.8-darwin-x64.dmg"
     },
     "catalina": {
-      "sha256": "0d1c47401d9dc7680862ed1944b4db8587f2b6f7537cd02883b8289779200bf7",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.7/kaiba-0.1.7-darwin-x64.dmg"
+      "sha256": "0809ebc190b06fd43d95b48465d41a3848eb44509a80cde7ea11babf97873d95",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.8/kaiba-0.1.8-darwin-x64.dmg"
     },
     "golden_gate": {
-      "sha256": "0d1c47401d9dc7680862ed1944b4db8587f2b6f7537cd02883b8289779200bf7",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.7/kaiba-0.1.7-darwin-x64.dmg"
+      "sha256": "0809ebc190b06fd43d95b48465d41a3848eb44509a80cde7ea11babf97873d95",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.8/kaiba-0.1.8-darwin-x64.dmg"
     },
     "monterey": {
-      "sha256": "0d1c47401d9dc7680862ed1944b4db8587f2b6f7537cd02883b8289779200bf7",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.7/kaiba-0.1.7-darwin-x64.dmg"
+      "sha256": "0809ebc190b06fd43d95b48465d41a3848eb44509a80cde7ea11babf97873d95",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.8/kaiba-0.1.8-darwin-x64.dmg"
     },
     "sequoia": {
-      "sha256": "0d1c47401d9dc7680862ed1944b4db8587f2b6f7537cd02883b8289779200bf7",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.7/kaiba-0.1.7-darwin-x64.dmg"
+      "sha256": "0809ebc190b06fd43d95b48465d41a3848eb44509a80cde7ea11babf97873d95",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.8/kaiba-0.1.8-darwin-x64.dmg"
     },
     "sonoma": {
-      "sha256": "0d1c47401d9dc7680862ed1944b4db8587f2b6f7537cd02883b8289779200bf7",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.7/kaiba-0.1.7-darwin-x64.dmg"
+      "sha256": "0809ebc190b06fd43d95b48465d41a3848eb44509a80cde7ea11babf97873d95",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.8/kaiba-0.1.8-darwin-x64.dmg"
     },
     "tahoe": {
-      "sha256": "0d1c47401d9dc7680862ed1944b4db8587f2b6f7537cd02883b8289779200bf7",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.7/kaiba-0.1.7-darwin-x64.dmg"
+      "sha256": "0809ebc190b06fd43d95b48465d41a3848eb44509a80cde7ea11babf97873d95",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.8/kaiba-0.1.8-darwin-x64.dmg"
     },
     "ventura": {
-      "sha256": "0d1c47401d9dc7680862ed1944b4db8587f2b6f7537cd02883b8289779200bf7",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.7/kaiba-0.1.7-darwin-x64.dmg"
+      "sha256": "0809ebc190b06fd43d95b48465d41a3848eb44509a80cde7ea11babf97873d95",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.8/kaiba-0.1.8-darwin-x64.dmg"
     }
   },
-  "version": "0.1.7"
+  "version": "0.1.8"
 }
