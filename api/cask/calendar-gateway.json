@@ -50,7 +50,7 @@
   "sha256": "f9d1aa6b7d6c9a901bc82427e7676d5a87868c511919d0dc2e21877029dd674b",
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "fe210a11f1493c781aaa1fa52774b6c6b34ca04a",
+  "tap_git_head": "286216ae051a165b287cd6c8ebe525c7367a324b",
   "token": "calendar-gateway",
   "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.2/calendar-gateway-0.1.2-darwin-arm64.dmg",
   "url_specs": {},

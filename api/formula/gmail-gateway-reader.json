@@ -14,22 +14,22 @@
   "deprecation_reason": null,
   "deprecation_replacement_cask": null,
   "deprecation_replacement_formula": null,
-  "desc": "Direct-send Gmail workflow gateway",
+  "desc": "Read-only Gmail workflow gateway",
   "disable_args": null,
   "disable_date": null,
   "disable_reason": null,
   "disable_replacement_cask": null,
   "disable_replacement_formula": null,
   "disabled": false,
-  "full_name": "tacogips/tap/mail-gateway-sender",
-  "homepage": "https://github.com/tacogips/mail-gateway",
+  "full_name": "tacogips/tap/gmail-gateway-reader",
+  "homepage": "https://github.com/tacogips/gmail-gateway",
   "installed": [],
   "keg_only": false,
   "keg_only_reason": null,
   "license": "MIT",
   "link_overwrite": [],
   "linked_keg": null,
-  "name": "mail-gateway-sender",
+  "name": "gmail-gateway-reader",
   "no_autobump_message": null,
   "oldnames": [],
   "optional_dependencies": [],
@@ -44,20 +44,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "3370e1869e41b88f74ae09f777beb4eec78db1cb7bdcfbcebce5b4da42fdcbd0"
+    "sha256": "764d9646220efa041360016817975ffcfa343ca7230b46f5898b5b9f90f762ab"
   },
-  "ruby_source_path": "Formula/mail-gateway-sender.rb",
+  "ruby_source_path": "Formula/gmail-gateway-reader.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "fe210a11f1493c781aaa1fa52774b6c6b34ca04a",
+  "tap_git_head": "286216ae051a165b287cd6c8ebe525c7367a324b",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "7db0b43f2b0664f09c5a4b9b4693e49ef58d74bcdef15f7aafd9d6ae4a53ae52",
+      "checksum": "6667beee917d15a687752f157351e618cfac12defda2e114a0cccde52c497191",
       "revision": null,
       "tag": null,
-      "url": "https://github.com/tacogips/mail-gateway/releases/download/v0.1.6/mail-gateway-sender-0.1.6-darwin-arm64.tar.gz",
+      "url": "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.7/gmail-gateway-reader-0.1.7-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.1.6"
+    "stable": "0.1.7"
   }
 }
