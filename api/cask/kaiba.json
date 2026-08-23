@@ -1,6 +1,12 @@
 {
   "artifacts": [
     {
+      "app": [
+        "Kaiba.app"
+      ],
+      "target": "/Applications/Kaiba.app"
+    },
+    {
       "binary": [
         "kaiba"
       ],
@@ -11,7 +17,7 @@
   "autobump": true,
   "bundle_short_version": null,
   "bundle_version": null,
-  "caveats": "This cask installs the signed and notarized macOS command line tool.\nHomebrew links kaiba into the native Homebrew prefix for this Mac.\n",
+  "caveats": "This cask installs the signed and notarized Kaiba.app (a resident menu-bar\napp that runs the note server) and the kaiba command line tool.\nLaunch Kaiba from Applications to keep the server running in the menu bar,\nor run 'kaiba serve' from the CLI. Homebrew links kaiba into the\nnative Homebrew prefix for this Mac.\n",
   "caveats_rosetta": null,
   "conflicts_with": null,
   "container": null,
@@ -44,49 +50,49 @@
   "pinned_version": null,
   "rename": [],
   "ruby_source_checksum": {
-    "sha256": "7d726fe6d05e639df57ee11e5ab834aafc00c1e117af38babcd4a10b62525f30"
+    "sha256": "ff50515e41c8f5e37d12bde11280c029704e12e3258514b0540522abcee74878"
   },
   "ruby_source_path": "Casks/kaiba.rb",
-  "sha256": "fa45b1c0ff43e23dc7e8255c24dd87dfb339ec44a5a5ee9eed090a74e6835292",
+  "sha256": "8ac7b0f8431e94282023dcacc21d9a06f69be5edb9b80966273c6b0b9d32a5af",
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "605255b6c445e67fe982187bd13b4f6e3004f3cc",
+  "tap_git_head": "fe210a11f1493c781aaa1fa52774b6c6b34ca04a",
   "token": "kaiba",
-  "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.8/kaiba-0.1.8-darwin-arm64.dmg",
+  "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.9/kaiba-0.1.9-darwin-arm64.dmg",
   "url_specs": {},
   "variations": {
     "big_sur": {
-      "sha256": "0809ebc190b06fd43d95b48465d41a3848eb44509a80cde7ea11babf97873d95",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.8/kaiba-0.1.8-darwin-x64.dmg"
+      "sha256": "91d7a2901df2bf4ea0f8c18b3ff3476735a0daa37708dcc9f47c7b55d3d39c45",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.9/kaiba-0.1.9-darwin-x64.dmg"
     },
     "catalina": {
-      "sha256": "0809ebc190b06fd43d95b48465d41a3848eb44509a80cde7ea11babf97873d95",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.8/kaiba-0.1.8-darwin-x64.dmg"
+      "sha256": "91d7a2901df2bf4ea0f8c18b3ff3476735a0daa37708dcc9f47c7b55d3d39c45",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.9/kaiba-0.1.9-darwin-x64.dmg"
     },
     "golden_gate": {
-      "sha256": "0809ebc190b06fd43d95b48465d41a3848eb44509a80cde7ea11babf97873d95",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.8/kaiba-0.1.8-darwin-x64.dmg"
+      "sha256": "91d7a2901df2bf4ea0f8c18b3ff3476735a0daa37708dcc9f47c7b55d3d39c45",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.9/kaiba-0.1.9-darwin-x64.dmg"
     },
     "monterey": {
-      "sha256": "0809ebc190b06fd43d95b48465d41a3848eb44509a80cde7ea11babf97873d95",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.8/kaiba-0.1.8-darwin-x64.dmg"
+      "sha256": "91d7a2901df2bf4ea0f8c18b3ff3476735a0daa37708dcc9f47c7b55d3d39c45",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.9/kaiba-0.1.9-darwin-x64.dmg"
     },
     "sequoia": {
-      "sha256": "0809ebc190b06fd43d95b48465d41a3848eb44509a80cde7ea11babf97873d95",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.8/kaiba-0.1.8-darwin-x64.dmg"
+      "sha256": "91d7a2901df2bf4ea0f8c18b3ff3476735a0daa37708dcc9f47c7b55d3d39c45",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.9/kaiba-0.1.9-darwin-x64.dmg"
     },
     "sonoma": {
-      "sha256": "0809ebc190b06fd43d95b48465d41a3848eb44509a80cde7ea11babf97873d95",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.8/kaiba-0.1.8-darwin-x64.dmg"
+      "sha256": "91d7a2901df2bf4ea0f8c18b3ff3476735a0daa37708dcc9f47c7b55d3d39c45",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.9/kaiba-0.1.9-darwin-x64.dmg"
     },
     "tahoe": {
-      "sha256": "0809ebc190b06fd43d95b48465d41a3848eb44509a80cde7ea11babf97873d95",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.8/kaiba-0.1.8-darwin-x64.dmg"
+      "sha256": "91d7a2901df2bf4ea0f8c18b3ff3476735a0daa37708dcc9f47c7b55d3d39c45",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.9/kaiba-0.1.9-darwin-x64.dmg"
     },
     "ventura": {
-      "sha256": "0809ebc190b06fd43d95b48465d41a3848eb44509a80cde7ea11babf97873d95",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.8/kaiba-0.1.8-darwin-x64.dmg"
+      "sha256": "91d7a2901df2bf4ea0f8c18b3ff3476735a0daa37708dcc9f47c7b55d3d39c45",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.9/kaiba-0.1.9-darwin-x64.dmg"
     }
   },
-  "version": "0.1.8"
+  "version": "0.1.9"
 }
