@@ -56,7 +56,7 @@
   "sha256": "8ac7b0f8431e94282023dcacc21d9a06f69be5edb9b80966273c6b0b9d32a5af",
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "2f03905f169cc1f8a5cb83f74efc65d0b6b11f96",
+  "tap_git_head": "4899d09816b8e739540266f62dd99cb38f26b3ce",
   "token": "kaiba",
   "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.9/kaiba-0.1.9-darwin-arm64.dmg",
   "url_specs": {},

@@ -21,15 +21,15 @@
   "disable_replacement_cask": null,
   "disable_replacement_formula": null,
   "disabled": false,
-  "full_name": "tacogips/tap/document-gateway",
-  "homepage": "https://github.com/tacogips/document-gateway",
+  "full_name": "tacogips/tap/google-documents-gateway",
+  "homepage": "https://github.com/tacogips/google-documents-gateway",
   "installed": [],
   "keg_only": false,
   "keg_only_reason": null,
   "license": "MIT",
   "link_overwrite": [],
   "linked_keg": null,
-  "name": "document-gateway",
+  "name": "google-documents-gateway",
   "no_autobump_message": null,
   "oldnames": [],
   "optional_dependencies": [],
@@ -44,20 +44,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "f03486eec341080b1b628f088cb059c98d42db569baefd35c4af3fb8b924961e"
+    "sha256": "3a3b61ce9a8a836dd322a34d3bde5c5ea6c19cfedb3008ca141b2b953a72acc3"
   },
-  "ruby_source_path": "Formula/document-gateway.rb",
+  "ruby_source_path": "Formula/google-documents-gateway.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "2f03905f169cc1f8a5cb83f74efc65d0b6b11f96",
+  "tap_git_head": "4899d09816b8e739540266f62dd99cb38f26b3ce",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "4c8f3c15d464966b11bfe42a221ce7881f9e06ba103702920cee9bfb3aed8379",
+      "checksum": "75aaaaab16bf455aa3869a3f4a769621f44033573fd3d63f6f50f4362837872b",
       "revision": null,
-      "tag": "v0.2.0",
-      "url": "https://github.com/tacogips/document-gateway/releases/download/v0.2.0/document-gateway-0.2.0-darwin-arm64.tar.gz",
+      "tag": "v0.2.1",
+      "url": "https://github.com/tacogips/google-documents-gateway/releases/download/v0.2.1/google-documents-gateway-0.2.1-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.2.0"
+    "stable": "0.2.1"
   }
 }

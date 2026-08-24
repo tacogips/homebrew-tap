@@ -65,7 +65,7 @@
   "sha256": "ba37c468fa7a496c2794efd5856d3b90623ed6daabfcd22d8a32a98f1256c247",
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "2f03905f169cc1f8a5cb83f74efc65d0b6b11f96",
+  "tap_git_head": "4899d09816b8e739540266f62dd99cb38f26b3ce",
   "token": "apple-gateway",
   "url": "https://github.com/tacogips/apple-gateway/releases/download/v0.1.1/apple-gateway-0.1.1-darwin-arm64.dmg",
   "url_specs": {},
