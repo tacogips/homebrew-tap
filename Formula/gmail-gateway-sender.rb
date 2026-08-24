@@ -1,7 +1,7 @@
 class GmailGatewaySender < Formula
   desc "Direct-send Gmail workflow gateway"
   homepage "https://github.com/tacogips/gmail-gateway"
-  version "0.1.7"
+  version "0.1.8"
   license "MIT"
 
   livecheck do
@@ -11,11 +11,11 @@ class GmailGatewaySender < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.7/gmail-gateway-sender-0.1.7-darwin-arm64.tar.gz"
-      sha256 "5b744299dec37d35584d4deeee6261145054304041e033c804022081a4eb574b"
+      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.8/gmail-gateway-sender-0.1.8-darwin-arm64.tar.gz"
+      sha256 "04e9f47f4fa0444e7680cad775c0cf900ebcd52ee5a729be3465511e99e09003"
     else
-      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.7/gmail-gateway-sender-0.1.7-darwin-x64.tar.gz"
-      sha256 "237aa1c288ccf9f0186c62665cb5f42a2737aad94a1c25f6c716d9903c4e7330"
+      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.8/gmail-gateway-sender-0.1.8-darwin-x64.tar.gz"
+      sha256 "b714ab4f0fb6d8967e4a966ebc2da34b365c16529cf1beb4f0e37ddd407ea762"
     end
   end
 
