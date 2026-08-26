@@ -1,14 +1,15 @@
 cask "calendar-gateway" do
-  version "0.1.2"
+  version "0.1.3"
   arch arm: "darwin-arm64", intel: "darwin-x64"
 
-  sha256 arm: "f9d1aa6b7d6c9a901bc82427e7676d5a87868c511919d0dc2e21877029dd674b",
-         intel: "2bdfabc8106ee731b1d18371c484abc3e828cd594514067dfdfbb5bc038241e3"
+  sha256 arm: "d6558af053f5382941a57a6a85dbc95287e0c2fdd2e8f023c207115d5305dfef",
+         intel: "f345d99272b28cbcdfb786c2cfd1de6544ab47dfa1c53abeddb210724b6af521"
 
-  url "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.2/calendar-gateway-#{version}-#{arch}.dmg"
+  url "https://github.com/user/repo/releases/download/v0.1.3/calendar-gateway-#{version}-#{arch}.dmg",
+      verified: "github.com/user/repo/releases/download/"
   name "calendar-gateway"
-  desc "Swift library and local CLI gateway for calendar clients"
-  homepage "https://github.com/tacogips/calendar-gateway"
+  desc "A Swift command line tool"
+  homepage "https://github.com/user/repo"
 
   livecheck do
     url :url
