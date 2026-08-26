@@ -44,17 +44,17 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "1c12c58a81b7da39477b903abb93a4ac8c312ef6a0834af07839df1bd8c293b3"
+    "sha256": "567f95a6b156c453cc8e6f7a52f64626faf63c83d8377d489cc4ef59483db618"
   },
   "ruby_source_path": "Formula/google-documents-gateway.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "eb8779c4713417ddf75266779a1cdecc9165a0ad",
+  "tap_git_head": "2a5d22765d74f9c7e26e5442d7522b371e7f48fb",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "615a23a029eca268cc5a02e365af143320b25e04b3ea13d2556e07f974328682",
+      "checksum": "3af15f2ebccaa8753dcd53e8911f023536d92247f02b194be27a2777f4eb8ecc",
       "revision": null,
       "tag": "v0.2.2",
       "url": "https://github.com/tacogips/google-documents-gateway/releases/download/v0.2.2/google-documents-gateway-0.2.2-darwin-arm64.tar.gz",
