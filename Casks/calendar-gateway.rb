@@ -5,11 +5,10 @@ cask "calendar-gateway" do
   sha256 arm: "d6558af053f5382941a57a6a85dbc95287e0c2fdd2e8f023c207115d5305dfef",
          intel: "f345d99272b28cbcdfb786c2cfd1de6544ab47dfa1c53abeddb210724b6af521"
 
-  url "https://github.com/user/repo/releases/download/v0.1.3/calendar-gateway-#{version}-#{arch}.dmg",
-      verified: "github.com/user/repo/releases/download/"
+  url "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.3/calendar-gateway-#{version}-#{arch}.dmg"
   name "calendar-gateway"
-  desc "A Swift command line tool"
-  homepage "https://github.com/user/repo"
+  desc "Swift library and local CLI gateway for calendar clients"
+  homepage "https://github.com/tacogips/calendar-gateway"
 
   livecheck do
     url :url
