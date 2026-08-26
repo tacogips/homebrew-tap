@@ -11,10 +11,10 @@ class GoogleDocumentsGateway < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/tacogips/google-documents-gateway/releases/download/v0.2.2/google-documents-gateway-0.2.2-darwin-arm64.tar.gz", tag: "v0.2.2"
-      sha256 "615a23a029eca268cc5a02e365af143320b25e04b3ea13d2556e07f974328682"
+      sha256 "3af15f2ebccaa8753dcd53e8911f023536d92247f02b194be27a2777f4eb8ecc"
     else
       url "https://github.com/tacogips/google-documents-gateway/releases/download/v0.2.2/google-documents-gateway-0.2.2-darwin-x64.tar.gz", tag: "v0.2.2"
-      sha256 "a66867e5f13994cd69053836a47e260b98d7a72ae78d4de6b2d2d3e23d8d9535"
+      sha256 "546800ac8cc72ecb2a673951443c0eebf7bff08dcc1de920c5e5d8cfc7600bac"
     end
   end
 
