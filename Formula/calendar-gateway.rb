@@ -1,7 +1,7 @@
-class CalendarGateway < Formula
-  desc "Swift library and local CLI gateway for calendar clients"
-  homepage "https://github.com/tacogips/calendar-gateway"
-  version "0.1.2"
+class App < Formula
+  desc "A Swift command line tool"
+  homepage "https://github.com/user/repo"
+  version "0.1.3"
   license "MIT"
 
   livecheck do
@@ -11,11 +11,11 @@ class CalendarGateway < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.2/calendar-gateway-0.1.2-darwin-arm64.tar.gz"
-      sha256 "2fa110b9d8f41b5c61aa4d0fefb4110b4aa57d0aee2fc46df4faaab001f086a9"
+      url "https://github.com/user/repo/releases/download/v0.1.3/calendar-gateway-0.1.3-darwin-arm64.tar.gz"
+      sha256 "1cd0704bee770cef42e002565f3f54d753d00b036256a7a718fbb291e86b2217"
     else
-      url "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.2/calendar-gateway-0.1.2-darwin-x64.tar.gz"
-      sha256 "cdf4da98d835a4c0ec49aff673b967a67d8568d8bc17d8ca019d49887da1ab01"
+      url "https://github.com/user/repo/releases/download/v0.1.3/calendar-gateway-0.1.3-darwin-x64.tar.gz"
+      sha256 "46edaa0cbef2e0a2777ae7e471a420f0fbc4f294c1dae4c083c4b160648b9488"
     end
   end
 
@@ -24,6 +24,6 @@ class CalendarGateway < Formula
   end
 
   test do
-    assert_match "0.1.2", shell_output("#{bin}/calendar-gateway --version")
+    assert_match "0.1.3", shell_output("#{bin}/calendar-gateway --version")
   end
 end
