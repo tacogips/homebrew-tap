@@ -50,49 +50,49 @@
   "pinned_version": null,
   "rename": [],
   "ruby_source_checksum": {
-    "sha256": "ff50515e41c8f5e37d12bde11280c029704e12e3258514b0540522abcee74878"
+    "sha256": "e1fea68bd6a14ecdc70d58e06fe4991ae0ecb7a3ee08100a48aad3dcda6eeb83"
   },
   "ruby_source_path": "Casks/kaiba.rb",
-  "sha256": "8ac7b0f8431e94282023dcacc21d9a06f69be5edb9b80966273c6b0b9d32a5af",
+  "sha256": "f2177a77fb11e5716d76620b98451dcbfea2ff4676ce81ba03fafd719e370743",
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "86ee4ced12bbe6c41c7ea1cca55fd584c9c536a6",
+  "tap_git_head": "6c120928c97453783b84e594283e0744a93ff9c7",
   "token": "kaiba",
-  "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.9/kaiba-0.1.9-darwin-arm64.dmg",
+  "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.11/kaiba-0.1.11-darwin-arm64.dmg",
   "url_specs": {},
   "variations": {
     "big_sur": {
-      "sha256": "91d7a2901df2bf4ea0f8c18b3ff3476735a0daa37708dcc9f47c7b55d3d39c45",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.9/kaiba-0.1.9-darwin-x64.dmg"
+      "sha256": "81dd8349ecbac0aa255f9628e06ff12197217cbfeaf43835652cc568e11589bc",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.11/kaiba-0.1.11-darwin-x64.dmg"
     },
     "catalina": {
-      "sha256": "91d7a2901df2bf4ea0f8c18b3ff3476735a0daa37708dcc9f47c7b55d3d39c45",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.9/kaiba-0.1.9-darwin-x64.dmg"
+      "sha256": "81dd8349ecbac0aa255f9628e06ff12197217cbfeaf43835652cc568e11589bc",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.11/kaiba-0.1.11-darwin-x64.dmg"
     },
     "golden_gate": {
-      "sha256": "91d7a2901df2bf4ea0f8c18b3ff3476735a0daa37708dcc9f47c7b55d3d39c45",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.9/kaiba-0.1.9-darwin-x64.dmg"
+      "sha256": "81dd8349ecbac0aa255f9628e06ff12197217cbfeaf43835652cc568e11589bc",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.11/kaiba-0.1.11-darwin-x64.dmg"
     },
     "monterey": {
-      "sha256": "91d7a2901df2bf4ea0f8c18b3ff3476735a0daa37708dcc9f47c7b55d3d39c45",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.9/kaiba-0.1.9-darwin-x64.dmg"
+      "sha256": "81dd8349ecbac0aa255f9628e06ff12197217cbfeaf43835652cc568e11589bc",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.11/kaiba-0.1.11-darwin-x64.dmg"
     },
     "sequoia": {
-      "sha256": "91d7a2901df2bf4ea0f8c18b3ff3476735a0daa37708dcc9f47c7b55d3d39c45",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.9/kaiba-0.1.9-darwin-x64.dmg"
+      "sha256": "81dd8349ecbac0aa255f9628e06ff12197217cbfeaf43835652cc568e11589bc",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.11/kaiba-0.1.11-darwin-x64.dmg"
     },
     "sonoma": {
-      "sha256": "91d7a2901df2bf4ea0f8c18b3ff3476735a0daa37708dcc9f47c7b55d3d39c45",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.9/kaiba-0.1.9-darwin-x64.dmg"
+      "sha256": "81dd8349ecbac0aa255f9628e06ff12197217cbfeaf43835652cc568e11589bc",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.11/kaiba-0.1.11-darwin-x64.dmg"
     },
     "tahoe": {
-      "sha256": "91d7a2901df2bf4ea0f8c18b3ff3476735a0daa37708dcc9f47c7b55d3d39c45",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.9/kaiba-0.1.9-darwin-x64.dmg"
+      "sha256": "81dd8349ecbac0aa255f9628e06ff12197217cbfeaf43835652cc568e11589bc",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.11/kaiba-0.1.11-darwin-x64.dmg"
     },
     "ventura": {
-      "sha256": "91d7a2901df2bf4ea0f8c18b3ff3476735a0daa37708dcc9f47c7b55d3d39c45",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.9/kaiba-0.1.9-darwin-x64.dmg"
+      "sha256": "81dd8349ecbac0aa255f9628e06ff12197217cbfeaf43835652cc568e11589bc",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.11/kaiba-0.1.11-darwin-x64.dmg"
     }
   },
-  "version": "0.1.9"
+  "version": "0.1.11"
 }
