@@ -1,7 +1,6 @@
 class GmailGatewayDraft < Formula
   desc "Draft-writing Gmail workflow gateway"
   homepage "https://github.com/tacogips/gmail-gateway"
-  version "0.1.12"
   license "MIT"
 
   livecheck do
