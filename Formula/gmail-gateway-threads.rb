@@ -1,7 +1,7 @@
 class GmailGatewayThreads < Formula
   desc "Mailbox-mutating Gmail workflow gateway"
   homepage "https://github.com/tacogips/gmail-gateway"
-  version "0.1.10"
+  version "0.1.11"
   license "MIT"
 
   livecheck do
@@ -11,11 +11,11 @@ class GmailGatewayThreads < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.10/gmail-gateway-threads-0.1.10-darwin-arm64.tar.gz"
-      sha256 "d0d66c7c0a6da82ec40014bb7c19dbea11a29131dfecc3220a11efb5383983c3"
+      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.11/gmail-gateway-threads-0.1.11-darwin-arm64.tar.gz"
+      sha256 "5612aafb046d24ea639a7c723e3f6c4be2aa1225c098048d0216d5d8ac063f54"
     else
-      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.10/gmail-gateway-threads-0.1.10-darwin-x64.tar.gz"
-      sha256 "be99c4e4e9886226a129569c7e9fbb73a9ac5c55419519f74f9bfd22d3cd81b3"
+      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.11/gmail-gateway-threads-0.1.11-darwin-x64.tar.gz"
+      sha256 "f8f7d0cabd6818b6cc74542fdd59a6c2502e7e4d8fa22b0d657fc224f2c4c465"
     end
   end
 

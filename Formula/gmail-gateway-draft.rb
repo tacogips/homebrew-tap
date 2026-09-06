@@ -1,7 +1,7 @@
 class GmailGatewayDraft < Formula
   desc "Draft-writing Gmail workflow gateway"
   homepage "https://github.com/tacogips/gmail-gateway"
-  version "0.1.10"
+  version "0.1.11"
   license "MIT"
 
   livecheck do
@@ -11,11 +11,11 @@ class GmailGatewayDraft < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.10/gmail-gateway-draft-0.1.10-darwin-arm64.tar.gz"
-      sha256 "d33576bfaa45c5aac4c90c4dbebe4168362003eabfa4b175edb14ca20bb38bab"
+      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.11/gmail-gateway-draft-0.1.11-darwin-arm64.tar.gz"
+      sha256 "892d7d9a3f02fcbf23a95ef751859dfed5a99fd0e9b64f6444093f2ad0bc94fa"
     else
-      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.10/gmail-gateway-draft-0.1.10-darwin-x64.tar.gz"
-      sha256 "b7b1f4048efc2962bff4d5a843df184e3a8ad51bb21208865e2b5269f7544b30"
+      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.11/gmail-gateway-draft-0.1.11-darwin-x64.tar.gz"
+      sha256 "70ae4d8723ba02dbbef717632c07bf3161d83599a322f55e555d1b64f18f614b"
     end
   end
 
