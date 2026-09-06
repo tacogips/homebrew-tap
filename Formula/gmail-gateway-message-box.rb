@@ -1,7 +1,7 @@
 class GmailGatewayMessageBox < Formula
   desc "Mail-ingesting Gmail workflow gateway"
   homepage "https://github.com/tacogips/gmail-gateway"
-  version "0.1.11"
+  version "0.1.12"
   license "MIT"
 
   livecheck do
@@ -11,11 +11,11 @@ class GmailGatewayMessageBox < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.11/gmail-gateway-message-box-0.1.11-darwin-arm64.tar.gz"
-      sha256 "437478e883a0715ed115b746e706f619413994eba45d9f3a80bc923078692f88"
+      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.12/gmail-gateway-message-box-0.1.12-darwin-arm64.tar.gz"
+      sha256 "d4f087d27ffae9740110b59592deef10d67efb7c5ae1ed40c20f411cd6347936"
     else
-      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.11/gmail-gateway-message-box-0.1.11-darwin-x64.tar.gz"
-      sha256 "9360fe617fd48c68ddfcf33b55250690acf5a109ca1c9550383ea693d69bbac0"
+      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.12/gmail-gateway-message-box-0.1.12-darwin-x64.tar.gz"
+      sha256 "fd30ef0cc2ccf350206a96c6f51e1d18c0724cd09aaab267c67b5bc9744103aa"
     end
   end
 
