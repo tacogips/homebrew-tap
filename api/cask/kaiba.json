@@ -56,7 +56,7 @@
   "sha256": "4e684abd293d7ae989b8b422cd99009daeda651d0b08a09ccd5013968b4a5a0d",
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "f2af7e12fc80b92a4f58876461f2ab56534a58b7",
+  "tap_git_head": "4786be2247486137221fc82ef8aae1b6662c01d7",
   "token": "kaiba",
   "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.12/kaiba-0.1.12-darwin-arm64.dmg",
   "url_specs": {},

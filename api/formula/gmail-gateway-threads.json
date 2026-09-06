@@ -44,20 +44,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "2f5d4b7cea1089d923cf5fdad1b48532641886d228017c23bc47d1648bfdd17e"
+    "sha256": "56aa01cb0ce5ec1a59fa93b84553aa6fffcdc021a20d2a3d3d19a07223504137"
   },
   "ruby_source_path": "Formula/gmail-gateway-threads.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "f2af7e12fc80b92a4f58876461f2ab56534a58b7",
+  "tap_git_head": "4786be2247486137221fc82ef8aae1b6662c01d7",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "5612aafb046d24ea639a7c723e3f6c4be2aa1225c098048d0216d5d8ac063f54",
+      "checksum": "a702f638ed1cf3f4af8c56efe9e0605e03563d82f368fa480f4012b997e67312",
       "revision": null,
       "tag": null,
-      "url": "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.11/gmail-gateway-threads-0.1.11-darwin-arm64.tar.gz",
+      "url": "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.12/gmail-gateway-threads-0.1.12-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.1.11"
+    "stable": "0.1.12"
   }
 }
