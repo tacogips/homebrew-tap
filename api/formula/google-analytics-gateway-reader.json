@@ -14,22 +14,22 @@
   "deprecation_reason": null,
   "deprecation_replacement_cask": null,
   "deprecation_replacement_formula": null,
-  "desc": "Google Service Usage, API-key, and OAuth command-line gateways",
+  "desc": "Read-only GraphQL gateway for Google Analytics and Tag Manager",
   "disable_args": null,
   "disable_date": null,
   "disable_reason": null,
   "disable_replacement_cask": null,
   "disable_replacement_formula": null,
   "disabled": false,
-  "full_name": "tacogips/tap/google-service-gateway",
-  "homepage": "https://github.com/tacogips/google-service-gateway",
+  "full_name": "tacogips/tap/google-analytics-gateway-reader",
+  "homepage": "https://github.com/tacogips/google-analytics-gateway",
   "installed": [],
   "keg_only": false,
   "keg_only_reason": null,
   "license": "MIT",
   "link_overwrite": [],
   "linked_keg": null,
-  "name": "google-service-gateway",
+  "name": "google-analytics-gateway-reader",
   "no_autobump_message": null,
   "oldnames": [],
   "optional_dependencies": [],
@@ -44,9 +44,9 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "378b9dc251f87aec5bf5ba4067ba85f807b6b9a3d71658fb70dac55bada307a3"
+    "sha256": "572c75277c8af30c087ce9b070e55ca70b9940cb6770b9227eedc778ed206f78"
   },
-  "ruby_source_path": "Formula/google-service-gateway.rb",
+  "ruby_source_path": "Formula/google-analytics-gateway-reader.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
@@ -54,10 +54,10 @@
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "eefd29835923148d58693613b1e56dff1a742fcbb9436eaf210e44e3717417d5",
+      "checksum": "23df8ddb1cc59e115be7c440688a839eacfe1a327a7bcca330b8263a8d5c0e85",
       "revision": null,
-      "tag": "v0.1.1",
-      "url": "https://github.com/tacogips/google-service-gateway/releases/download/v0.1.1/google-service-gateway-0.1.1-darwin-arm64.tar.gz",
+      "tag": null,
+      "url": "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.1/google-analytics-gateway-reader-0.1.1-darwin-arm64.tar.gz",
       "using": null
     }
   },

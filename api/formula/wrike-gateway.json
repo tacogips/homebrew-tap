@@ -44,20 +44,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "6e2c97108d454cab39774bcd129e8753212efbf305ed2184e7940d4aba25ae1c"
+    "sha256": "1f23750bae5d8f81b771519d4e3c26356d58dae3224779914432cf7d3dc5bef7"
   },
   "ruby_source_path": "Formula/wrike-gateway.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "6a252987c7a642b2c36f2c929cd3f855b86eae79",
+  "tap_git_head": "cdfade60256dfe5f9ae516f6b32d1e0eecd9391a",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "28de5b136463514aa77c55fdfd44378eb6b626caae92697c9cbc3e7860b53a3b",
+      "checksum": "d0617b71242a89a547c07800c56011ce3e56ddfd743c1a488ecece52a48eec5b",
       "revision": null,
       "tag": null,
-      "url": "https://github.com/tacogips/wrike-gateway/releases/download/v0.2.2/wrike-gateway-0.2.2-darwin-arm64.tar.gz",
+      "url": "https://github.com/tacogips/wrike-gateway/releases/download/v0.2.4/wrike-gateway-0.2.4-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.2.2"
+    "stable": "0.2.4"
   }
 }

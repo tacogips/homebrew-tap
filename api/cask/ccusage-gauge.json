@@ -64,12 +64,25 @@
   "ruby_source_path": "Casks/ccusage-gauge.rb",
   "sha256": "e3edcedb4a7dacc27b5e295343d3eabe5a0a705b15423ade69e4cd4e8c773f44",
   "skip_livecheck": true,
+  "supported_platforms": [
+    "golden_gate",
+    "arm64_golden_gate",
+    "tahoe",
+    "arm64_tahoe",
+    "sequoia",
+    "arm64_sequoia",
+    "sonoma",
+    "arm64_sonoma"
+  ],
   "tap": "tacogips/tap",
-  "tap_git_head": "6a252987c7a642b2c36f2c929cd3f855b86eae79",
+  "tap_git_head": "cdfade60256dfe5f9ae516f6b32d1e0eecd9391a",
   "token": "ccusage-gauge",
   "url": "https://github.com/tacogips/homebrew-tap/releases/download/ccusage-gauge-v0.1.27/ccusage-gauge_0.1.27_aarch64.app.zip",
   "url_specs": {},
   "variations": {
+    "arm64_linux": {
+      "sha256": null
+    },
     "golden_gate": {
       "sha256": "1a15c479d99fbc9f0292601efb797cbc9df05420adc45407a0597546c1fe31be",
       "url": "https://github.com/tacogips/homebrew-tap/releases/download/ccusage-gauge-v0.1.27/ccusage-gauge_0.1.27_x86_64.app.zip"
@@ -84,6 +97,10 @@
     },
     "tahoe": {
       "sha256": "1a15c479d99fbc9f0292601efb797cbc9df05420adc45407a0597546c1fe31be",
+      "url": "https://github.com/tacogips/homebrew-tap/releases/download/ccusage-gauge-v0.1.27/ccusage-gauge_0.1.27_x86_64.app.zip"
+    },
+    "x86_64_linux": {
+      "sha256": null,
       "url": "https://github.com/tacogips/homebrew-tap/releases/download/ccusage-gauge-v0.1.27/ccusage-gauge_0.1.27_x86_64.app.zip"
     }
   },

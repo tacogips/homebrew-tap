@@ -70,8 +70,16 @@
   "ruby_source_path": "Casks/chilla.rb",
   "sha256": "bb287ebacab051995d0fdd1cdbdf40c74f5f8a54390d3ff70caa54a555f8014a",
   "skip_livecheck": false,
+  "supported_platforms": [
+    "arm64_golden_gate",
+    "arm64_tahoe",
+    "arm64_sequoia",
+    "arm64_sonoma",
+    "arm64_ventura",
+    "arm64_monterey"
+  ],
   "tap": "tacogips/tap",
-  "tap_git_head": "6a252987c7a642b2c36f2c929cd3f855b86eae79",
+  "tap_git_head": "cdfade60256dfe5f9ae516f6b32d1e0eecd9391a",
   "token": "chilla",
   "url": "https://github.com/tacogips/chilla/releases/download/v0.1.17/chilla_0.1.17_aarch64.dmg",
   "url_specs": {},

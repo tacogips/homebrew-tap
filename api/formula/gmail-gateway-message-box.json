@@ -14,22 +14,22 @@
   "deprecation_reason": null,
   "deprecation_replacement_cask": null,
   "deprecation_replacement_formula": null,
-  "desc": "Google Service Usage, API-key, and OAuth command-line gateways",
+  "desc": "Mail-ingesting Gmail workflow gateway",
   "disable_args": null,
   "disable_date": null,
   "disable_reason": null,
   "disable_replacement_cask": null,
   "disable_replacement_formula": null,
   "disabled": false,
-  "full_name": "tacogips/tap/google-service-gateway",
-  "homepage": "https://github.com/tacogips/google-service-gateway",
+  "full_name": "tacogips/tap/gmail-gateway-message-box",
+  "homepage": "https://github.com/tacogips/gmail-gateway",
   "installed": [],
   "keg_only": false,
   "keg_only_reason": null,
   "license": "MIT",
   "link_overwrite": [],
   "linked_keg": null,
-  "name": "google-service-gateway",
+  "name": "gmail-gateway-message-box",
   "no_autobump_message": null,
   "oldnames": [],
   "optional_dependencies": [],
@@ -44,9 +44,9 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "378b9dc251f87aec5bf5ba4067ba85f807b6b9a3d71658fb70dac55bada307a3"
+    "sha256": "98e48d700a76c997076362cd79350a2c58597e2c7b2e6fc647e856c011ee3ebb"
   },
-  "ruby_source_path": "Formula/google-service-gateway.rb",
+  "ruby_source_path": "Formula/gmail-gateway-message-box.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
@@ -54,10 +54,10 @@
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "eefd29835923148d58693613b1e56dff1a742fcbb9436eaf210e44e3717417d5",
+      "checksum": "68126feedd2840de46cc776ef21c3caf18d0b6c5d4bbb03487d7fb835061da74",
       "revision": null,
-      "tag": "v0.1.1",
-      "url": "https://github.com/tacogips/google-service-gateway/releases/download/v0.1.1/google-service-gateway-0.1.1-darwin-arm64.tar.gz",
+      "tag": null,
+      "url": "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.10/gmail-gateway-message-box-0.1.10-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.1.1"
+    "stable": "0.1.10"
   }
 }

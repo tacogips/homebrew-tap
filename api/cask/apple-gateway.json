@@ -64,12 +64,34 @@
   "ruby_source_path": "Casks/apple-gateway.rb",
   "sha256": "ba37c468fa7a496c2794efd5856d3b90623ed6daabfcd22d8a32a98f1256c247",
   "skip_livecheck": false,
+  "supported_platforms": [
+    "golden_gate",
+    "arm64_golden_gate",
+    "tahoe",
+    "arm64_tahoe",
+    "sequoia",
+    "arm64_sequoia",
+    "sonoma",
+    "arm64_sonoma",
+    "ventura",
+    "arm64_ventura",
+    "monterey",
+    "arm64_monterey",
+    "big_sur",
+    "arm64_big_sur",
+    "catalina"
+  ],
   "tap": "tacogips/tap",
-  "tap_git_head": "6a252987c7a642b2c36f2c929cd3f855b86eae79",
+  "tap_git_head": "cdfade60256dfe5f9ae516f6b32d1e0eecd9391a",
   "token": "apple-gateway",
   "url": "https://github.com/tacogips/apple-gateway/releases/download/v0.1.1/apple-gateway-0.1.1-darwin-arm64.dmg",
-  "url_specs": {},
+  "url_specs": {
+    "verified": "github.com/tacogips/apple-gateway/releases/download/"
+  },
   "variations": {
+    "arm64_linux": {
+      "sha256": null
+    },
     "big_sur": {
       "sha256": "81720a0c2bd3d3f9fad5da4523f2b74f016ddfff9f09acbb40ca2233f27a59ef",
       "url": "https://github.com/tacogips/apple-gateway/releases/download/v0.1.1/apple-gateway-0.1.1-darwin-x64.dmg"
@@ -100,6 +122,10 @@
     },
     "ventura": {
       "sha256": "81720a0c2bd3d3f9fad5da4523f2b74f016ddfff9f09acbb40ca2233f27a59ef",
+      "url": "https://github.com/tacogips/apple-gateway/releases/download/v0.1.1/apple-gateway-0.1.1-darwin-x64.dmg"
+    },
+    "x86_64_linux": {
+      "sha256": null,
       "url": "https://github.com/tacogips/apple-gateway/releases/download/v0.1.1/apple-gateway-0.1.1-darwin-x64.dmg"
     }
   },
