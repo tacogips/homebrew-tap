@@ -44,13 +44,13 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "073e302d6ac937b38f40420866115c7f22993c87c840a24187eddcb82a5e8ca8"
+    "sha256": "a237707b000626c5ed4c746c7bd4ed46e1e38c3ba61bc653a2910922c341c435"
   },
   "ruby_source_path": "Formula/gmail-gateway-draft.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "4786be2247486137221fc82ef8aae1b6662c01d7",
+  "tap_git_head": "c0d7ef79f7d7794544c65c954a9d50375372c305",
   "test_dependencies": [],
   "urls": {
     "stable": {

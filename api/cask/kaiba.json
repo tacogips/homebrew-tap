@@ -55,12 +55,34 @@
   "ruby_source_path": "Casks/kaiba.rb",
   "sha256": "4e684abd293d7ae989b8b422cd99009daeda651d0b08a09ccd5013968b4a5a0d",
   "skip_livecheck": false,
+  "supported_platforms": [
+    "golden_gate",
+    "arm64_golden_gate",
+    "tahoe",
+    "arm64_tahoe",
+    "sequoia",
+    "arm64_sequoia",
+    "sonoma",
+    "arm64_sonoma",
+    "ventura",
+    "arm64_ventura",
+    "monterey",
+    "arm64_monterey",
+    "big_sur",
+    "arm64_big_sur",
+    "catalina"
+  ],
   "tap": "tacogips/tap",
-  "tap_git_head": "4786be2247486137221fc82ef8aae1b6662c01d7",
+  "tap_git_head": "c0d7ef79f7d7794544c65c954a9d50375372c305",
   "token": "kaiba",
   "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.12/kaiba-0.1.12-darwin-arm64.dmg",
-  "url_specs": {},
+  "url_specs": {
+    "verified": "github.com/tacogips/kaiba/releases/download/"
+  },
   "variations": {
+    "arm64_linux": {
+      "sha256": null
+    },
     "big_sur": {
       "sha256": "73862f4ccd6c3d99e4cb7d3aa290de463695d9abe8e587d122d7a2cd989e1017",
       "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.12/kaiba-0.1.12-darwin-x64.dmg"
@@ -91,6 +113,10 @@
     },
     "ventura": {
       "sha256": "73862f4ccd6c3d99e4cb7d3aa290de463695d9abe8e587d122d7a2cd989e1017",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.12/kaiba-0.1.12-darwin-x64.dmg"
+    },
+    "x86_64_linux": {
+      "sha256": null,
       "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.12/kaiba-0.1.12-darwin-x64.dmg"
     }
   },
