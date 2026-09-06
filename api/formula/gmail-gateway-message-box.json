@@ -44,20 +44,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "98e48d700a76c997076362cd79350a2c58597e2c7b2e6fc647e856c011ee3ebb"
+    "sha256": "bd992e3c8ce0fbaa03ecf5c3d7d1c03a90032e41ea1c803279da5c27422c9bda"
   },
   "ruby_source_path": "Formula/gmail-gateway-message-box.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "cdfade60256dfe5f9ae516f6b32d1e0eecd9391a",
+  "tap_git_head": "f2af7e12fc80b92a4f58876461f2ab56534a58b7",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "68126feedd2840de46cc776ef21c3caf18d0b6c5d4bbb03487d7fb835061da74",
+      "checksum": "437478e883a0715ed115b746e706f619413994eba45d9f3a80bc923078692f88",
       "revision": null,
       "tag": null,
-      "url": "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.10/gmail-gateway-message-box-0.1.10-darwin-arm64.tar.gz",
+      "url": "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.11/gmail-gateway-message-box-0.1.11-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.1.10"
+    "stable": "0.1.11"
   }
 }
