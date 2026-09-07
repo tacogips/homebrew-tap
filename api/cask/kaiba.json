@@ -50,7 +50,7 @@
   "pinned_version": null,
   "rename": [],
   "ruby_source_checksum": {
-    "sha256": "317b9689645a32e5da179633b7fbd6bd59b906fb20685b084ff22d264dbfb2e9"
+    "sha256": "428964e5e6dadd3715718a3b68b4459492ef91a880adfcb2c9da15f62704aed0"
   },
   "ruby_source_path": "Casks/kaiba.rb",
   "sha256": "0af5cca7e63a9adda429c61251296f1f653433b14830c7956393da5b5e28b451",
@@ -73,12 +73,10 @@
     "catalina"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "b743e3b77fb3837cff103480219103d424f596f5",
+  "tap_git_head": "391ddb838c2d809c8a6a6adf8e63de13f3c72fb6",
   "token": "kaiba",
   "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.15/kaiba-0.1.15-darwin-arm64.dmg",
-  "url_specs": {
-    "verified": "github.com/tacogips/kaiba/releases/download/"
-  },
+  "url_specs": {},
   "variations": {
     "arm64_linux": {
       "sha256": null

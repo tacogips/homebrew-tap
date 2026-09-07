@@ -75,7 +75,7 @@
     "arm64_sonoma"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "b743e3b77fb3837cff103480219103d424f596f5",
+  "tap_git_head": "391ddb838c2d809c8a6a6adf8e63de13f3c72fb6",
   "token": "ccusage-gauge",
   "url": "https://github.com/tacogips/homebrew-tap/releases/download/ccusage-gauge-v0.1.27/ccusage-gauge_0.1.27_aarch64.app.zip",
   "url_specs": {},
