@@ -68,7 +68,7 @@
     "arm64_sonoma"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "391ddb838c2d809c8a6a6adf8e63de13f3c72fb6",
+  "tap_git_head": "e2822ec927226031ea5cdaa9f0fa54346a8f1c61",
   "token": "your-body",
   "url": "https://api.github.com/repos/tacogips/your-body/releases/assets/451688848?filename=YourBody_0.1.0_aarch64.dmg",
   "url_specs": {
