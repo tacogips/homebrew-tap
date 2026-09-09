@@ -1,32 +1,33 @@
 cask "ccusage-gauge" do
-  arch arm: "aarch64", intel: "x86_64"
+  arch arm: "darwin-arm64", intel: "darwin-x64"
 
-  version "0.1.27"
-  sha256 arm:   "e3edcedb4a7dacc27b5e295343d3eabe5a0a705b15423ade69e4cd4e8c773f44",
-         intel: "1a15c479d99fbc9f0292601efb797cbc9df05420adc45407a0597546c1fe31be"
+  version "0.2.0"
+  sha256 arm:   "6d663709d71fbbdfcb1f998f10bf5c9e12e8056ce73370ba07c2392611f9d699",
+         intel: "25fc6c560631d0c0f68575b6f62f6db8d0a2936840553f729a58ad10b512ec9f"
 
-  url "https://github.com/tacogips/homebrew-tap/releases/download/ccusage-gauge-v0.1.27/ccusage-gauge_#{version}_#{arch}.app.zip"
+  url "https://github.com/tacogips/ccusage-gauge/releases/download/v0.2.0/ccusage-gauge-#{version}-#{arch}.dmg",
+      verified: "github.com/tacogips/ccusage-gauge/releases/download/"
   name "CCUsage Gauge"
-  desc "Menu bar gauge and local dashboard for AI coding-agent usage costs"
+  desc "Menu bar gauge and native dashboard for AI coding-agent usage costs"
   homepage "https://github.com/tacogips/ccusage-gauge"
 
   livecheck do
-    skip "Release assets are hosted in the shared tap repository"
+    url :url
+    strategy :github_latest
   end
 
   depends_on macos: :sonoma
 
   app "CCUsageGauge.app"
   binary "#{appdir}/CCUsageGauge.app/Contents/MacOS/ccusage-gauge", target: "ccusage-gauge"
+  binary "#{appdir}/CCUsageGauge.app/Contents/Helpers/" \
+         "CCUsageGaugeDashboard.app/Contents/MacOS/ccusage-gauge-dashboard",
+         target: "ccusage-gauge-dashboard"
 
   caveats do
     <<~EOS
-      CCUsage Gauge reads usage data from the ccusage command. Install ccusage
-      separately and configure an absolute path when it is not discoverable on PATH:
-
-        ~/.config/ccusage-gauge/ccusage-config.json
-
-      The app is signed and notarized with Apple Developer ID.
+      The app and native dashboard are signed and notarized with Apple Developer ID.
+      Install ccusage separately and configure its path if it is not discoverable.
     EOS
   end
 end

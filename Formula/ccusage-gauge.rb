@@ -1,6 +1,7 @@
 class CcusageGauge < Formula
-  desc "Monitor AI coding-agent usage and costs"
+  desc "Native dashboard and CLI for AI coding-agent usage costs"
   homepage "https://github.com/tacogips/ccusage-gauge"
+  version "0.2.0"
   license "MIT"
 
   livecheck do
@@ -10,20 +11,21 @@ class CcusageGauge < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/ccusage-gauge/releases/download/v0.1.26/ccusage-gauge-0.1.26-darwin-arm64.tar.gz"
-      sha256 "09798273c4368e0b53daa2e69b5ac58666b382f173922c95a0e38c2ca76b0fa1"
+      url "https://github.com/tacogips/ccusage-gauge/releases/download/v0.2.0/ccusage-gauge-0.2.0-darwin-arm64.tar.gz"
+      sha256 "d9aac657ae254fbed28ae0a6856b3af0667fe3a53ea1248859a276023aeb2004"
     else
-      url "https://github.com/tacogips/ccusage-gauge/releases/download/v0.1.26/ccusage-gauge-0.1.26-darwin-x64.tar.gz"
-      sha256 "f4ec9f8616195b1efb0baab4b2a95903af80aa7819f865f899fbf8fcceb66519"
+      url "https://github.com/tacogips/ccusage-gauge/releases/download/v0.2.0/ccusage-gauge-0.2.0-darwin-x64.tar.gz"
+      sha256 "775dbc4aa4ab34fbc81367f50ace00a517df060fc665de0d7c0733d97a6ffc37"
     end
   end
 
   def install
     bin.install "bin/ccusage-gauge"
+    bin.install "bin/ccusage-gauge-dashboard"
     share.install "share/ccusage-gauge"
   end
 
   test do
-    assert_match "0.1.26", shell_output("#{bin}/ccusage-gauge --version")
+    assert_match "0.2.0", shell_output("#{bin}/ccusage-gauge --version")
   end
 end
