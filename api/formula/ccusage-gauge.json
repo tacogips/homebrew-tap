@@ -14,7 +14,7 @@
   "deprecation_reason": null,
   "deprecation_replacement_cask": null,
   "deprecation_replacement_formula": null,
-  "desc": "Monitor AI coding-agent usage and costs",
+  "desc": "Native dashboard and CLI for AI coding-agent usage costs",
   "disable_args": null,
   "disable_date": null,
   "disable_reason": null,
@@ -44,20 +44,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "1ffff78d77f66a7c34f9a337f2911ae004b8684939491b9fea4dcf4338d87250"
+    "sha256": "5b8c9610864658311bc98e886434d06eabd83e6182435ceab26abaeb8ccf1e5b"
   },
   "ruby_source_path": "Formula/ccusage-gauge.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "b2bd849096ac61be986525323d0f90aaf8d82b98",
+  "tap_git_head": "d8ca1ff4fdec53e120e6c94da4b5f8a4ba7f297a",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "09798273c4368e0b53daa2e69b5ac58666b382f173922c95a0e38c2ca76b0fa1",
+      "checksum": "d9aac657ae254fbed28ae0a6856b3af0667fe3a53ea1248859a276023aeb2004",
       "revision": null,
       "tag": null,
-      "url": "https://github.com/tacogips/ccusage-gauge/releases/download/v0.1.26/ccusage-gauge-0.1.26-darwin-arm64.tar.gz",
+      "url": "https://github.com/tacogips/ccusage-gauge/releases/download/v0.2.0/ccusage-gauge-0.2.0-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.1.26"
+    "stable": "0.2.0"
   }
 }
