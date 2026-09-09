@@ -65,10 +65,10 @@
   "pinned_version": null,
   "rename": [],
   "ruby_source_checksum": {
-    "sha256": "be7da4c67b073ac83840fe5369b159d7971b01cd9f5f203364a73dd341815ea6"
+    "sha256": "cda59479128bd8cb9d5b6233a94c2f2df0a45f8ff574e647fa6f80f00f6ba9fa"
   },
   "ruby_source_path": "Casks/chilla.rb",
-  "sha256": "a2b08c07c17f9358b7eba5a1448d6e72cb7acf8b37322a4b17c05d036d97b778",
+  "sha256": "585c4f571f37159a392213d11a5dfe16a4d4f5ce7f83a509323c0b8a76f49eb3",
   "skip_livecheck": false,
   "supported_platforms": [
     "arm64_golden_gate",
@@ -79,10 +79,10 @@
     "arm64_monterey"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "16295569ed1a3be0ba0329de2a9d78f7e273c85f",
+  "tap_git_head": "80e779294d4ebed925b8a1bac140ea9f870c44e0",
   "token": "chilla",
-  "url": "https://github.com/tacogips/chilla/releases/download/v0.1.18/chilla_0.1.18_aarch64.dmg",
+  "url": "https://github.com/tacogips/chilla/releases/download/v0.2.0/chilla_0.2.0_aarch64.dmg",
   "url_specs": {},
   "variations": {},
-  "version": "0.1.18"
+  "version": "0.2.0"
 }
