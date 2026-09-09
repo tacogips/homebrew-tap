@@ -1,6 +1,6 @@
 cask "chilla" do
-  version "0.1.18"
-  sha256 "a2b08c07c17f9358b7eba5a1448d6e72cb7acf8b37322a4b17c05d036d97b778"
+  version "0.2.0"
+  sha256 "585c4f571f37159a392213d11a5dfe16a4d4f5ce7f83a509323c0b8a76f49eb3"
 
   url "https://github.com/tacogips/chilla/releases/download/v#{version}/chilla_#{version}_aarch64.dmg"
   name "chilla"
