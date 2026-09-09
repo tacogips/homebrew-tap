@@ -68,7 +68,7 @@
   "pinned_version": null,
   "rename": [],
   "ruby_source_checksum": {
-    "sha256": "c6a2b1ba5bcf3cafc2c725a36655948d415af02146b7e3d8122623abead2d806"
+    "sha256": "6bc766a2406e6a423c5a1c37efc76dd593ef48a6f9cadb1409a00d89c94151a8"
   },
   "ruby_source_path": "Casks/ccusage-gauge.rb",
   "sha256": "6d663709d71fbbdfcb1f998f10bf5c9e12e8056ce73370ba07c2392611f9d699",
@@ -84,12 +84,10 @@
     "arm64_sonoma"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "d8ca1ff4fdec53e120e6c94da4b5f8a4ba7f297a",
+  "tap_git_head": "8f31c3f0a00465802ed49b8b457cce2c48558a3b",
   "token": "ccusage-gauge",
   "url": "https://github.com/tacogips/ccusage-gauge/releases/download/v0.2.0/ccusage-gauge-0.2.0-darwin-arm64.dmg",
-  "url_specs": {
-    "verified": "github.com/tacogips/ccusage-gauge/releases/download/"
-  },
+  "url_specs": {},
   "variations": {
     "arm64_linux": {
       "sha256": null
