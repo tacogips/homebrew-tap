@@ -10,11 +10,11 @@ class CalendarGateway < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.4/calendar-gateway-0.1.4-darwin-arm64.tar.gz"
-      sha256 "56b1e3ce1df3835dd4bb3c2046a654c522cda4eba4a6eb2d508fa79104372903"
+      url "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.5/calendar-gateway-0.1.5-darwin-arm64.tar.gz"
+      sha256 "7853d21cae71c6d07a7c43feae63d074cf1a57986c59abe4df0cb8e144040280"
     else
-      url "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.4/calendar-gateway-0.1.4-darwin-x64.tar.gz"
-      sha256 "1157f554df7e6a86479916971b2c613584721db2cdbb7ea23634a05db218a375"
+      url "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.5/calendar-gateway-0.1.5-darwin-x64.tar.gz"
+      sha256 "a4897f339200c02e27fb358b3cce92f280f441a88694353c78762eac5ea62a5c"
     end
   end
 
@@ -23,6 +23,6 @@ class CalendarGateway < Formula
   end
 
   test do
-    assert_match "0.1.4", shell_output("#{bin}/calendar-gateway --version")
+    assert_match "0.1.5", shell_output("#{bin}/calendar-gateway --version")
   end
 end
