@@ -50,10 +50,10 @@
   "pinned_version": null,
   "rename": [],
   "ruby_source_checksum": {
-    "sha256": "428964e5e6dadd3715718a3b68b4459492ef91a880adfcb2c9da15f62704aed0"
+    "sha256": "8c7a5918c577e534afd8d38ee0752aaa4c5bda49ec7471acf604ff98dfd992ce"
   },
   "ruby_source_path": "Casks/kaiba.rb",
-  "sha256": "0af5cca7e63a9adda429c61251296f1f653433b14830c7956393da5b5e28b451",
+  "sha256": "2c822159258f9217f0bbec124787cc981ea09e68704a735ceaeb49cdee18f73d",
   "skip_livecheck": false,
   "supported_platforms": [
     "golden_gate",
@@ -73,50 +73,50 @@
     "catalina"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "9d20a010a6ac4b40cc1a735182b2d2b54389cb4b",
+  "tap_git_head": "1f19dd818d9d1cdc0467e445d17442984edd4840",
   "token": "kaiba",
-  "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.15/kaiba-0.1.15-darwin-arm64.dmg",
+  "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.16/kaiba-0.1.16-darwin-arm64.dmg",
   "url_specs": {},
   "variations": {
     "arm64_linux": {
       "sha256": null
     },
     "big_sur": {
-      "sha256": "16450a9ea7ae3a1ea774500a70c11963711f43e893bd47e4a2d5da21b7fcab00",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.15/kaiba-0.1.15-darwin-x64.dmg"
+      "sha256": "af38bcaba348e00fd1b4095a09a788c327e0b8e70543cf67779cd27e37493c1b",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.16/kaiba-0.1.16-darwin-x64.dmg"
     },
     "catalina": {
-      "sha256": "16450a9ea7ae3a1ea774500a70c11963711f43e893bd47e4a2d5da21b7fcab00",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.15/kaiba-0.1.15-darwin-x64.dmg"
+      "sha256": "af38bcaba348e00fd1b4095a09a788c327e0b8e70543cf67779cd27e37493c1b",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.16/kaiba-0.1.16-darwin-x64.dmg"
     },
     "golden_gate": {
-      "sha256": "16450a9ea7ae3a1ea774500a70c11963711f43e893bd47e4a2d5da21b7fcab00",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.15/kaiba-0.1.15-darwin-x64.dmg"
+      "sha256": "af38bcaba348e00fd1b4095a09a788c327e0b8e70543cf67779cd27e37493c1b",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.16/kaiba-0.1.16-darwin-x64.dmg"
     },
     "monterey": {
-      "sha256": "16450a9ea7ae3a1ea774500a70c11963711f43e893bd47e4a2d5da21b7fcab00",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.15/kaiba-0.1.15-darwin-x64.dmg"
+      "sha256": "af38bcaba348e00fd1b4095a09a788c327e0b8e70543cf67779cd27e37493c1b",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.16/kaiba-0.1.16-darwin-x64.dmg"
     },
     "sequoia": {
-      "sha256": "16450a9ea7ae3a1ea774500a70c11963711f43e893bd47e4a2d5da21b7fcab00",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.15/kaiba-0.1.15-darwin-x64.dmg"
+      "sha256": "af38bcaba348e00fd1b4095a09a788c327e0b8e70543cf67779cd27e37493c1b",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.16/kaiba-0.1.16-darwin-x64.dmg"
     },
     "sonoma": {
-      "sha256": "16450a9ea7ae3a1ea774500a70c11963711f43e893bd47e4a2d5da21b7fcab00",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.15/kaiba-0.1.15-darwin-x64.dmg"
+      "sha256": "af38bcaba348e00fd1b4095a09a788c327e0b8e70543cf67779cd27e37493c1b",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.16/kaiba-0.1.16-darwin-x64.dmg"
     },
     "tahoe": {
-      "sha256": "16450a9ea7ae3a1ea774500a70c11963711f43e893bd47e4a2d5da21b7fcab00",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.15/kaiba-0.1.15-darwin-x64.dmg"
+      "sha256": "af38bcaba348e00fd1b4095a09a788c327e0b8e70543cf67779cd27e37493c1b",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.16/kaiba-0.1.16-darwin-x64.dmg"
     },
     "ventura": {
-      "sha256": "16450a9ea7ae3a1ea774500a70c11963711f43e893bd47e4a2d5da21b7fcab00",
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.15/kaiba-0.1.15-darwin-x64.dmg"
+      "sha256": "af38bcaba348e00fd1b4095a09a788c327e0b8e70543cf67779cd27e37493c1b",
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.16/kaiba-0.1.16-darwin-x64.dmg"
     },
     "x86_64_linux": {
       "sha256": null,
-      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.15/kaiba-0.1.15-darwin-x64.dmg"
+      "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.16/kaiba-0.1.16-darwin-x64.dmg"
     }
   },
-  "version": "0.1.15"
+  "version": "0.1.16"
 }
