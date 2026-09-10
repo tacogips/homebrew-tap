@@ -1,7 +1,7 @@
 class XGatewayWriter < Formula
   desc "Write-capable X API gateway CLI"
   homepage "https://github.com/tacogips/x-gateway"
-  version "0.1.5"
+  version "0.1.6"
   license "MIT"
 
   livecheck do
@@ -11,11 +11,11 @@ class XGatewayWriter < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/x-gateway/releases/download/v0.1.5/x-gateway-0.1.5-darwin-arm64.tar.gz"
-      sha256 "265d6fcc249b34f72fae27da5b270e7ac5dd2691902f10736779710b88a68646"
+      url "https://github.com/tacogips/x-gateway/releases/download/v0.1.6/x-gateway-0.1.6-darwin-arm64.tar.gz"
+      sha256 "4d134317e311310c44450b0616fc875cfd8157670df4224d99e0555acad7ea6f"
     else
-      url "https://github.com/tacogips/x-gateway/releases/download/v0.1.5/x-gateway-0.1.5-darwin-x64.tar.gz"
-      sha256 "b2d2272f01cf8dcf7e7f9dc73b73dff7d14dded05d9da1749a4c75469f2388d2"
+      url "https://github.com/tacogips/x-gateway/releases/download/v0.1.6/x-gateway-0.1.6-darwin-x64.tar.gz"
+      sha256 "95eb66b29115739e5ec7d488e892d6035470128aa887a8a05ed20b1f9bf0c0cb"
     end
   end
 
@@ -24,6 +24,6 @@ class XGatewayWriter < Formula
   end
 
   test do
-    assert_match "0.1.5", shell_output("#{bin}/x-gateway-writer version")
+    assert_match "0.1.6", shell_output("#{bin}/x-gateway-writer version")
   end
 end

@@ -1,7 +1,7 @@
 class GoogleAnalyticsGatewayReader < Formula
   desc "Read-only GraphQL gateway for Google Analytics and Tag Manager"
   homepage "https://github.com/tacogips/google-analytics-gateway"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   livecheck do
@@ -11,11 +11,11 @@ class GoogleAnalyticsGatewayReader < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.1/google-analytics-gateway-reader-0.1.1-darwin-arm64.tar.gz"
-      sha256 "23df8ddb1cc59e115be7c440688a839eacfe1a327a7bcca330b8263a8d5c0e85"
+      url "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.2/google-analytics-gateway-reader-0.1.2-darwin-arm64.tar.gz"
+      sha256 "7a00daf75fb1a6f7198469c3d08bd184433852a62bc9367dbd60ea9eb02feb5f"
     else
-      url "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.1/google-analytics-gateway-reader-0.1.1-darwin-x64.tar.gz"
-      sha256 "9379f987a78b6eb049bb7b2ddc024d99c448c7e8bc3b58f74af826b6b8af835b"
+      url "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.2/google-analytics-gateway-reader-0.1.2-darwin-x64.tar.gz"
+      sha256 "1a53d07d621684d2b6564d1a893c0dac381108d35b9af26df5756a51b7a1b684"
     end
   end
 
