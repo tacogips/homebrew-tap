@@ -10,11 +10,11 @@ class GmailGatewayMessageBox < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.12/gmail-gateway-message-box-0.1.12-darwin-arm64.tar.gz"
-      sha256 "d4f087d27ffae9740110b59592deef10d67efb7c5ae1ed40c20f411cd6347936"
+      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.13/gmail-gateway-message-box-0.1.13-darwin-arm64.tar.gz"
+      sha256 "f7e54d32366235b82e03f9df0ba06d5206172e8b46a56cda2dbfd3236ef45e43"
     else
-      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.12/gmail-gateway-message-box-0.1.12-darwin-x64.tar.gz"
-      sha256 "fd30ef0cc2ccf350206a96c6f51e1d18c0724cd09aaab267c67b5bc9744103aa"
+      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.13/gmail-gateway-message-box-0.1.13-darwin-x64.tar.gz"
+      sha256 "b9d371e7b7f4df88a75af712b59480b902cc5df672c477796cf707ec5d6e8a83"
     end
   end
 
