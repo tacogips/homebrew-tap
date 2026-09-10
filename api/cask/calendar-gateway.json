@@ -44,10 +44,10 @@
   "pinned_version": null,
   "rename": [],
   "ruby_source_checksum": {
-    "sha256": "4b4fc6245cc33b74c9966b014595dfe383a546c9fe5fab9e6c4c28b63547fe16"
+    "sha256": "25574f735a1dcaeab5c4577b12710113c44c1da412937a742a1f81569761cf13"
   },
   "ruby_source_path": "Casks/calendar-gateway.rb",
-  "sha256": "6045deb90c0d1515862568a1af18a9ff3b150476ea9528d4449a35070ac2092a",
+  "sha256": "9b7675a3afc4c399a248ad08be22d8480ef82d3f84c5c6cdb58d4366b80d2a8d",
   "skip_livecheck": false,
   "supported_platforms": [
     "golden_gate",
@@ -67,50 +67,50 @@
     "catalina"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "1874e95fee7f973c347f11c90359c5192d0badd4",
+  "tap_git_head": "9d20a010a6ac4b40cc1a735182b2d2b54389cb4b",
   "token": "calendar-gateway",
-  "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.4/calendar-gateway-0.1.4-darwin-arm64.dmg",
+  "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.5/calendar-gateway-0.1.5-darwin-arm64.dmg",
   "url_specs": {},
   "variations": {
     "arm64_linux": {
       "sha256": null
     },
     "big_sur": {
-      "sha256": "82f8b52a5c85aa1e87362513444090d82aa9257302dae659f2b6bc8345b6c14d",
-      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.4/calendar-gateway-0.1.4-darwin-x64.dmg"
+      "sha256": "8da13918c710ae559741b543327e6ece4774230b0b997e4b89987414f6635d3c",
+      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.5/calendar-gateway-0.1.5-darwin-x64.dmg"
     },
     "catalina": {
-      "sha256": "82f8b52a5c85aa1e87362513444090d82aa9257302dae659f2b6bc8345b6c14d",
-      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.4/calendar-gateway-0.1.4-darwin-x64.dmg"
+      "sha256": "8da13918c710ae559741b543327e6ece4774230b0b997e4b89987414f6635d3c",
+      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.5/calendar-gateway-0.1.5-darwin-x64.dmg"
     },
     "golden_gate": {
-      "sha256": "82f8b52a5c85aa1e87362513444090d82aa9257302dae659f2b6bc8345b6c14d",
-      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.4/calendar-gateway-0.1.4-darwin-x64.dmg"
+      "sha256": "8da13918c710ae559741b543327e6ece4774230b0b997e4b89987414f6635d3c",
+      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.5/calendar-gateway-0.1.5-darwin-x64.dmg"
     },
     "monterey": {
-      "sha256": "82f8b52a5c85aa1e87362513444090d82aa9257302dae659f2b6bc8345b6c14d",
-      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.4/calendar-gateway-0.1.4-darwin-x64.dmg"
+      "sha256": "8da13918c710ae559741b543327e6ece4774230b0b997e4b89987414f6635d3c",
+      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.5/calendar-gateway-0.1.5-darwin-x64.dmg"
     },
     "sequoia": {
-      "sha256": "82f8b52a5c85aa1e87362513444090d82aa9257302dae659f2b6bc8345b6c14d",
-      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.4/calendar-gateway-0.1.4-darwin-x64.dmg"
+      "sha256": "8da13918c710ae559741b543327e6ece4774230b0b997e4b89987414f6635d3c",
+      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.5/calendar-gateway-0.1.5-darwin-x64.dmg"
     },
     "sonoma": {
-      "sha256": "82f8b52a5c85aa1e87362513444090d82aa9257302dae659f2b6bc8345b6c14d",
-      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.4/calendar-gateway-0.1.4-darwin-x64.dmg"
+      "sha256": "8da13918c710ae559741b543327e6ece4774230b0b997e4b89987414f6635d3c",
+      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.5/calendar-gateway-0.1.5-darwin-x64.dmg"
     },
     "tahoe": {
-      "sha256": "82f8b52a5c85aa1e87362513444090d82aa9257302dae659f2b6bc8345b6c14d",
-      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.4/calendar-gateway-0.1.4-darwin-x64.dmg"
+      "sha256": "8da13918c710ae559741b543327e6ece4774230b0b997e4b89987414f6635d3c",
+      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.5/calendar-gateway-0.1.5-darwin-x64.dmg"
     },
     "ventura": {
-      "sha256": "82f8b52a5c85aa1e87362513444090d82aa9257302dae659f2b6bc8345b6c14d",
-      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.4/calendar-gateway-0.1.4-darwin-x64.dmg"
+      "sha256": "8da13918c710ae559741b543327e6ece4774230b0b997e4b89987414f6635d3c",
+      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.5/calendar-gateway-0.1.5-darwin-x64.dmg"
     },
     "x86_64_linux": {
       "sha256": null,
-      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.4/calendar-gateway-0.1.4-darwin-x64.dmg"
+      "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.5/calendar-gateway-0.1.5-darwin-x64.dmg"
     }
   },
-  "version": "0.1.4"
+  "version": "0.1.5"
 }
