@@ -44,20 +44,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "ff468b5f8cc9ccfcf9be71ee36c974928b41c391f9a135549698032e41eab8c6"
+    "sha256": "89ef23b64d049b777f2e8b30eafea07051ca3d6f8f78b29baf3a3a4d11262ed1"
   },
   "ruby_source_path": "Formula/google-analytics-gateway-writer.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "a90ec75113be497b0ce13728215effa9be2c6f43",
+  "tap_git_head": "1874e95fee7f973c347f11c90359c5192d0badd4",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "7211b117eeb03546693ff8c6c04ee1dbe174665bfb6f5b0aaac7e846d68e9d03",
+      "checksum": "07810bebf0db4b6a6613693aa9058cd8544865ea5512ec67ddb9481bb4192047",
       "revision": null,
       "tag": null,
-      "url": "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.1/google-analytics-gateway-writer-0.1.1-darwin-arm64.tar.gz",
+      "url": "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.2/google-analytics-gateway-writer-0.1.2-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.1.1"
+    "stable": "0.1.2"
   }
 }

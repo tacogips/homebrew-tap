@@ -44,20 +44,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "567f95a6b156c453cc8e6f7a52f64626faf63c83d8377d489cc4ef59483db618"
+    "sha256": "132d315a0cd49fb38668d7896ec10c4eefc86ce95329612df5800216279f5bf1"
   },
   "ruby_source_path": "Formula/google-documents-gateway.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "a90ec75113be497b0ce13728215effa9be2c6f43",
+  "tap_git_head": "1874e95fee7f973c347f11c90359c5192d0badd4",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "3af15f2ebccaa8753dcd53e8911f023536d92247f02b194be27a2777f4eb8ecc",
+      "checksum": "b45a1c6f41df219cfed5eb1c26aecdb9c1aa52e967215ee627d320dbe9df3995",
       "revision": null,
-      "tag": "v0.2.2",
-      "url": "https://github.com/tacogips/google-documents-gateway/releases/download/v0.2.2/google-documents-gateway-0.2.2-darwin-arm64.tar.gz",
+      "tag": "v0.3.1",
+      "url": "https://github.com/tacogips/google-documents-gateway/releases/download/v0.3.1/google-documents-gateway-0.3.1-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.2.2"
+    "stable": "0.3.1"
   }
 }
