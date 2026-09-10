@@ -1,7 +1,6 @@
 class GoogleAnalyticsGatewayReader < Formula
   desc "Read-only GraphQL gateway for Google Analytics and Tag Manager"
   homepage "https://github.com/tacogips/google-analytics-gateway"
-  version "0.1.2"
   license "MIT"
 
   livecheck do

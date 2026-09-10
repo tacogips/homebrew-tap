@@ -1,7 +1,6 @@
 class CalendarGateway < Formula
   desc "Swift library and local CLI gateway for calendar clients"
   homepage "https://github.com/tacogips/calendar-gateway"
-  version "0.1.4"
   license "MIT"
 
   livecheck do

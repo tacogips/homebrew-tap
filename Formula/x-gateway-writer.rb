@@ -1,7 +1,6 @@
 class XGatewayWriter < Formula
   desc "Write-capable X API gateway CLI"
   homepage "https://github.com/tacogips/x-gateway"
-  version "0.1.6"
   license "MIT"
 
   livecheck do

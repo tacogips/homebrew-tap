@@ -1,7 +1,6 @@
 class WrikeGateway < Formula
   desc "Capability-scoped Wrike API v4 CLI with a project-owned GraphQL contract"
   homepage "https://github.com/tacogips/wrike-gateway"
-  version "0.2.5"
   license "MIT"
 
   livecheck do

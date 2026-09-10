@@ -1,7 +1,6 @@
 class GoogleAnalyticsGatewayAdmin < Formula
   desc "GraphQL gateway for Google Analytics and Tag Manager with admin access"
   homepage "https://github.com/tacogips/google-analytics-gateway"
-  version "0.1.2"
   license "MIT"
 
   livecheck do
