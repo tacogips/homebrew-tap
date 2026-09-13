@@ -44,13 +44,13 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "7d0ee608138b1f3793e433c42445ecbd0080bbfb8c3d5ba52b059ce960a61ba5"
+    "sha256": "999b36112a9d687345c8a783cab7f574c6a4b6778b0361f488320b6edb5094af"
   },
   "ruby_source_path": "Formula/google-document-ocr-gateway.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "4353d1b36498aa8c07e49bc5031bf6fd1b689df1",
+  "tap_git_head": "45781702942ba37d3f2a201e58de9bf2fa179213",
   "test_dependencies": [],
   "urls": {
     "stable": {
