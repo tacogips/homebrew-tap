@@ -56,10 +56,10 @@
   "pinned_version": null,
   "rename": [],
   "ruby_source_checksum": {
-    "sha256": "d88192d796c5054a7b5391d35d249fdebcd5e88aa874b3b51d4248dda2df60c3"
+    "sha256": "fcce55a415da461bf1376ffebe2e91cf99a93321ef083bddc7df2cbc499839e1"
   },
   "ruby_source_path": "Casks/riela.rb",
-  "sha256": "2bef957f13c3087fddee2a57bb194f20badbc2042ef41a258b57cdc244639291",
+  "sha256": "e43c30a4bd12271e927c894ccaf48cb9e5814ab6690642d5fa03add32db3ba5e",
   "skip_livecheck": false,
   "supported_platforms": [
     "golden_gate",
@@ -72,34 +72,26 @@
     "arm64_sonoma"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "87d695bd4a36de131c645c23f38ee7aefef13c57",
+  "tap_git_head": "f767607e9f7226452537800d20dc95d5db80f68e",
   "token": "riela",
-  "url": "https://github.com/tacogips/riela/releases/download/v0.1.41/riela-0.1.41-darwin-arm64.dmg",
+  "url": "https://github.com/tacogips/riela/releases/download/v0.1.42/riela-0.1.42-darwin-arm64.dmg",
   "url_specs": {},
   "variations": {
-    "arm64_linux": {
-      "sha256": null
-    },
     "golden_gate": {
-      "sha256": "eb7e050d9accba4f5a10080efedda3466b0c333250aa04e489baa219828419a7",
-      "url": "https://github.com/tacogips/riela/releases/download/v0.1.41/riela-0.1.41-darwin-x64.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.1.42/riela-0.1.42-.dmg"
     },
     "sequoia": {
-      "sha256": "eb7e050d9accba4f5a10080efedda3466b0c333250aa04e489baa219828419a7",
-      "url": "https://github.com/tacogips/riela/releases/download/v0.1.41/riela-0.1.41-darwin-x64.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.1.42/riela-0.1.42-.dmg"
     },
     "sonoma": {
-      "sha256": "eb7e050d9accba4f5a10080efedda3466b0c333250aa04e489baa219828419a7",
-      "url": "https://github.com/tacogips/riela/releases/download/v0.1.41/riela-0.1.41-darwin-x64.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.1.42/riela-0.1.42-.dmg"
     },
     "tahoe": {
-      "sha256": "eb7e050d9accba4f5a10080efedda3466b0c333250aa04e489baa219828419a7",
-      "url": "https://github.com/tacogips/riela/releases/download/v0.1.41/riela-0.1.41-darwin-x64.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.1.42/riela-0.1.42-.dmg"
     },
     "x86_64_linux": {
-      "sha256": null,
-      "url": "https://github.com/tacogips/riela/releases/download/v0.1.41/riela-0.1.41-darwin-x64.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.1.42/riela-0.1.42-.dmg"
     }
   },
-  "version": "0.1.41"
+  "version": "0.1.42"
 }
