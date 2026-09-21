@@ -67,7 +67,7 @@
     "catalina"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "d063c5b4726318b1299b5cfefcb27a4d023a1532",
+  "tap_git_head": "19b73fef928a79ecaefb04451c66b5fb9f646e9e",
   "token": "calendar-gateway",
   "url": "https://github.com/tacogips/calendar-gateway/releases/download/v0.1.5/calendar-gateway-0.1.5-darwin-arm64.dmg",
   "url_specs": {},
