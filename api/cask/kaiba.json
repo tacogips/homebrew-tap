@@ -73,7 +73,7 @@
     "catalina"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "894a4cf251f5543ba47347abe6ecf3b97ff826e4",
+  "tap_git_head": "d063c5b4726318b1299b5cfefcb27a4d023a1532",
   "token": "kaiba",
   "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.16/kaiba-0.1.16-darwin-arm64.dmg",
   "url_specs": {},
