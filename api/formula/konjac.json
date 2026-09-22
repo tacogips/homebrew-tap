@@ -50,7 +50,7 @@
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "b93a3954d51443a74ddad317b3c295e5f10aef21",
+  "tap_git_head": "ff76db9c4a86e5ac073b3eb6c61e0f8078ce3dfd",
   "test_dependencies": [],
   "urls": {
     "stable": {
