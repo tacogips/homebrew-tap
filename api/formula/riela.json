@@ -44,20 +44,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "1b1f773923783e27930cf115258776d7e33dae1e16e3683f0573fdd9b9329b2b"
+    "sha256": "9747a9c9743de509337ab866117201108e294180bb5f8321654020f537e9aa3f"
   },
   "ruby_source_path": "Formula/riela.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "b384c932c290e9923172b0b2783314dd0778f511",
+  "tap_git_head": "5c7898f79bfd97ccafad96e9f57a235eb234511d",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "c5388105e98e0de9ef3ea762e9ac4519a8aefeb3f785d4926bb96e8a335266bc",
+      "checksum": "23d83c74c678aeca9b47ff8366b3d6bcd9cc787a880572b5146caeb125cb868a",
       "revision": null,
       "tag": null,
-      "url": "https://github.com/tacogips/riela/releases/download/v0.1.48/riela-0.1.48-darwin-arm64.tar.gz",
+      "url": "https://github.com/tacogips/riela/releases/download/v0.1.49/riela-0.1.49-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.1.48"
+    "stable": "0.1.49"
   }
 }
