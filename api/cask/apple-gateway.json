@@ -82,7 +82,7 @@
     "catalina"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "8569c9785f473917645a5a2a6f4e8f8c524bda66",
+  "tap_git_head": "b94dce21edfe1a9c9136e8fa36f4af6328d6b661",
   "token": "apple-gateway",
   "url": "https://github.com/tacogips/apple-gateway/releases/download/v0.1.1/apple-gateway-0.1.1-darwin-arm64.dmg",
   "url_specs": {
