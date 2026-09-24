@@ -72,7 +72,7 @@
     "arm64_sonoma"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "e5f5986e6130c9ed5a523ebef88624d7fbf1e9e5",
+  "tap_git_head": "9b6aef234c4090bd7f8890d7f575289274ddaed7",
   "token": "riela",
   "url": "https://github.com/tacogips/riela/releases/download/v0.1.50/riela-0.1.50-darwin-arm64.dmg",
   "url_specs": {},
