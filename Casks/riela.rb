@@ -1,8 +1,8 @@
 cask "riela" do
   arch arm: "darwin-arm64"
 
-  version "0.1.53"
-  sha256 "e0d3e0a1d2ae46b8bf9affc43c10dd2c0afab8c1c2a609ab73645518e39dba4d"
+  version "0.1.54"
+  sha256 "2acadd535bfc78b00ede7becead6bcffe7c006c182af6e7af48b0da9a796f2ee"
 
   url "https://github.com/tacogips/riela/releases/download/v0.1.53/riela-#{version}-#{arch}.dmg"
   name "riela"
