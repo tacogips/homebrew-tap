@@ -4,7 +4,7 @@ cask "riela" do
   version "0.1.54"
   sha256 "2acadd535bfc78b00ede7becead6bcffe7c006c182af6e7af48b0da9a796f2ee"
 
-  url "https://github.com/tacogips/riela/releases/download/v0.1.53/riela-#{version}-#{arch}.dmg"
+  url "https://github.com/tacogips/riela/releases/download/v0.1.54/riela-#{version}-#{arch}.dmg"
   name "riela"
   desc "Swift-native workflow runtime with a menu bar app and CLI"
   homepage "https://github.com/tacogips/riela"
