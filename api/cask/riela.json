@@ -56,10 +56,10 @@
   "pinned_version": null,
   "rename": [],
   "ruby_source_checksum": {
-    "sha256": "9ebc8fd410cffcab56384fc205c232b299127c4e921b6513d34fa70e1f5374ef"
+    "sha256": "ab3cf69d320e6b141059390b6c542b396266046e06537eeb307d21c33cd78270"
   },
   "ruby_source_path": "Casks/riela.rb",
-  "sha256": "3436797b73264222e05aa69e6719fc7c1b5e7ca1192ac919b31b38a36f1dc280",
+  "sha256": "fc8941d8a8daf385976ddc3caf3af57d472812b6d6b407f8127a634c8c5cf1ad",
   "skip_livecheck": false,
   "supported_platforms": [
     "golden_gate",
@@ -72,26 +72,26 @@
     "arm64_sonoma"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "a068d3f370aa43baca4ceecb5fd8a8a3b9ff5936",
+  "tap_git_head": "1178b3c62d40dbf48cd2fc18eaec23a5924b065e",
   "token": "riela",
-  "url": "https://github.com/tacogips/riela/releases/download/v0.1.55/riela-0.1.55-darwin-arm64.dmg",
+  "url": "https://github.com/tacogips/riela/releases/download/v0.2.0/riela-0.2.0-darwin-arm64.dmg",
   "url_specs": {},
   "variations": {
     "golden_gate": {
-      "url": "https://github.com/tacogips/riela/releases/download/v0.1.55/riela-0.1.55-.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.2.0/riela-0.2.0-.dmg"
     },
     "sequoia": {
-      "url": "https://github.com/tacogips/riela/releases/download/v0.1.55/riela-0.1.55-.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.2.0/riela-0.2.0-.dmg"
     },
     "sonoma": {
-      "url": "https://github.com/tacogips/riela/releases/download/v0.1.55/riela-0.1.55-.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.2.0/riela-0.2.0-.dmg"
     },
     "tahoe": {
-      "url": "https://github.com/tacogips/riela/releases/download/v0.1.55/riela-0.1.55-.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.2.0/riela-0.2.0-.dmg"
     },
     "x86_64_linux": {
-      "url": "https://github.com/tacogips/riela/releases/download/v0.1.55/riela-0.1.55-.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.2.0/riela-0.2.0-.dmg"
     }
   },
-  "version": "0.1.55"
+  "version": "0.2.0"
 }
