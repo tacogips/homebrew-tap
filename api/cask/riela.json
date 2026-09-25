@@ -56,7 +56,7 @@
   "pinned_version": null,
   "rename": [],
   "ruby_source_checksum": {
-    "sha256": "a9d766d02b8d51ef5eec086f295e04753f6577744a6946c7756da073856325f1"
+    "sha256": "78531b2b612f183a6b034415d5107191af7dbe6fd2d48db006dd8d9d60ffc7ae"
   },
   "ruby_source_path": "Casks/riela.rb",
   "sha256": "2acadd535bfc78b00ede7becead6bcffe7c006c182af6e7af48b0da9a796f2ee",
@@ -72,25 +72,25 @@
     "arm64_sonoma"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "0521cbb4c326457adfbf96c35de054aaff84a4f6",
+  "tap_git_head": "8f7b012bbcc542457bf818b4c75403fd13ea397b",
   "token": "riela",
-  "url": "https://github.com/tacogips/riela/releases/download/v0.1.53/riela-0.1.54-darwin-arm64.dmg",
+  "url": "https://github.com/tacogips/riela/releases/download/v0.1.54/riela-0.1.54-darwin-arm64.dmg",
   "url_specs": {},
   "variations": {
     "golden_gate": {
-      "url": "https://github.com/tacogips/riela/releases/download/v0.1.53/riela-0.1.54-.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.1.54/riela-0.1.54-.dmg"
     },
     "sequoia": {
-      "url": "https://github.com/tacogips/riela/releases/download/v0.1.53/riela-0.1.54-.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.1.54/riela-0.1.54-.dmg"
     },
     "sonoma": {
-      "url": "https://github.com/tacogips/riela/releases/download/v0.1.53/riela-0.1.54-.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.1.54/riela-0.1.54-.dmg"
     },
     "tahoe": {
-      "url": "https://github.com/tacogips/riela/releases/download/v0.1.53/riela-0.1.54-.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.1.54/riela-0.1.54-.dmg"
     },
     "x86_64_linux": {
-      "url": "https://github.com/tacogips/riela/releases/download/v0.1.53/riela-0.1.54-.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.1.54/riela-0.1.54-.dmg"
     }
   },
   "version": "0.1.54"
