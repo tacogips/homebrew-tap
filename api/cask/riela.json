@@ -56,10 +56,10 @@
   "pinned_version": null,
   "rename": [],
   "ruby_source_checksum": {
-    "sha256": "f1cb6a868c02b6aee696e89a0bb99e7bfeebe274c8af59917edda5836c5bdcd1"
+    "sha256": "08f038932a7b1de2ff42f3a5c55d734ad911d4ab58a3b27a07d9349ed50a9565"
   },
   "ruby_source_path": "Casks/riela.rb",
-  "sha256": "ad0a350f473461cacb095d0ca93f43844887d7d3c96ae5f48fe8e0f9821f0853",
+  "sha256": "ae6c3e25e3952b2a50a27ffaee71159bc48814f1296218e054321eedefbfb369",
   "skip_livecheck": false,
   "supported_platforms": [
     "golden_gate",
@@ -72,26 +72,26 @@
     "arm64_sonoma"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "5c29a9c293abfe3cbd7bc0476a7c4849c1a9282b",
+  "tap_git_head": "1bcd1aed2aff1bcacb4acbd71fb4ee607028c782",
   "token": "riela",
-  "url": "https://github.com/tacogips/riela/releases/download/v0.2.1/riela-0.2.1-darwin-arm64.dmg",
+  "url": "https://github.com/tacogips/riela/releases/download/v0.2.2/riela-0.2.2-darwin-arm64.dmg",
   "url_specs": {},
   "variations": {
     "golden_gate": {
-      "url": "https://github.com/tacogips/riela/releases/download/v0.2.1/riela-0.2.1-.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.2.2/riela-0.2.2-.dmg"
     },
     "sequoia": {
-      "url": "https://github.com/tacogips/riela/releases/download/v0.2.1/riela-0.2.1-.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.2.2/riela-0.2.2-.dmg"
     },
     "sonoma": {
-      "url": "https://github.com/tacogips/riela/releases/download/v0.2.1/riela-0.2.1-.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.2.2/riela-0.2.2-.dmg"
     },
     "tahoe": {
-      "url": "https://github.com/tacogips/riela/releases/download/v0.2.1/riela-0.2.1-.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.2.2/riela-0.2.2-.dmg"
     },
     "x86_64_linux": {
-      "url": "https://github.com/tacogips/riela/releases/download/v0.2.1/riela-0.2.1-.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.2.2/riela-0.2.2-.dmg"
     }
   },
-  "version": "0.2.1"
+  "version": "0.2.2"
 }
