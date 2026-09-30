@@ -10,11 +10,11 @@ class GoogleDocumentsGateway < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/google-documents-gateway/releases/download/v0.3.4/google-documents-gateway-0.3.4-darwin-arm64.tar.gz", tag: "v0.3.4"
-      sha256 "a81ebecd5e355b9266b23fbf299987b5dc0856dbefdb028d55c45b5abd4b114a"
+      url "https://github.com/tacogips/google-documents-gateway/releases/download/v0.3.5/google-documents-gateway-0.3.5-darwin-arm64.tar.gz", tag: "v0.3.5"
+      sha256 "3f6d19c274100e67a567000cf737396998f6daef0221bbfc025c8d3592b4643a"
     else
-      url "https://github.com/tacogips/google-documents-gateway/releases/download/v0.3.4/google-documents-gateway-0.3.4-darwin-x64.tar.gz", tag: "v0.3.4"
-      sha256 "0ac6171486f9df8c64f342bf029abfc9ee6520cc33cc8b2f332daa01202ec7ae"
+      url "https://github.com/tacogips/google-documents-gateway/releases/download/v0.3.5/google-documents-gateway-0.3.5-darwin-x64.tar.gz", tag: "v0.3.5"
+      sha256 "bda319476e41a2cc69200aea96c1422acd4b4072aff275ba1da44dc4d0e825a1"
     end
   end
 
@@ -23,6 +23,6 @@ class GoogleDocumentsGateway < Formula
   end
 
   test do
-    assert_match "0.3.4", shell_output("#{bin}/google-documents-gateway --version")
+    assert_match "0.3.5", shell_output("#{bin}/google-documents-gateway --version")
   end
 end

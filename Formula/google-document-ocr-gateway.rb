@@ -10,11 +10,11 @@ class GoogleDocumentOcrGateway < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/google-document-ocr-gateway/releases/download/v0.1.2/google-document-ocr-gateway-0.1.2-darwin-arm64.tar.gz"
-      sha256 "e050e66c1539bd0f371834e02f36a221f4a07a5e97e8ee94aaf532d3286f4dd0"
+      url "https://github.com/tacogips/google-document-ocr-gateway/releases/download/v0.1.3/google-document-ocr-gateway-0.1.3-darwin-arm64.tar.gz"
+      sha256 "f80f9cfa8cbd24b0c9382bd8cfd24659105422b396e308c934de17a28c59df38"
     else
-      url "https://github.com/tacogips/google-document-ocr-gateway/releases/download/v0.1.2/google-document-ocr-gateway-0.1.2-darwin-x64.tar.gz"
-      sha256 "7794a18a76d8efc9793f3929503c4b75ced24253582d1cd8de32d0793694ca49"
+      url "https://github.com/tacogips/google-document-ocr-gateway/releases/download/v0.1.3/google-document-ocr-gateway-0.1.3-darwin-x64.tar.gz"
+      sha256 "debef30be5d0b66b7a1d945a0a50b4bff8d298ebdef4ab63454d2c4f2d063ebc"
     end
   end
 
@@ -24,6 +24,6 @@ class GoogleDocumentOcrGateway < Formula
   end
 
   test do
-    assert_match "0.1.2", shell_output("#{bin}/google-document-ocr-gateway --version")
+    assert_match "0.1.3", shell_output("#{bin}/google-document-ocr-gateway --version")
   end
 end

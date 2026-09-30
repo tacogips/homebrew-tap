@@ -10,11 +10,11 @@ class GoogleAnalyticsGatewayAdmin < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.3/google-analytics-gateway-admin-0.1.3-darwin-arm64.tar.gz"
-      sha256 "379585ad017ec58ce12d9e77b8a6cabc1e4e3ba4d1899f6b5a6c59043e3dda11"
+      url "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.4/google-analytics-gateway-admin-0.1.4-darwin-arm64.tar.gz"
+      sha256 "68cfc7c76bae8971f99a7e6db7da92de5098fd80a69854af89b16ce6b7ff2b4c"
     else
-      url "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.3/google-analytics-gateway-admin-0.1.3-darwin-x64.tar.gz"
-      sha256 "8cf3467dca187f2f93c781d477f3ac04c90f303ba589463afe05a9ed03f79338"
+      url "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.4/google-analytics-gateway-admin-0.1.4-darwin-x64.tar.gz"
+      sha256 "fa576bd6f2cf2e007486f4867fe8498d96e1229fc44f9d272c444ef4358275c5"
     end
   end
 

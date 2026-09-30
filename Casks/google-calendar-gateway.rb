@@ -1,11 +1,11 @@
 cask "google-calendar-gateway" do
-  version "0.1.6"
+  version "0.1.8"
   arch arm: "darwin-arm64", intel: "darwin-x64"
 
-  sha256 arm: "db107f42f7e49226ced57383c87e166dcd0b0bc4b97732e80b73ac29feefb44c",
-         intel: "ecfd5564b4b785cdf2174c462365eca839be6425a68693dba75bee01c3610453"
+  sha256 arm: "333feefaed17d8c6b25d8d1924d517fb48d1962be73cc8c795ea0f5cd1ca31e7",
+         intel: "64cb11ba459ed4bb41f94688986e4504aa64ab71b9bcc6408a059f1966cde776"
 
-  url "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.6/google-calendar-gateway-#{version}-#{arch}.dmg"
+  url "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.8/google-calendar-gateway-#{version}-#{arch}.dmg"
   name "google-calendar-gateway"
   desc "Swift library and local CLI gateway for calendar clients"
   homepage "https://github.com/tacogips/google-calendar-gateway"
