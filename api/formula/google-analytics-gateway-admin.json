@@ -44,13 +44,13 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "6ba3c457f067f980ae040178e11ab4424a77fffec2f7640ec0a914442248e47c"
+    "sha256": "65380ae98f8e9b1193885d7c695026cd12e141ec415f64f8c9a363f999024b94"
   },
   "ruby_source_path": "Formula/google-analytics-gateway-admin.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "59549c77a792e3bc72cd826715642f74265855ef",
+  "tap_git_head": "cc2166c9a1c4b9871c322aa7523f3e923cdec174",
   "test_dependencies": [],
   "urls": {
     "stable": {
