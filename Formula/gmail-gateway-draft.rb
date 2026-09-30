@@ -10,11 +10,11 @@ class GmailGatewayDraft < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.14/gmail-gateway-draft-0.1.14-darwin-arm64.tar.gz"
-      sha256 "cfd95843b8b8267b0eab74ade102e6edaf5addbf79e5268f5b7c8a5e538227aa"
+      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.15/gmail-gateway-draft-0.1.15-darwin-arm64.tar.gz"
+      sha256 "13e5104a02ce782dfc44d1b203e905ebeab16b7e39029f8bffcb7d916e5456ad"
     else
-      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.14/gmail-gateway-draft-0.1.14-darwin-x64.tar.gz"
-      sha256 "193f182c1cb02ab3b6fd6513576031d909b7558a3b003aacdb8d88cf30e3aff7"
+      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.15/gmail-gateway-draft-0.1.15-darwin-x64.tar.gz"
+      sha256 "14bdc5b209812157bdaaadcf4a69a991f5d092a87b72e0491c3e79e3314345e9"
     end
   end
 

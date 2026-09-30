@@ -1,6 +1,7 @@
 class GoogleAnalyticsGatewayAdmin < Formula
   desc "GraphQL gateway for Google Analytics and Tag Manager with admin access"
   homepage "https://github.com/tacogips/google-analytics-gateway"
+  version "0.1.3"
   license "MIT"
 
   livecheck do
@@ -10,11 +11,11 @@ class GoogleAnalyticsGatewayAdmin < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.2/google-analytics-gateway-admin-0.1.2-darwin-arm64.tar.gz"
-      sha256 "629a3f784c5c7e8454eeecda109a0477a44876a03af0c4ce28f0f32b073e9ef0"
+      url "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.3/google-analytics-gateway-admin-0.1.3-darwin-arm64.tar.gz"
+      sha256 "379585ad017ec58ce12d9e77b8a6cabc1e4e3ba4d1899f6b5a6c59043e3dda11"
     else
-      url "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.2/google-analytics-gateway-admin-0.1.2-darwin-x64.tar.gz"
-      sha256 "48a6c96784175878948de059af2b0a0a5ef2fac83ea37063ce2ffbe62992f685"
+      url "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.3/google-analytics-gateway-admin-0.1.3-darwin-x64.tar.gz"
+      sha256 "8cf3467dca187f2f93c781d477f3ac04c90f303ba589463afe05a9ed03f79338"
     end
   end
 

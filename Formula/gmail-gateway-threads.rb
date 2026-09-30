@@ -10,11 +10,11 @@ class GmailGatewayThreads < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.14/gmail-gateway-threads-0.1.14-darwin-arm64.tar.gz"
-      sha256 "c1bf2a521c8c3c3dabc9e6f0f95fa02e69e5cdb190188cc452cfb7dc91922ef4"
+      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.15/gmail-gateway-threads-0.1.15-darwin-arm64.tar.gz"
+      sha256 "97c3b725ca442deb5848a939d093df08cd1d6e7eabf0ecd299600ca103c506f1"
     else
-      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.14/gmail-gateway-threads-0.1.14-darwin-x64.tar.gz"
-      sha256 "2b17e51b7ef0d603c3175867c4a9b6750cbe222e4561c96c74e72453f0c44250"
+      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.15/gmail-gateway-threads-0.1.15-darwin-x64.tar.gz"
+      sha256 "95857824cbd2862c5dace96be414c1c55a3c41bbace1d63e387beec5ebaebf51"
     end
   end
 

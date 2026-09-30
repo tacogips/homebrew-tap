@@ -1,6 +1,7 @@
 class GoogleAnalyticsGatewayWriter < Formula
   desc "GraphQL gateway for Google Analytics and Tag Manager with write access"
   homepage "https://github.com/tacogips/google-analytics-gateway"
+  version "0.1.3"
   license "MIT"
 
   livecheck do
@@ -10,11 +11,11 @@ class GoogleAnalyticsGatewayWriter < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.2/google-analytics-gateway-writer-0.1.2-darwin-arm64.tar.gz"
-      sha256 "07810bebf0db4b6a6613693aa9058cd8544865ea5512ec67ddb9481bb4192047"
+      url "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.3/google-analytics-gateway-writer-0.1.3-darwin-arm64.tar.gz"
+      sha256 "ecbe03f1e41e272b6c80dc7931bfe609f09e3461b72b67d0105511c24d37053f"
     else
-      url "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.2/google-analytics-gateway-writer-0.1.2-darwin-x64.tar.gz"
-      sha256 "f1164482d4212a257815797d3abf151afe0455c8c68d8294bb026a85eb757ef2"
+      url "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.3/google-analytics-gateway-writer-0.1.3-darwin-x64.tar.gz"
+      sha256 "67f23a0832916398529e35979b4e33a15c6dbff3a10f3268dc436a661a2f60c1"
     end
   end
 
