@@ -1,11 +1,11 @@
 cask "ccusage-gauge" do
   arch arm: "darwin-arm64", intel: "darwin-x64"
 
-  version "0.2.2"
-  sha256 arm:   "18a5460fdffc7c4c3971b895e67f0387ee6120266b9f2b1b13182c41de1743a8",
-         intel: "337bee10ced3d45b55e293404739de9b71f0c18208585bbb2a7d6291fc472ecb"
+  version "0.3.0"
+  sha256 arm:   "c5c4ec7e0eba2edc3ffad38beaeb0dcfc083468868e88ebbe5632f314ee20241",
+         intel: "f467112277914c4ac54af1578bad3a257b91cc7e8cbe555867a3c79a97d2b5c3"
 
-  url "https://github.com/tacogips/ccusage-gauge/releases/download/v0.2.2/ccusage-gauge-#{version}-#{arch}.dmg"
+  url "https://github.com/tacogips/ccusage-gauge/releases/download/v0.3.0/ccusage-gauge-#{version}-#{arch}.dmg"
   name "CCUsage Gauge"
   desc "Menu bar gauge and native dashboard for AI coding-agent usage costs"
   homepage "https://github.com/tacogips/ccusage-gauge"
