@@ -52,10 +52,10 @@
   "pinned_version": null,
   "rename": [],
   "ruby_source_checksum": {
-    "sha256": "289af9fcd6d2b8d8129ae125a0fa2c6bc02bc6248545b878828cd12c337e7e0c"
+    "sha256": "09f54371e1c276f7016d6e1914134c603d0b203e06ec89982dedd42a11456ef1"
   },
   "ruby_source_path": "Casks/google-calendar-gateway.rb",
-  "sha256": "333feefaed17d8c6b25d8d1924d517fb48d1962be73cc8c795ea0f5cd1ca31e7",
+  "sha256": "a7222dc2e2935fff0cd336f1aaaf4d56dad2553b1171f7d35561cdc4b9df16e1",
   "skip_livecheck": false,
   "supported_platforms": [
     "golden_gate",
@@ -75,50 +75,50 @@
     "catalina"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "b019016d757444a5d324731cd75ca2909cd573e2",
+  "tap_git_head": "70837fd5992cc1ce0e36a62ac8f4fd2461938d26",
   "token": "google-calendar-gateway",
-  "url": "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.8/google-calendar-gateway-0.1.8-darwin-arm64.dmg",
+  "url": "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.9/google-calendar-gateway-0.1.9-darwin-arm64.dmg",
   "url_specs": {},
   "variations": {
     "arm64_linux": {
       "sha256": null
     },
     "big_sur": {
-      "sha256": "64cb11ba459ed4bb41f94688986e4504aa64ab71b9bcc6408a059f1966cde776",
-      "url": "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.8/google-calendar-gateway-0.1.8-darwin-x64.dmg"
+      "sha256": "353be38ff8fda1c1ceebf78f41998dae960c8985dfddcee819bfbf40c029eef8",
+      "url": "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.9/google-calendar-gateway-0.1.9-darwin-x64.dmg"
     },
     "catalina": {
-      "sha256": "64cb11ba459ed4bb41f94688986e4504aa64ab71b9bcc6408a059f1966cde776",
-      "url": "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.8/google-calendar-gateway-0.1.8-darwin-x64.dmg"
+      "sha256": "353be38ff8fda1c1ceebf78f41998dae960c8985dfddcee819bfbf40c029eef8",
+      "url": "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.9/google-calendar-gateway-0.1.9-darwin-x64.dmg"
     },
     "golden_gate": {
-      "sha256": "64cb11ba459ed4bb41f94688986e4504aa64ab71b9bcc6408a059f1966cde776",
-      "url": "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.8/google-calendar-gateway-0.1.8-darwin-x64.dmg"
+      "sha256": "353be38ff8fda1c1ceebf78f41998dae960c8985dfddcee819bfbf40c029eef8",
+      "url": "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.9/google-calendar-gateway-0.1.9-darwin-x64.dmg"
     },
     "monterey": {
-      "sha256": "64cb11ba459ed4bb41f94688986e4504aa64ab71b9bcc6408a059f1966cde776",
-      "url": "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.8/google-calendar-gateway-0.1.8-darwin-x64.dmg"
+      "sha256": "353be38ff8fda1c1ceebf78f41998dae960c8985dfddcee819bfbf40c029eef8",
+      "url": "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.9/google-calendar-gateway-0.1.9-darwin-x64.dmg"
     },
     "sequoia": {
-      "sha256": "64cb11ba459ed4bb41f94688986e4504aa64ab71b9bcc6408a059f1966cde776",
-      "url": "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.8/google-calendar-gateway-0.1.8-darwin-x64.dmg"
+      "sha256": "353be38ff8fda1c1ceebf78f41998dae960c8985dfddcee819bfbf40c029eef8",
+      "url": "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.9/google-calendar-gateway-0.1.9-darwin-x64.dmg"
     },
     "sonoma": {
-      "sha256": "64cb11ba459ed4bb41f94688986e4504aa64ab71b9bcc6408a059f1966cde776",
-      "url": "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.8/google-calendar-gateway-0.1.8-darwin-x64.dmg"
+      "sha256": "353be38ff8fda1c1ceebf78f41998dae960c8985dfddcee819bfbf40c029eef8",
+      "url": "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.9/google-calendar-gateway-0.1.9-darwin-x64.dmg"
     },
     "tahoe": {
-      "sha256": "64cb11ba459ed4bb41f94688986e4504aa64ab71b9bcc6408a059f1966cde776",
-      "url": "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.8/google-calendar-gateway-0.1.8-darwin-x64.dmg"
+      "sha256": "353be38ff8fda1c1ceebf78f41998dae960c8985dfddcee819bfbf40c029eef8",
+      "url": "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.9/google-calendar-gateway-0.1.9-darwin-x64.dmg"
     },
     "ventura": {
-      "sha256": "64cb11ba459ed4bb41f94688986e4504aa64ab71b9bcc6408a059f1966cde776",
-      "url": "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.8/google-calendar-gateway-0.1.8-darwin-x64.dmg"
+      "sha256": "353be38ff8fda1c1ceebf78f41998dae960c8985dfddcee819bfbf40c029eef8",
+      "url": "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.9/google-calendar-gateway-0.1.9-darwin-x64.dmg"
     },
     "x86_64_linux": {
       "sha256": null,
-      "url": "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.8/google-calendar-gateway-0.1.8-darwin-x64.dmg"
+      "url": "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.9/google-calendar-gateway-0.1.9-darwin-x64.dmg"
     }
   },
-  "version": "0.1.8"
+  "version": "0.1.9"
 }

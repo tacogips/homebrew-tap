@@ -44,20 +44,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "dc016bc5cedc0aed55a23c042013297118b1f83c14b25657866ddf16520179b8"
+    "sha256": "5b01da7c6b0aece1fe2d1fc744f728552d5f2db64c3e29b18f9846e552205f6b"
   },
   "ruby_source_path": "Formula/google-document-ocr-gateway.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "b019016d757444a5d324731cd75ca2909cd573e2",
+  "tap_git_head": "70837fd5992cc1ce0e36a62ac8f4fd2461938d26",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "f80f9cfa8cbd24b0c9382bd8cfd24659105422b396e308c934de17a28c59df38",
+      "checksum": "c9acaa99f9c92659ca0f0dc13fe79819e2571902b0a0f50c54cddf85213e457e",
       "revision": null,
       "tag": null,
-      "url": "https://github.com/tacogips/google-document-ocr-gateway/releases/download/v0.1.3/google-document-ocr-gateway-0.1.3-darwin-arm64.tar.gz",
+      "url": "https://github.com/tacogips/google-document-ocr-gateway/releases/download/v0.1.4/google-document-ocr-gateway-0.1.4-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.1.3"
+    "stable": "0.1.4"
   }
 }

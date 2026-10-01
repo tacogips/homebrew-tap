@@ -46,20 +46,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "f542de626a9913063dd8c7e5291680be16db15372f688e353962aa5538a613c8"
+    "sha256": "fb01632240b0666d7238e78954484b5e09755e0cc6568a6d23445e5a5a653e6e"
   },
   "ruby_source_path": "Formula/google-calendar-gateway.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "b019016d757444a5d324731cd75ca2909cd573e2",
+  "tap_git_head": "70837fd5992cc1ce0e36a62ac8f4fd2461938d26",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "e35a13cf1fd02d5e0b1a636f036cc1d982b62a276e26ac19b7c1becdcfdcf2a9",
+      "checksum": "9db6b472124583a0b64cba114eda000653808a37e4aff2a77b3b1a317ddd2bb0",
       "revision": null,
       "tag": null,
-      "url": "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.8/google-calendar-gateway-0.1.8-darwin-arm64.tar.gz",
+      "url": "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.9/google-calendar-gateway-0.1.9-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -70,6 +70,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.1.8"
+    "stable": "0.1.9"
   }
 }

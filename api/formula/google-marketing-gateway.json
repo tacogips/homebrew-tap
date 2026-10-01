@@ -44,20 +44,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "4bb673c56eb74aa9e0e9c66a0af5d5f2eceb119718c2edea2d68a4b16ae6da3d"
+    "sha256": "3fd49ee825f1a3a2cc1221b0dfdb586b4001cf8349eafb0a5cd8f50486b345d7"
   },
   "ruby_source_path": "Formula/google-marketing-gateway.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "b019016d757444a5d324731cd75ca2909cd573e2",
+  "tap_git_head": "70837fd5992cc1ce0e36a62ac8f4fd2461938d26",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "c23ed0ca76ff6b3f80263e211dc3c2128ac2e38debc05ee8704dc40b2018e692",
+      "checksum": "9bc6e76d623798f6e3faad149a3f9e4c7629d4e673e4bf033c5268db76f50536",
       "revision": null,
       "tag": null,
-      "url": "https://github.com/tacogips/google-marketing-gateway/releases/download/v0.1.3/google-marketing-gateway-0.1.3-darwin-arm64.tar.gz",
+      "url": "https://github.com/tacogips/google-marketing-gateway/releases/download/v0.1.4/google-marketing-gateway-0.1.4-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.1.3"
+    "stable": "0.1.4"
   }
 }
