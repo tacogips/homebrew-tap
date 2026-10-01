@@ -10,11 +10,11 @@ class GoogleAnalyticsGatewayWriter < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.4/google-analytics-gateway-writer-0.1.4-darwin-arm64.tar.gz"
-      sha256 "41ce5b6a36f4af7a612456038cec9d928f9e56f91b5ae8ca0640f22c6fcf5e12"
+      url "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.5/google-analytics-gateway-writer-0.1.5-darwin-arm64.tar.gz"
+      sha256 "37b639650b2110da79f73c7492867d935f9b418f5cb2eaf6fab9d4f7bc0d5447"
     else
-      url "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.4/google-analytics-gateway-writer-0.1.4-darwin-x64.tar.gz"
-      sha256 "c62495c64242b64a7ee1f2c3bedd43123d5720ee74f454eccd5c163441f5fb95"
+      url "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.5/google-analytics-gateway-writer-0.1.5-darwin-x64.tar.gz"
+      sha256 "cd59f5c035a0b0ab660016bf6e481dd7645dcf1d8cbc4d2d947972ff3c8ce64d"
     end
   end
 

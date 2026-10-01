@@ -10,11 +10,11 @@ class GoogleServiceGateway < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/google-service-gateway/releases/download/v0.1.5/google-service-gateway-0.1.5-darwin-arm64.tar.gz", tag: "v0.1.5"
-      sha256 "48926bbaa5c9b7d5f964374d89e1c2ab169b890627cf1f718bc21e410f534edc"
+      url "https://github.com/tacogips/google-service-gateway/releases/download/v0.1.6/google-service-gateway-0.1.6-darwin-arm64.tar.gz", tag: "v0.1.6"
+      sha256 "97028c2f30deecdf955e38ad38d28aaef2763d260113d8e476e707c57c6f2c0d"
     else
-      url "https://github.com/tacogips/google-service-gateway/releases/download/v0.1.5/google-service-gateway-0.1.5-darwin-x64.tar.gz", tag: "v0.1.5"
-      sha256 "1fa9aeecb0de0f094463a6f4a3752fa9e6cc88a81d7fcd50ce83891fc679e8a2"
+      url "https://github.com/tacogips/google-service-gateway/releases/download/v0.1.6/google-service-gateway-0.1.6-darwin-x64.tar.gz", tag: "v0.1.6"
+      sha256 "c5d357339b756165ba124ddc6d7881c9f4db03f4503ca00833d5bf80cdb1a59a"
     end
   end
 
@@ -27,10 +27,10 @@ class GoogleServiceGateway < Formula
   end
 
   test do
-    assert_match "0.1.5", shell_output("#{bin}/google-service-gateway-reader --version")
-    assert_match "0.1.5", shell_output("#{bin}/google-service-gateway-writer --version")
-    assert_match "0.1.5", shell_output("#{bin}/google-service-gateway-admin --version")
-    assert_match "0.1.5", shell_output("#{bin}/google-service-gateway-deleter --version")
-    assert_match "0.1.5", shell_output("#{bin}/google-service-gateway-auth --version")
+    assert_match "0.1.6", shell_output("#{bin}/google-service-gateway-reader --version")
+    assert_match "0.1.6", shell_output("#{bin}/google-service-gateway-writer --version")
+    assert_match "0.1.6", shell_output("#{bin}/google-service-gateway-admin --version")
+    assert_match "0.1.6", shell_output("#{bin}/google-service-gateway-deleter --version")
+    assert_match "0.1.6", shell_output("#{bin}/google-service-gateway-auth --version")
   end
 end

@@ -10,11 +10,11 @@ class GoogleMarketingGateway < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/google-marketing-gateway/releases/download/v0.1.3/google-marketing-gateway-0.1.3-darwin-arm64.tar.gz"
-      sha256 "c23ed0ca76ff6b3f80263e211dc3c2128ac2e38debc05ee8704dc40b2018e692"
+      url "https://github.com/tacogips/google-marketing-gateway/releases/download/v0.1.4/google-marketing-gateway-0.1.4-darwin-arm64.tar.gz"
+      sha256 "9bc6e76d623798f6e3faad149a3f9e4c7629d4e673e4bf033c5268db76f50536"
     else
-      url "https://github.com/tacogips/google-marketing-gateway/releases/download/v0.1.3/google-marketing-gateway-0.1.3-darwin-x64.tar.gz"
-      sha256 "b9e9b22da8b30ff06137e6f82ba2baef3c36685039fff8470534f5940f811d16"
+      url "https://github.com/tacogips/google-marketing-gateway/releases/download/v0.1.4/google-marketing-gateway-0.1.4-darwin-x64.tar.gz"
+      sha256 "580ff37ac9e201c2f773fae4ad0e2295ca6ea363b87ec86ff9b62e6e0217cb1d"
     end
   end
 
@@ -27,6 +27,6 @@ class GoogleMarketingGateway < Formula
   end
 
   test do
-    assert_match "0.1.3", shell_output("#{bin}/google-marketing-gateway --version")
+    assert_match "0.1.4", shell_output("#{bin}/google-marketing-gateway --version")
   end
 end
