@@ -24,6 +24,7 @@ Metadata is regenerated automatically whenever a formula or cask changes.
 - `ccusage-gauge`
 - `kaiba`
 - `riela`
+- `stria`
 
 ## Usage
 
@@ -42,4 +43,5 @@ brew install --cask chilla
 brew install --cask ccusage-gauge
 brew install --cask kaiba
 brew install --cask riela
+brew install --cask stria
 ```
