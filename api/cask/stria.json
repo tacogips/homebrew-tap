@@ -1,0 +1,114 @@
+{
+  "artifacts": [
+    {
+      "app": [
+        "Stria.app"
+      ],
+      "target": "/Applications/Stria.app"
+    },
+    {
+      "binary": [
+        "/Applications/Stria.app/Contents/MacOS/stria"
+      ],
+      "target": "/opt/homebrew/bin/stria"
+    },
+    {
+      "zap": [
+        {
+          "trash": "~/.local/stria"
+        }
+      ]
+    }
+  ],
+  "auto_updates": null,
+  "autobump": true,
+  "bundle_short_version": null,
+  "bundle_version": null,
+  "caveats": "This cask installs the signed and notarized Stria.app and links its\nstria command line tool (an OCR search and page-image tool for AI\nagents) into the Homebrew prefix. Library data lives in ~/.local/stria\n(override with STRIA_HOME). Choose an OCR vendor in Settings\n(Agent > Settings...) before the first OCR run.\n",
+  "caveats_rosetta": null,
+  "conflicts_with": null,
+  "container": null,
+  "depends_on": {
+    "macos": {
+      ">=": [
+        "14"
+      ]
+    }
+  },
+  "deprecate_args": null,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "deprecation_replacement_cask": null,
+  "deprecation_replacement_formula": null,
+  "desc": "PDF reader with OCR-indexed page search and an AI agent pane",
+  "disable_args": null,
+  "disable_date": null,
+  "disable_reason": null,
+  "disable_replacement_cask": null,
+  "disable_replacement_formula": null,
+  "disabled": false,
+  "full_token": "tacogips/tap/stria",
+  "homepage": "https://github.com/tacogips/stria",
+  "installed": null,
+  "installed_time": null,
+  "languages": [],
+  "name": [
+    "Stria"
+  ],
+  "no_autobump_message": null,
+  "old_tokens": [],
+  "outdated": false,
+  "pinned": false,
+  "pinned_version": null,
+  "rename": [],
+  "ruby_source_checksum": {
+    "sha256": "f8753bf355f21a513ebdfa7df501b7cde755fd0026351f393368a6c600c48fb1"
+  },
+  "ruby_source_path": "Casks/stria.rb",
+  "sha256": "6367cc108f4a461bbe55ff7fe63759dfdb7aa5e14f5051e4c6cddc8c970b04ba",
+  "skip_livecheck": false,
+  "supported_platforms": [
+    "golden_gate",
+    "arm64_golden_gate",
+    "tahoe",
+    "arm64_tahoe",
+    "sequoia",
+    "arm64_sequoia",
+    "sonoma",
+    "arm64_sonoma"
+  ],
+  "tap": "tacogips/tap",
+  "tap_git_head": "4725010368d4b8034e37abb2bfb62352fa151069",
+  "token": "stria",
+  "url": "https://github.com/tacogips/stria/releases/download/v0.1.0/stria-0.1.0-darwin-arm64.dmg",
+  "url_specs": {
+    "verified": "github.com/tacogips/stria/releases/download/"
+  },
+  "variations": {
+    "arm64_linux": {
+      "sha256": null
+    },
+    "golden_gate": {
+      "sha256": "e8119680add1013db56d2111b00afbfba4eca20ffe204cb00839e6c3c8a5a834",
+      "url": "https://github.com/tacogips/stria/releases/download/v0.1.0/stria-0.1.0-darwin-x64.dmg"
+    },
+    "sequoia": {
+      "sha256": "e8119680add1013db56d2111b00afbfba4eca20ffe204cb00839e6c3c8a5a834",
+      "url": "https://github.com/tacogips/stria/releases/download/v0.1.0/stria-0.1.0-darwin-x64.dmg"
+    },
+    "sonoma": {
+      "sha256": "e8119680add1013db56d2111b00afbfba4eca20ffe204cb00839e6c3c8a5a834",
+      "url": "https://github.com/tacogips/stria/releases/download/v0.1.0/stria-0.1.0-darwin-x64.dmg"
+    },
+    "tahoe": {
+      "sha256": "e8119680add1013db56d2111b00afbfba4eca20ffe204cb00839e6c3c8a5a834",
+      "url": "https://github.com/tacogips/stria/releases/download/v0.1.0/stria-0.1.0-darwin-x64.dmg"
+    },
+    "x86_64_linux": {
+      "sha256": null,
+      "url": "https://github.com/tacogips/stria/releases/download/v0.1.0/stria-0.1.0-darwin-x64.dmg"
+    }
+  },
+  "version": "0.1.0"
+}
