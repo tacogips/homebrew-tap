@@ -1,11 +1,11 @@
 cask "stria" do
   arch arm: "darwin-arm64", intel: "darwin-x64"
 
-  version "0.1.0"
-  sha256 arm:   "6367cc108f4a461bbe55ff7fe63759dfdb7aa5e14f5051e4c6cddc8c970b04ba",
-         intel: "e8119680add1013db56d2111b00afbfba4eca20ffe204cb00839e6c3c8a5a834"
+  version "0.1.1"
+  sha256 arm:   "725393d5d2e4883a6eec8a7a0a615981b4dde0b3a5941caad951be8b9c719205",
+         intel: "333351e60ed6c535c12be201524ee62fe0dd45e3ce180a544c832a4a18631b0a"
 
-  url "https://github.com/tacogips/stria/releases/download/v0.1.0/stria-#{version}-#{arch}.dmg"
+  url "https://github.com/tacogips/stria/releases/download/v0.1.1/stria-#{version}-#{arch}.dmg"
   name "Stria"
   desc "PDF reader with OCR-indexed page search and an AI agent pane"
   homepage "https://github.com/tacogips/stria"
