@@ -1,7 +1,6 @@
 class AgentGateway < Formula
   desc "ACP stdio agent that routes prompts to AI vendor CLIs and APIs"
   homepage "https://github.com/tacogips/agent-gateway"
-  version "0.1.4"
   license "MIT"
 
   livecheck do
