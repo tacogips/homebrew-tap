@@ -63,10 +63,10 @@
   "pinned_version": null,
   "rename": [],
   "ruby_source_checksum": {
-    "sha256": "b9a86f662aee0fdd6d4781318cee872afff96dd850a7a187c99f01fe5f0920b4"
+    "sha256": "41ff204b58ec14e9abd2f6c80d072e0ef29ae9d6467c38d836fe3aed3e699341"
   },
   "ruby_source_path": "Casks/stria.rb",
-  "sha256": "6367cc108f4a461bbe55ff7fe63759dfdb7aa5e14f5051e4c6cddc8c970b04ba",
+  "sha256": "725393d5d2e4883a6eec8a7a0a615981b4dde0b3a5941caad951be8b9c719205",
   "skip_livecheck": false,
   "supported_platforms": [
     "golden_gate",
@@ -79,34 +79,34 @@
     "arm64_sonoma"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "d7ab27833d43fd8d42bed488487b287f454c7bce",
+  "tap_git_head": "f25ea74cb6cb35bdfec381b783c076e52758a482",
   "token": "stria",
-  "url": "https://github.com/tacogips/stria/releases/download/v0.1.0/stria-0.1.0-darwin-arm64.dmg",
+  "url": "https://github.com/tacogips/stria/releases/download/v0.1.1/stria-0.1.1-darwin-arm64.dmg",
   "url_specs": {},
   "variations": {
     "arm64_linux": {
       "sha256": null
     },
     "golden_gate": {
-      "sha256": "e8119680add1013db56d2111b00afbfba4eca20ffe204cb00839e6c3c8a5a834",
-      "url": "https://github.com/tacogips/stria/releases/download/v0.1.0/stria-0.1.0-darwin-x64.dmg"
+      "sha256": "333351e60ed6c535c12be201524ee62fe0dd45e3ce180a544c832a4a18631b0a",
+      "url": "https://github.com/tacogips/stria/releases/download/v0.1.1/stria-0.1.1-darwin-x64.dmg"
     },
     "sequoia": {
-      "sha256": "e8119680add1013db56d2111b00afbfba4eca20ffe204cb00839e6c3c8a5a834",
-      "url": "https://github.com/tacogips/stria/releases/download/v0.1.0/stria-0.1.0-darwin-x64.dmg"
+      "sha256": "333351e60ed6c535c12be201524ee62fe0dd45e3ce180a544c832a4a18631b0a",
+      "url": "https://github.com/tacogips/stria/releases/download/v0.1.1/stria-0.1.1-darwin-x64.dmg"
     },
     "sonoma": {
-      "sha256": "e8119680add1013db56d2111b00afbfba4eca20ffe204cb00839e6c3c8a5a834",
-      "url": "https://github.com/tacogips/stria/releases/download/v0.1.0/stria-0.1.0-darwin-x64.dmg"
+      "sha256": "333351e60ed6c535c12be201524ee62fe0dd45e3ce180a544c832a4a18631b0a",
+      "url": "https://github.com/tacogips/stria/releases/download/v0.1.1/stria-0.1.1-darwin-x64.dmg"
     },
     "tahoe": {
-      "sha256": "e8119680add1013db56d2111b00afbfba4eca20ffe204cb00839e6c3c8a5a834",
-      "url": "https://github.com/tacogips/stria/releases/download/v0.1.0/stria-0.1.0-darwin-x64.dmg"
+      "sha256": "333351e60ed6c535c12be201524ee62fe0dd45e3ce180a544c832a4a18631b0a",
+      "url": "https://github.com/tacogips/stria/releases/download/v0.1.1/stria-0.1.1-darwin-x64.dmg"
     },
     "x86_64_linux": {
       "sha256": null,
-      "url": "https://github.com/tacogips/stria/releases/download/v0.1.0/stria-0.1.0-darwin-x64.dmg"
+      "url": "https://github.com/tacogips/stria/releases/download/v0.1.1/stria-0.1.1-darwin-x64.dmg"
     }
   },
-  "version": "0.1.0"
+  "version": "0.1.1"
 }
