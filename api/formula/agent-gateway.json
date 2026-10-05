@@ -44,13 +44,13 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "ec983e5ad7952024fc9b2b0ac2b29309d3d52d6cd0baa6f85505665a14721121"
+    "sha256": "f43f52a08d4469e054a4e8eef600bb514bef48bc1192a9c09cbb2153aabaaec0"
   },
   "ruby_source_path": "Formula/agent-gateway.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "6855186b5331bd5ba019eb22fdc40b6e4d150cd5",
+  "tap_git_head": "d7ab27833d43fd8d42bed488487b287f454c7bce",
   "test_dependencies": [],
   "urls": {
     "stable": {
