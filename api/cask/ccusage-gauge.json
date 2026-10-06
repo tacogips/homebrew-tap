@@ -68,10 +68,10 @@
   "pinned_version": null,
   "rename": [],
   "ruby_source_checksum": {
-    "sha256": "4068532f5ac8de04baeb3e8edfcc34867664c647ba8253e357e7d87b5f86ebd6"
+    "sha256": "e05394f464e541461f5c4586ca1186c36149401daa7a25df63ba66cb8cc5fb5d"
   },
   "ruby_source_path": "Casks/ccusage-gauge.rb",
-  "sha256": "c5c4ec7e0eba2edc3ffad38beaeb0dcfc083468868e88ebbe5632f314ee20241",
+  "sha256": "3f0d0c4f20045e0b2a778924f2e1ab631b353218f8de5204cf0911cc9dacf767",
   "skip_livecheck": false,
   "supported_platforms": [
     "golden_gate",
@@ -84,34 +84,34 @@
     "arm64_sonoma"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "c48dd1e13007a21def99811cac9f864d05f50222",
+  "tap_git_head": "9962bf948f59647e12b491abd1d93b8408eb3129",
   "token": "ccusage-gauge",
-  "url": "https://github.com/tacogips/ccusage-gauge/releases/download/v0.3.0/ccusage-gauge-0.3.0-darwin-arm64.dmg",
+  "url": "https://github.com/tacogips/ccusage-gauge/releases/download/v0.3.1/ccusage-gauge-0.3.1-darwin-arm64.dmg",
   "url_specs": {},
   "variations": {
     "arm64_linux": {
       "sha256": null
     },
     "golden_gate": {
-      "sha256": "f467112277914c4ac54af1578bad3a257b91cc7e8cbe555867a3c79a97d2b5c3",
-      "url": "https://github.com/tacogips/ccusage-gauge/releases/download/v0.3.0/ccusage-gauge-0.3.0-darwin-x64.dmg"
+      "sha256": "9b0bb1814417b3fcfacd5de9f032dbdc45afb597e09df7a4c1942dc222edb469",
+      "url": "https://github.com/tacogips/ccusage-gauge/releases/download/v0.3.1/ccusage-gauge-0.3.1-darwin-x64.dmg"
     },
     "sequoia": {
-      "sha256": "f467112277914c4ac54af1578bad3a257b91cc7e8cbe555867a3c79a97d2b5c3",
-      "url": "https://github.com/tacogips/ccusage-gauge/releases/download/v0.3.0/ccusage-gauge-0.3.0-darwin-x64.dmg"
+      "sha256": "9b0bb1814417b3fcfacd5de9f032dbdc45afb597e09df7a4c1942dc222edb469",
+      "url": "https://github.com/tacogips/ccusage-gauge/releases/download/v0.3.1/ccusage-gauge-0.3.1-darwin-x64.dmg"
     },
     "sonoma": {
-      "sha256": "f467112277914c4ac54af1578bad3a257b91cc7e8cbe555867a3c79a97d2b5c3",
-      "url": "https://github.com/tacogips/ccusage-gauge/releases/download/v0.3.0/ccusage-gauge-0.3.0-darwin-x64.dmg"
+      "sha256": "9b0bb1814417b3fcfacd5de9f032dbdc45afb597e09df7a4c1942dc222edb469",
+      "url": "https://github.com/tacogips/ccusage-gauge/releases/download/v0.3.1/ccusage-gauge-0.3.1-darwin-x64.dmg"
     },
     "tahoe": {
-      "sha256": "f467112277914c4ac54af1578bad3a257b91cc7e8cbe555867a3c79a97d2b5c3",
-      "url": "https://github.com/tacogips/ccusage-gauge/releases/download/v0.3.0/ccusage-gauge-0.3.0-darwin-x64.dmg"
+      "sha256": "9b0bb1814417b3fcfacd5de9f032dbdc45afb597e09df7a4c1942dc222edb469",
+      "url": "https://github.com/tacogips/ccusage-gauge/releases/download/v0.3.1/ccusage-gauge-0.3.1-darwin-x64.dmg"
     },
     "x86_64_linux": {
       "sha256": null,
-      "url": "https://github.com/tacogips/ccusage-gauge/releases/download/v0.3.0/ccusage-gauge-0.3.0-darwin-x64.dmg"
+      "url": "https://github.com/tacogips/ccusage-gauge/releases/download/v0.3.1/ccusage-gauge-0.3.1-darwin-x64.dmg"
     }
   },
-  "version": "0.3.0"
+  "version": "0.3.1"
 }
