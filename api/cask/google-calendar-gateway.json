@@ -75,7 +75,7 @@
     "catalina"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "fa311531a3aa6723256a7b24b5d8a6ced5203cc6",
+  "tap_git_head": "c48dd1e13007a21def99811cac9f864d05f50222",
   "token": "google-calendar-gateway",
   "url": "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.9/google-calendar-gateway-0.1.9-darwin-arm64.dmg",
   "url_specs": {},
