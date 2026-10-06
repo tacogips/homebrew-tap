@@ -1,7 +1,6 @@
 class AppleGateway < Formula
   desc "macOS CLI and GraphQL bridge for Apple apps"
   homepage "https://github.com/tacogips/apple-gateway"
-  version "0.1.8"
   license "MIT"
 
   livecheck do
