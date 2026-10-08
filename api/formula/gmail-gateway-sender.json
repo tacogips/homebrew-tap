@@ -44,20 +44,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "e1f6f4315001293be449fcb124a997e90e04a8773a58060cd5a8fc86895d8996"
+    "sha256": "7bd2042f11f5925c422af1ce501256efc89213119a162c0cfc37f20247a0294f"
   },
   "ruby_source_path": "Formula/gmail-gateway-sender.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "9962bf948f59647e12b491abd1d93b8408eb3129",
+  "tap_git_head": "f641887f6462d36f504fbe935fd739164c5ef442",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "dc8931e9a28c9698587b158b768029c49648bd2783b4e71e87e73ec691370de3",
+      "checksum": "4ab314db4ed29401bc908828e1541f2b7682e17475ae807a3a13b12f3443baba",
       "revision": null,
       "tag": null,
-      "url": "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.17/gmail-gateway-sender-0.1.17-darwin-arm64.tar.gz",
+      "url": "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.18/gmail-gateway-sender-0.1.18-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.1.17"
+    "stable": "0.1.18"
   }
 }
