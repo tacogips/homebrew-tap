@@ -10,11 +10,11 @@ class GoogleCalendarGateway < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.9/google-calendar-gateway-0.1.9-darwin-arm64.tar.gz"
-      sha256 "9db6b472124583a0b64cba114eda000653808a37e4aff2a77b3b1a317ddd2bb0"
+      url "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.10/google-calendar-gateway-0.1.10-darwin-arm64.tar.gz"
+      sha256 "2dd64c2227eec16cc4a7e6ea0d9231ca7f04af91edb21aa5e6ef7c0c80bcbaf5"
     else
-      url "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.9/google-calendar-gateway-0.1.9-darwin-x64.tar.gz"
-      sha256 "2ead264e75a6ce8937516363d881de4cc1faba0e33094064eec2efd6085ce5cd"
+      url "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.10/google-calendar-gateway-0.1.10-darwin-x64.tar.gz"
+      sha256 "0d821b926341e13f6bc84adb4e05cee26d93ab95b68a0051d52ad3be918dde00"
     end
   end
 
@@ -23,7 +23,7 @@ class GoogleCalendarGateway < Formula
   end
 
   test do
-    assert_match "0.1.9", shell_output("#{bin}/google-calendar-gateway-reader --version")
-    assert_match "0.1.9", shell_output("#{bin}/google-calendar-gateway-writer --version")
+    assert_match "0.1.10", shell_output("#{bin}/google-calendar-gateway-reader --version")
+    assert_match "0.1.10", shell_output("#{bin}/google-calendar-gateway-writer --version")
   end
 end

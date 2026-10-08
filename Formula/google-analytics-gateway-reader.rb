@@ -10,11 +10,11 @@ class GoogleAnalyticsGatewayReader < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.5/google-analytics-gateway-reader-0.1.5-darwin-arm64.tar.gz"
-      sha256 "5572c63a1e3f5aea41db775f5af46c7734c8b2236ee09a1dea8e019edade9d8f"
+      url "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.6/google-analytics-gateway-reader-0.1.6-darwin-arm64.tar.gz"
+      sha256 "12de03466cf591db9ed2a1326718c8a3d91561084e4a4415348cd9616c4996f2"
     else
-      url "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.5/google-analytics-gateway-reader-0.1.5-darwin-x64.tar.gz"
-      sha256 "744267f6ade1bb897500d87833b79de1fa11ba82a8bda16e53390139209054fa"
+      url "https://github.com/tacogips/google-analytics-gateway/releases/download/v0.1.6/google-analytics-gateway-reader-0.1.6-darwin-x64.tar.gz"
+      sha256 "e09528e6edce196ed506f5c76b9d2e639785c461c479d97c18f2072e7e86c1fd"
     end
   end
 
