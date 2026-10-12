@@ -73,10 +73,10 @@
   "pinned_version": null,
   "rename": [],
   "ruby_source_checksum": {
-    "sha256": "40e9edbe3dd42e3322c2e149804200810940159845d85606102125ce5344883d"
+    "sha256": "e9e578c21341837d41f9cc0e31fb526619a07cfaa093e1150c0c768da0a80d18"
   },
   "ruby_source_path": "Casks/diagra.rb",
-  "sha256": "d83ae57875ae5fa2b25e9cbbc9ba50595d11a4b482cdbcbb237bbdd5c1565148",
+  "sha256": "9c59ed2b6c9c7fec105059e8bcebf6fb4232877768a0b5ad7b5e90a7e9a10b64",
   "skip_livecheck": false,
   "supported_platforms": [
     "arm64_golden_gate",
@@ -87,10 +87,10 @@
     "arm64_monterey"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "3aaa861d1625e416c97678858e00f169addfaaad",
+  "tap_git_head": "7f741af65f50e715e4dbf90501627c02f8291dd2",
   "token": "diagra",
-  "url": "https://github.com/tacogips/diagra-app/releases/download/v0.1.0/diagra_0.1.0_aarch64.dmg",
+  "url": "https://github.com/tacogips/diagra-app/releases/download/v0.2.0/diagra_0.2.0_aarch64.dmg",
   "url_specs": {},
   "variations": {},
-  "version": "0.1.0"
+  "version": "0.2.0"
 }
