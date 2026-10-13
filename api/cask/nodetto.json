@@ -2,23 +2,23 @@
   "artifacts": [
     {
       "app": [
-        "diagra.app"
+        "Nodetto.app"
       ],
-      "target": "/Applications/diagra.app"
+      "target": "/Applications/Nodetto.app"
     },
     {
       "binary": [
-        "/Applications/diagra.app/Contents/MacOS/diagra-cli"
+        "/Applications/Nodetto.app/Contents/MacOS/nodetto-cli"
       ],
-      "target": "/opt/homebrew/bin/diagra-cli"
+      "target": "/opt/homebrew/bin/nodetto-cli"
     },
     {
       "zap": [
         {
           "trash": [
-            "~/Library/Application Support/me.tacogips.diagra",
-            "~/Library/Caches/me.tacogips.diagra",
-            "~/Library/WebKit/me.tacogips.diagra"
+            "~/Library/Application Support/me.tacogips.nodetto",
+            "~/Library/Caches/me.tacogips.nodetto",
+            "~/Library/WebKit/me.tacogips.nodetto"
           ]
         }
       ]
@@ -28,7 +28,7 @@
   "autobump": true,
   "bundle_short_version": null,
   "bundle_version": null,
-  "caveats": "This cask installs the signed and notarized diagra.app and links its\ndiagra-cli command (ERD DDL export and checks, canonical formatting and\nvalidation of diagra JSONL documents) into the Homebrew prefix.\nOpen a document from a terminal with: open -a diagra FILE.jsonl\n",
+  "caveats": "This cask installs the signed and notarized Nodetto.app and links its\nnodetto-cli command (ERD DDL export and checks, canonical formatting and\nvalidation of nodetto JSONL documents) into the Homebrew prefix.\nOpen a document from a terminal with: open -a nodetto FILE.jsonl\n",
   "caveats_rosetta": null,
   "conflicts_with": null,
   "container": null,
@@ -58,25 +58,27 @@
   "disable_replacement_cask": null,
   "disable_replacement_formula": null,
   "disabled": false,
-  "full_token": "tacogips/tap/diagra",
-  "homepage": "https://github.com/tacogips/diagra-app",
+  "full_token": "tacogips/tap/nodetto",
+  "homepage": "https://github.com/tacogips/nodetto-app",
   "installed": null,
   "installed_time": null,
   "languages": [],
   "name": [
-    "diagra"
+    "Nodetto"
   ],
   "no_autobump_message": null,
-  "old_tokens": [],
+  "old_tokens": [
+    "diagra"
+  ],
   "outdated": false,
   "pinned": false,
   "pinned_version": null,
   "rename": [],
   "ruby_source_checksum": {
-    "sha256": "e3b022616fa598a47c21295425a8d33fbf0bbe62cf4feb5bb903c72d4946765f"
+    "sha256": "9b5d35a047e5f80c56372c431865fb4207c46821e6a136cbee885e032d37b735"
   },
-  "ruby_source_path": "Casks/diagra.rb",
-  "sha256": "db343709569ab72b78c51e6721f3ef2ee3da2fd10b6ae5da8199b22c384399d9",
+  "ruby_source_path": "Casks/nodetto.rb",
+  "sha256": "84d2bf7d17daaf88e29ecd5276a762e87512adbf0e1234ef6bade069d392ce2e",
   "skip_livecheck": false,
   "supported_platforms": [
     "arm64_golden_gate",
@@ -87,10 +89,10 @@
     "arm64_monterey"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "a6a525a24908542492c1cb366add32ba425ae0b9",
-  "token": "diagra",
-  "url": "https://github.com/tacogips/diagra-app/releases/download/v0.2.2/diagra_0.2.2_aarch64.dmg",
+  "tap_git_head": "23778c7bee062d06243e41166635fbbcf569c12b",
+  "token": "nodetto",
+  "url": "https://github.com/tacogips/nodetto-app/releases/download/v0.2.4/Nodetto_0.2.4_aarch64.dmg",
   "url_specs": {},
   "variations": {},
-  "version": "0.2.2"
+  "version": "0.2.4"
 }
