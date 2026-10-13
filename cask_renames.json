@@ -1,3 +1,4 @@
 {
-  "calendar-gateway": "google-calendar-gateway"
+  "calendar-gateway": "google-calendar-gateway",
+  "diagra": "nodetto"
 }

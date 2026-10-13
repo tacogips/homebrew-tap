@@ -22,7 +22,7 @@ Metadata is regenerated automatically whenever a formula or cask changes.
 - `google-calendar-gateway`
 - `chilla`
 - `ccusage-gauge`
-- `diagra`
+- `nodetto`
 - `kaiba`
 - `riela`
 - `stria`
@@ -42,7 +42,7 @@ brew install --cask bifrost-gauge
 brew install --cask google-calendar-gateway
 brew install --cask chilla
 brew install --cask ccusage-gauge
-brew install --cask diagra
+brew install --cask nodetto
 brew install --cask kaiba
 brew install --cask riela
 brew install --cask stria
