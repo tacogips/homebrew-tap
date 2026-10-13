@@ -1,6 +1,6 @@
 cask "diagra" do
-  version "0.2.1"
-  sha256 "58f227c72d1c9e513ce0cc023030472785e26f4cf7c93c184d9105dd13669ee0"
+  version "0.2.2"
+  sha256 "db343709569ab72b78c51e6721f3ef2ee3da2fd10b6ae5da8199b22c384399d9"
 
   url "https://github.com/tacogips/diagra-app/releases/download/v#{version}/diagra_#{version}_aarch64.dmg"
   name "diagra"
