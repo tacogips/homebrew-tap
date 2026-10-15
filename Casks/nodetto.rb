@@ -1,10 +1,10 @@
 cask "nodetto" do
-  version "0.2.4"
-  sha256 "84d2bf7d17daaf88e29ecd5276a762e87512adbf0e1234ef6bade069d392ce2e"
+  version "0.2.5"
+  sha256 "94e237dcab1c187b84b77f46d49d8af5a8f27aedda9fe8e3854374afe4d71206"
 
   url "https://github.com/tacogips/nodetto-app/releases/download/v#{version}/Nodetto_#{version}_aarch64.dmg"
   name "Nodetto"
-  desc "Diagram, ERD and design editor with a semantic JSONL file format"
+  desc "Local-only diagram, ERD and design editor"
   homepage "https://github.com/tacogips/nodetto-app"
 
   livecheck do
@@ -26,9 +26,10 @@ cask "nodetto" do
 
   caveats do
     <<~EOS
-      This cask installs the signed and notarized Nodetto.app and links its
+      This cask installs the signed and notarized local-only Nodetto.app and links its
       nodetto-cli command (ERD DDL export and checks, canonical formatting and
       validation of nodetto JSONL documents) into the Homebrew prefix.
+      Cloud sync and account controls are disabled in this desktop client.
       Open a document from a terminal with: open -a nodetto FILE.jsonl
     EOS
   end
