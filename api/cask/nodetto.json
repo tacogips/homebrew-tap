@@ -75,10 +75,10 @@
   "pinned_version": null,
   "rename": [],
   "ruby_source_checksum": {
-    "sha256": "c1354dd93f5241395ba884e368e08b878490c6a11ad58b4b1f7b060c780b23b2"
+    "sha256": "b531c52dadd8d15c3adaeb0ea687f41e9cc18acbd891cf817738d4ab020a81eb"
   },
   "ruby_source_path": "Casks/nodetto.rb",
-  "sha256": "adbff1d58858f4a5de8949582ace9217e47e25026a87b55a18ee8cbb0a149f1c",
+  "sha256": "4955b55bb6af7dabc29fec2c8218a3ace5274d084c277b48eedba58c4a1ec2a2",
   "skip_livecheck": false,
   "supported_platforms": [
     "arm64_golden_gate",
@@ -89,10 +89,10 @@
     "arm64_monterey"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "7c5c3c8451a727bc0eef4dfe585ee82802507d5e",
+  "tap_git_head": "b1397b2fed1aab7f1d0edb1a1c8e82ca168dff3e",
   "token": "nodetto",
-  "url": "https://github.com/tacogips/nodetto-app/releases/download/v0.2.7/Nodetto_0.2.7_aarch64.dmg",
+  "url": "https://github.com/tacogips/nodetto-app/releases/download/v0.2.8/Nodetto_0.2.8_aarch64.dmg",
   "url_specs": {},
   "variations": {},
-  "version": "0.2.7"
+  "version": "0.2.8"
 }
