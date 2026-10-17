@@ -1,6 +1,6 @@
 cask "nodetto" do
-  version "0.2.9"
-  sha256 "a25e9d8a9a80dac36438b5149849a75396de96fb9ef137c791cfedca8fb0d52c"
+  version "0.3.0"
+  sha256 "fb59f9fbc73ed893ac6e27bc030ab9775ec72face75216d255932270fd3d0376"
 
   url "https://github.com/tacogips/nodetto-app/releases/download/v#{version}/Nodetto_#{version}_aarch64.dmg"
   name "Nodetto"
@@ -30,7 +30,7 @@ cask "nodetto" do
       nodetto-cli command (AI drawing, image and schema export, formatting and
       validation of nodetto JSONL documents) into the Homebrew prefix.
       Cloud sync and account controls are disabled in this desktop client.
-      Open a document from a terminal with: open -a nodetto FILE.jsonl
+      Open a document from a terminal with: nodetto-cli open FILE.jsonl
     EOS
   end
 end
