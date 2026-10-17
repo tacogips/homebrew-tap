@@ -78,25 +78,18 @@
     "monterey",
     "arm64_monterey",
     "big_sur",
-    "arm64_big_sur",
-    "catalina"
+    "arm64_big_sur"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "48b98fd3a2881067ddee06015a4178272e69c15e",
+  "tap_git_head": "40680a2a18cabb75cc7c35c5e4ed0827a0e196e7",
   "token": "apple-gateway",
   "url": "https://github.com/tacogips/apple-gateway/releases/download/v0.1.1/apple-gateway-0.1.1-darwin-arm64.dmg",
-  "url_specs": {
-    "verified": "github.com/tacogips/apple-gateway/releases/download/"
-  },
+  "url_specs": {},
   "variations": {
     "arm64_linux": {
       "sha256": null
     },
     "big_sur": {
-      "sha256": "81720a0c2bd3d3f9fad5da4523f2b74f016ddfff9f09acbb40ca2233f27a59ef",
-      "url": "https://github.com/tacogips/apple-gateway/releases/download/v0.1.1/apple-gateway-0.1.1-darwin-x64.dmg"
-    },
-    "catalina": {
       "sha256": "81720a0c2bd3d3f9fad5da4523f2b74f016ddfff9f09acbb40ca2233f27a59ef",
       "url": "https://github.com/tacogips/apple-gateway/releases/download/v0.1.1/apple-gateway-0.1.1-darwin-x64.dmg"
     },
