@@ -1,6 +1,6 @@
 cask "nodetto" do
-  version "0.3.0"
-  sha256 "fb59f9fbc73ed893ac6e27bc030ab9775ec72face75216d255932270fd3d0376"
+  version "0.3.1"
+  sha256 "0f1fbc9e1f12234a990a2f5de8c094252e7d9c8f24f32f59dc935eb9231de404"
 
   url "https://github.com/tacogips/nodetto-app/releases/download/v#{version}/Nodetto_#{version}_aarch64.dmg"
   name "Nodetto"
