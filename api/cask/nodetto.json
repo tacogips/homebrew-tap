@@ -28,7 +28,7 @@
   "autobump": true,
   "bundle_short_version": null,
   "bundle_version": null,
-  "caveats": "This cask installs the signed and notarized local-only Nodetto.app and links its\nnodetto-cli command (AI drawing, image and schema export, formatting and\nvalidation of nodetto JSONL documents) into the Homebrew prefix.\nCloud sync and account controls are disabled in this desktop client.\nOpen a document from a terminal with: nodetto-cli open FILE.jsonl\n",
+  "caveats": "This cask installs the signed and notarized local-only Nodetto.app and links its\nnative Rust nodetto-cli command (AI drawing, image and schema export, formatting and\nvalidation of nodetto JSONL documents) into the Homebrew prefix.\nCloud sync and account controls are disabled in this desktop client.\nOpen a document from a terminal with: nodetto-cli open FILE.jsonl\nStart the MCP server with: nodetto-cli mcp\nNo Node.js or Bun installation is required.\n",
   "caveats_rosetta": null,
   "conflicts_with": null,
   "container": null,
@@ -75,10 +75,10 @@
   "pinned_version": null,
   "rename": [],
   "ruby_source_checksum": {
-    "sha256": "a5765bfcae0368fda357e5480f91645c042b65e7242cd8a86c78cc6b99ce07e1"
+    "sha256": "6bb0cd849712b2591b2af57905398ac5ed87c8a9ee0772c2a5ed97313e52627d"
   },
   "ruby_source_path": "Casks/nodetto.rb",
-  "sha256": "0f1fbc9e1f12234a990a2f5de8c094252e7d9c8f24f32f59dc935eb9231de404",
+  "sha256": "32a07b75c99278529dd7ac14d7d6b05a6c4f15693a05cb1253dae335ff319bc8",
   "skip_livecheck": false,
   "supported_platforms": [
     "arm64_golden_gate",
@@ -89,10 +89,10 @@
     "arm64_monterey"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "6b422b26f1e51d53296737c05060d3c2c3fc40f8",
+  "tap_git_head": "564f6ce069540266d988fa7c175c5f990aeba593",
   "token": "nodetto",
-  "url": "https://github.com/tacogips/nodetto-app/releases/download/v0.3.1/Nodetto_0.3.1_aarch64.dmg",
+  "url": "https://github.com/tacogips/nodetto-app/releases/download/v0.3.2/Nodetto_0.3.2_aarch64.dmg",
   "url_specs": {},
   "variations": {},
-  "version": "0.3.1"
+  "version": "0.3.2"
 }
