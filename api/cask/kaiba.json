@@ -72,7 +72,7 @@
     "arm64_big_sur"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "94c3fc4bc6fdfb81c2944a302804bb48c74ace7a",
+  "tap_git_head": "5eb27dc0b24467cc23d85a286a0e5b634b0c7d0b",
   "token": "kaiba",
   "url": "https://github.com/tacogips/kaiba/releases/download/v0.1.17/kaiba-0.1.17-darwin-arm64.dmg",
   "url_specs": {},
