@@ -44,20 +44,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "4930770ddfc1597a1aaf3e5d6e283abd92df116b2ca5c24dce30ba39f3a45f70"
+    "sha256": "75ae06da5ecb588c4d314e978348a5cf2de0ff23d9db1342da29381e064c3a72"
   },
   "ruby_source_path": "Formula/apple-gateway.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "1ece8122b94ec08b0f950c8c1b46f91dfcea4d55",
+  "tap_git_head": "62462f65e86b26935de46c4edc8f2f03bed67c25",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "1dcd0702ac3dd9a20952918d598ad72783b19db5cc502a2aa9d5ca860395694e",
+      "checksum": "f09471a3939ff71a8186dd11b89e38f8b9f8b36023db345bf2721c491c51e94c",
       "revision": null,
       "tag": null,
-      "url": "https://github.com/tacogips/apple-gateway/releases/download/v0.1.13/apple-gateway-0.1.13-darwin-arm64.tar.gz",
+      "url": "https://github.com/tacogips/apple-gateway/releases/download/v0.1.14/apple-gateway-0.1.14-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.1.13"
+    "stable": "0.1.14"
   }
 }
