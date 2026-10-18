@@ -10,11 +10,11 @@ class GmailGatewaySender < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.20/gmail-gateway-sender-0.1.20-darwin-arm64.tar.gz"
-      sha256 "d9d480d672905ff11a78baa18d0a5c7f344ab44b059025aa6ff15069da3cb553"
+      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.21/gmail-gateway-sender-0.1.21-darwin-arm64.tar.gz"
+      sha256 "5804414a89f4af242249f5e12eee03fcdfbffe27aef2b93d5e460f72c1537c5d"
     else
-      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.20/gmail-gateway-sender-0.1.20-darwin-x64.tar.gz"
-      sha256 "3e3cf89c48dbcbb9e51e1a6a0142755738ce4907b1ceb9931db9fda7287501cc"
+      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.21/gmail-gateway-sender-0.1.21-darwin-x64.tar.gz"
+      sha256 "e164b4828e76af4752febf371bbf2eb00e2bc13f6756cfa316a36bcb57370047"
     end
   end
 
