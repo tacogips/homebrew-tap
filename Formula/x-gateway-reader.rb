@@ -10,11 +10,11 @@ class XGatewayReader < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/x-gateway/releases/download/v0.1.9/x-gateway-0.1.9-darwin-arm64.tar.gz"
-      sha256 "edbd40ac71d15970ae698283fe6deb584e6299a64c2d459fcb7e590f9e628b95"
+      url "https://github.com/tacogips/x-gateway/releases/download/v0.1.10/x-gateway-0.1.10-darwin-arm64.tar.gz"
+      sha256 "0cbf85a0c4f476b94cc5952bf30c96649637d003de06fa34052f7869fa75fdda"
     else
-      url "https://github.com/tacogips/x-gateway/releases/download/v0.1.9/x-gateway-0.1.9-darwin-x64.tar.gz"
-      sha256 "7d071eba811166a165a6a2c0574726559e6b83dc564679871e5a8d5a6d4f6a48"
+      url "https://github.com/tacogips/x-gateway/releases/download/v0.1.10/x-gateway-0.1.10-darwin-x64.tar.gz"
+      sha256 "943bba6540590c7c4b1d8bba9ba997d61ae21cd8fd4bfdd5691710bbbcf3ae65"
     end
   end
 
@@ -23,6 +23,6 @@ class XGatewayReader < Formula
   end
 
   test do
-    assert_match "0.1.9", shell_output("#{bin}/x-gateway-reader version")
+    assert_match "0.1.10", shell_output("#{bin}/x-gateway-reader version")
   end
 end
