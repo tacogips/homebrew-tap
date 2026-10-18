@@ -44,20 +44,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "8d08b16ac46a0f7357697a80e1665539e956cbb8e89738c0f85531f0184aa0f1"
+    "sha256": "ee1fe7feb560cff8d501bdd45695a4407fbbbd0c191c6fa2e09c8a1ce4f3580b"
   },
   "ruby_source_path": "Formula/x-gateway-reader.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "117fea15e43edbae186e360832becb95675bb983",
+  "tap_git_head": "a214a507696a21cd9acfe01e7edae2c0a6e6133e",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "de6c6b02cdd3bc091439717eebce357e6f81837abca2978747a22dc4916cec0f",
+      "checksum": "f90976c549481c66e152d08318ed50615f683c6d9a215d264dc1ccd4bd16f5bb",
       "revision": null,
       "tag": null,
-      "url": "https://github.com/tacogips/x-gateway/releases/download/v0.1.7/x-gateway-0.1.7-darwin-arm64.tar.gz",
+      "url": "https://github.com/tacogips/x-gateway/releases/download/v0.1.8/x-gateway-0.1.8-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.1.7"
+    "stable": "0.1.8"
   }
 }
