@@ -1,11 +1,11 @@
 cask "apple-gateway" do
-  version "0.1.17"
+  version "0.1.18"
   arch arm: "darwin-arm64", intel: "darwin-x64"
 
-  sha256 arm: "8054b0b067b2231b88fe6b9359bdc3dab1fb6b958e793a11dc48b28cc7033427",
-         intel: "5b2a811aa781577de4f119d4d953139b8135e53ff38ff5ebe8ced6b571933e47"
+  sha256 arm: "c253c716790bda8a7c7a513074d7851f88ab4be89a9e63026d2adaff654cddec",
+         intel: "d09ec17b1536219b2545db645ca111b4bf4d8b917e80875282d962a3e3e17962"
 
-  url "https://github.com/tacogips/apple-gateway/releases/download/v0.1.17/apple-gateway-full-#{version}-#{arch}.dmg",
+  url "https://github.com/tacogips/apple-gateway/releases/download/v0.1.18/apple-gateway-full-#{version}-#{arch}.dmg",
       verified: "github.com/tacogips/apple-gateway/releases/download/"
   name "apple-gateway"
   desc "macOS CLI and GraphQL bridge for Apple apps"
