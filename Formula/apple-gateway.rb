@@ -10,11 +10,11 @@ class AppleGateway < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/apple-gateway/releases/download/v0.1.11/apple-gateway-0.1.11-darwin-arm64.tar.gz"
-      sha256 "a7739a433ab0d1130d6cb6977f1300b4995ed52653577737cf0d4194f41d1716"
+      url "https://github.com/tacogips/apple-gateway/releases/download/v0.1.12/apple-gateway-0.1.12-darwin-arm64.tar.gz"
+      sha256 "544158b13b48cc8f9d0957d9a618509ed71ba23acfe90bbd4a3d7ef957d1e62e"
     else
-      url "https://github.com/tacogips/apple-gateway/releases/download/v0.1.11/apple-gateway-0.1.11-darwin-x64.tar.gz"
-      sha256 "104645c1da6cc9476a7d80a0ebd47a9e0c6515d2764b9bdd7025d36c936dd3ae"
+      url "https://github.com/tacogips/apple-gateway/releases/download/v0.1.12/apple-gateway-0.1.12-darwin-x64.tar.gz"
+      sha256 "b9e3a1c9470d9931439973dc8816c36213467355f297f4603cfe4c63a1e6a947"
     end
   end
 
@@ -25,8 +25,8 @@ class AppleGateway < Formula
   end
 
   test do
-    assert_match "0.1.11", shell_output("#{bin}/apple-gateway --version")
-    assert_match "0.1.11", shell_output("#{bin}/apple-gateway-reader --version")
+    assert_match "0.1.12", shell_output("#{bin}/apple-gateway --version")
+    assert_match "0.1.12", shell_output("#{bin}/apple-gateway-reader --version")
     assert_path_exists libexec/"AppleGatewayNotifier.app"
   end
 end
