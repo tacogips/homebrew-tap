@@ -44,20 +44,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "093d0cb7ecc37a642f1a55fb6581382fb05c686bf9773b9dfad29f95e7d8440f"
+    "sha256": "7f528381919e95c4ff56b9a9b41d5c724d35410197c98114917fa7c2b9c370a9"
   },
   "ruby_source_path": "Formula/gmail-gateway-reader.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "514a5d48a68bd5f5c9aaa7665ebb8ac73b5ac71e",
+  "tap_git_head": "ac73aceb509aefd10895b65f15fc50c01b7851a5",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "48d837a130cac95f71d41b817c396f1bd6ea5cf158f153d1f26f74749c17504b",
+      "checksum": "dd4f0a638c7024139b48ab5b5ea956dc9be4a70c371a8c58c3dc07f8eada6b04",
       "revision": null,
       "tag": null,
-      "url": "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.25/gmail-gateway-reader-0.1.25-darwin-arm64.tar.gz",
+      "url": "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.26/gmail-gateway-reader-0.1.26-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -68,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.1.25"
+    "stable": "0.1.26"
   }
 }
