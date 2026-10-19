@@ -79,7 +79,7 @@
     "arm64_monterey"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "54aad208ec6318a521ee3a5654387d74bb4c6dcb",
+  "tap_git_head": "87d562f35ebde48a5bb588fda4db38a5013cf1db",
   "token": "chilla",
   "url": "https://github.com/tacogips/chilla/releases/download/v0.3.6/chilla_0.3.6_aarch64.dmg",
   "url_specs": {},
