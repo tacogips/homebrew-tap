@@ -10,11 +10,11 @@ class GmailGatewayReader < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.24/gmail-gateway-reader-0.1.24-darwin-arm64.tar.gz"
-      sha256 "c44befa0df1f180653ed5a8eaba85f1efbadb9c63ed6808a3d8d07a7ff529321"
+      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.25/gmail-gateway-reader-0.1.25-darwin-arm64.tar.gz"
+      sha256 "48d837a130cac95f71d41b817c396f1bd6ea5cf158f153d1f26f74749c17504b"
     else
-      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.24/gmail-gateway-reader-0.1.24-darwin-x64.tar.gz"
-      sha256 "aba9ba9e25787241bcb6482e93e4cdff5246c55c48c624a9d83dc0db26647f00"
+      url "https://github.com/tacogips/gmail-gateway/releases/download/v0.1.25/gmail-gateway-reader-0.1.25-darwin-x64.tar.gz"
+      sha256 "c6694c241b8280e6b9fb982c4898ae4f0fd69630e14472e549f4b429678c8df0"
     end
   end
 
