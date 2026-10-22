@@ -10,8 +10,8 @@ class Riela < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/tacogips/riela/releases/download/v0.2.39/riela-0.2.39-darwin-arm64.tar.gz"
-      sha256 "cf96c9642741c740f9e4c477e0d193049365cb9ff5c241621e0f8b083748d150"
+      url "https://github.com/tacogips/riela/releases/download/v0.2.43/riela-0.2.43-darwin-arm64.tar.gz"
+      sha256 "96b4acf2951b6ed2ee2f9dd12d54b8600c766eab8fb263dc43a7399fb23bd493"
     end
   end
 
