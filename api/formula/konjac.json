@@ -29,8 +29,10 @@
   "license": "MIT",
   "link_overwrite": [],
   "linked_keg": null,
+  "local_patch_checksums": {},
   "name": "konjac",
   "no_autobump_message": null,
+  "no_linkage_dependencies": [],
   "oldnames": [],
   "optional_dependencies": [],
   "options": [],
@@ -50,7 +52,7 @@
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "35a0591378af0ecb42caad63e672a1d415a000ac",
+  "tap_git_head": "08b52ce9a9e05e7cbd87ae222266f2382836c3be",
   "test_dependencies": [],
   "urls": {
     "stable": {
