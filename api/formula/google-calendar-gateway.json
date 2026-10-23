@@ -29,8 +29,10 @@
   "license": "MIT",
   "link_overwrite": [],
   "linked_keg": null,
+  "local_patch_checksums": {},
   "name": "google-calendar-gateway",
   "no_autobump_message": null,
+  "no_linkage_dependencies": [],
   "oldnames": [
     "calendar-gateway"
   ],
@@ -52,7 +54,7 @@
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "2ef94f6e86d30ea711d834771738fc2a4cdfa6f8",
+  "tap_git_head": "b35f7506f8ed9a8525ea16628293b3e69d7c44fa",
   "test_dependencies": [],
   "urls": {
     "stable": {
