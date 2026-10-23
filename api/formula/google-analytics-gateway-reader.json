@@ -29,10 +29,8 @@
   "license": "MIT",
   "link_overwrite": [],
   "linked_keg": null,
-  "local_patch_checksums": {},
   "name": "google-analytics-gateway-reader",
   "no_autobump_message": null,
-  "no_linkage_dependencies": [],
   "oldnames": [],
   "optional_dependencies": [],
   "options": [],
@@ -52,7 +50,7 @@
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "b35f7506f8ed9a8525ea16628293b3e69d7c44fa",
+  "tap_git_head": "9f425ea3c6cd856c0508fee173e458abf9c9a3f3",
   "test_dependencies": [],
   "urls": {
     "stable": {
