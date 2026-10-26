@@ -29,10 +29,8 @@
   "license": "MIT",
   "link_overwrite": [],
   "linked_keg": null,
-  "local_patch_checksums": {},
   "name": "google-service-gateway",
   "no_autobump_message": null,
-  "no_linkage_dependencies": [],
   "oldnames": [],
   "optional_dependencies": [],
   "options": [],
@@ -46,20 +44,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "2b2da1f5bfba62612d63977267c565837116d2c4869b01368c221fe1e3fd1939"
+    "sha256": "4b5881c72353a0d8615f5a778f3c374161c898e9bbbfb46b0e65529f7806ff25"
   },
   "ruby_source_path": "Formula/google-service-gateway.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "34daf5496d373a9ba728df2d951c27753cfeb23e",
+  "tap_git_head": "c394f58226a1a814352b1918d239c6cb8ca043ad",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "97028c2f30deecdf955e38ad38d28aaef2763d260113d8e476e707c57c6f2c0d",
+      "checksum": "e328f4b0f0929b25e99777079455590e9d3728e86c8b76dd37f22bfddab9fecb",
       "revision": null,
-      "tag": "v0.1.6",
-      "url": "https://github.com/tacogips/google-service-gateway/releases/download/v0.1.6/google-service-gateway-0.1.6-darwin-arm64.tar.gz",
+      "tag": "v0.1.7",
+      "url": "https://github.com/tacogips/google-service-gateway/releases/download/v0.1.7/google-service-gateway-0.1.7-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -70,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.1.6"
+    "stable": "0.1.7"
   }
 }
