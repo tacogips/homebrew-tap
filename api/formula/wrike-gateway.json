@@ -29,10 +29,8 @@
   "license": "MIT",
   "link_overwrite": [],
   "linked_keg": null,
-  "local_patch_checksums": {},
   "name": "wrike-gateway",
   "no_autobump_message": null,
-  "no_linkage_dependencies": [],
   "oldnames": [],
   "optional_dependencies": [],
   "options": [],
@@ -52,7 +50,7 @@
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "281e49e1e9c4b56b92d8c6dd6b9e64bd997d0a8b",
+  "tap_git_head": "45214086ad2387dc7d489c92daf92fcdd50ec6f9",
   "test_dependencies": [],
   "urls": {
     "stable": {

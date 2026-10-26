@@ -89,7 +89,7 @@
     "arm64_monterey"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "281e49e1e9c4b56b92d8c6dd6b9e64bd997d0a8b",
+  "tap_git_head": "45214086ad2387dc7d489c92daf92fcdd50ec6f9",
   "token": "nodetto",
   "url": "https://github.com/tacogips/nodetto-app/releases/download/v0.6.1/Nodetto_0.6.1_aarch64.dmg",
   "url_specs": {},

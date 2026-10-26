@@ -29,10 +29,8 @@
   "license": "MIT",
   "link_overwrite": [],
   "linked_keg": null,
-  "local_patch_checksums": {},
   "name": "agent-gateway",
   "no_autobump_message": null,
-  "no_linkage_dependencies": [],
   "oldnames": [],
   "optional_dependencies": [],
   "options": [],
@@ -46,20 +44,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "f43f52a08d4469e054a4e8eef600bb514bef48bc1192a9c09cbb2153aabaaec0"
+    "sha256": "ab26247acd3dcc2a780ef5f5d489b8d162dd479bf05cc27f79b68d0e1e6e9917"
   },
   "ruby_source_path": "Formula/agent-gateway.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "281e49e1e9c4b56b92d8c6dd6b9e64bd997d0a8b",
+  "tap_git_head": "45214086ad2387dc7d489c92daf92fcdd50ec6f9",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "49c7fc8d34814306691858785b2eb5d3d6d87c905e19756760377283ef726ff3",
+      "checksum": "71f55d7448392620404fd9f25fe2cf5875152569b23b26e144b2aeaee5e98b09",
       "revision": null,
       "tag": null,
-      "url": "https://github.com/tacogips/agent-gateway/releases/download/v0.1.4/agent-gateway-0.1.4-darwin-arm64.tar.gz",
+      "url": "https://github.com/tacogips/agent-gateway/releases/download/v0.1.5/agent-gateway-0.1.5-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -70,6 +68,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.1.4"
+    "stable": "0.1.5"
   }
 }
