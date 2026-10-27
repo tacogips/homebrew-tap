@@ -81,7 +81,7 @@
     "arm64_ventura"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "daad5ab9373b9e909d3af3f7bda13c85f0688c98",
+  "tap_git_head": "e06d7f3e80b3600c3c4d822ef939e59d5606be17",
   "token": "bifrost-gauge",
   "url": "https://github.com/tacogips/homebrew-tap/releases/download/bifrost-gauge-v0.1.10/bifrost-gauge_0.1.10_aarch64.app.zip",
   "url_specs": {},

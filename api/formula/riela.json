@@ -29,8 +29,10 @@
   "license": "MIT",
   "link_overwrite": [],
   "linked_keg": null,
+  "local_patch_checksums": {},
   "name": "riela",
   "no_autobump_message": null,
+  "no_linkage_dependencies": [],
   "oldnames": [],
   "optional_dependencies": [],
   "options": [],
@@ -44,20 +46,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "6c38b72a129677f4ba0643da9686d26dd240a67887b699be8b8916dcef535702"
+    "sha256": "027cfd9117cb90b52744f88f889a8e04b573c5bbb936f25f076330c054efc5db"
   },
   "ruby_source_path": "Formula/riela.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "daad5ab9373b9e909d3af3f7bda13c85f0688c98",
+  "tap_git_head": "e06d7f3e80b3600c3c4d822ef939e59d5606be17",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "17384768a08635d866e101d66b49dd6f93859ec91cda8ffaf3010614797960bc",
+      "checksum": "47a7e37a1c80d317ab31ab5ea540e1d2245ad3207a08edcc3b3668379d89ac93",
       "revision": null,
       "tag": null,
-      "url": "https://github.com/tacogips/riela/releases/download/v0.2.77/riela-0.2.77-darwin-arm64.tar.gz",
+      "url": "https://github.com/tacogips/riela/releases/download/v0.2.78/riela-0.2.78-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -68,6 +70,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.2.77"
+    "stable": "0.2.78"
   }
 }
