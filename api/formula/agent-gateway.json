@@ -29,10 +29,8 @@
   "license": "MIT",
   "link_overwrite": [],
   "linked_keg": null,
-  "local_patch_checksums": {},
   "name": "agent-gateway",
   "no_autobump_message": null,
-  "no_linkage_dependencies": [],
   "oldnames": [],
   "optional_dependencies": [],
   "options": [],
@@ -52,7 +50,7 @@
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "b566a48f2bfde35beca13c188c54a0ada6aaf227",
+  "tap_git_head": "a5773d943a7854c5a73ea0bb95d3c9baab6872f0",
   "test_dependencies": [],
   "urls": {
     "stable": {
