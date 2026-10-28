@@ -1,10 +1,10 @@
 cask "riela" do
   arch arm: "darwin-arm64"
 
-  version "0.2.81"
-  sha256 "81c31a280a5ffd2ce6acd4e90efefa8c5c69b5aa425ee48daf8158618418dec7"
+  version "0.2.82"
+  sha256 "bd6b37040a5bc1a055e3db57858cb85d508877e87d7349a870e1fc3798e045c4"
 
-  url "https://github.com/tacogips/riela/releases/download/v0.2.81/riela-#{version}-#{arch}.dmg"
+  url "https://github.com/tacogips/riela/releases/download/v0.2.82/riela-#{version}-#{arch}.dmg"
   name "riela"
   desc "Swift-native workflow runtime with a menu bar app and CLI"
   homepage "https://github.com/tacogips/riela"
