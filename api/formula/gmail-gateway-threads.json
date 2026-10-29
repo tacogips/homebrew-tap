@@ -29,8 +29,10 @@
   "license": "MIT",
   "link_overwrite": [],
   "linked_keg": null,
+  "local_patch_checksums": {},
   "name": "gmail-gateway-threads",
   "no_autobump_message": null,
+  "no_linkage_dependencies": [],
   "oldnames": [],
   "optional_dependencies": [],
   "options": [],
@@ -50,7 +52,7 @@
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "b1e4529e1b88d4c39453a324ef25eec8c581942a",
+  "tap_git_head": "95a388091726ad46f9a2f508ce43c66267539c82",
   "test_dependencies": [],
   "urls": {
     "stable": {
