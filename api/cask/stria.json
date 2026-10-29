@@ -79,7 +79,7 @@
     "arm64_sonoma"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "d1357cc81b655020fb17c5b2f661e5709dc837e1",
+  "tap_git_head": "b1e4529e1b88d4c39453a324ef25eec8c581942a",
   "token": "stria",
   "url": "https://github.com/tacogips/stria/releases/download/v0.1.1/stria-0.1.1-darwin-arm64.dmg",
   "url_specs": {},
