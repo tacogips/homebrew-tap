@@ -29,10 +29,8 @@
   "license": "MIT",
   "link_overwrite": [],
   "linked_keg": null,
-  "local_patch_checksums": {},
   "name": "ign",
   "no_autobump_message": null,
-  "no_linkage_dependencies": [],
   "oldnames": [],
   "optional_dependencies": [],
   "options": [],
@@ -52,7 +50,7 @@
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "95a388091726ad46f9a2f508ce43c66267539c82",
+  "tap_git_head": "9837097e058603b1bd6d4a39815203cae8925b0c",
   "test_dependencies": [],
   "urls": {
     "stable": {
