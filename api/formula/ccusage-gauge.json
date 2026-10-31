@@ -29,8 +29,10 @@
   "license": "MIT",
   "link_overwrite": [],
   "linked_keg": null,
+  "local_patch_checksums": {},
   "name": "ccusage-gauge",
   "no_autobump_message": null,
+  "no_linkage_dependencies": [],
   "oldnames": [],
   "optional_dependencies": [],
   "options": [],
@@ -44,20 +46,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "8e7e3db16b1cf261958d076a3d0b940bd27a3cf161ffd25574b9911b4f3bd7f5"
+    "sha256": "84b8fbf1e428c6f7e3fb1c0ac56f1eb7b49c2d1434b9359eba06dae83b94f89b"
   },
   "ruby_source_path": "Formula/ccusage-gauge.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "7b47c39cc3a762a06f82927a29b2e65636cd770d",
+  "tap_git_head": "8c59c2fc5882ee4713df758f65a32111e4e890b6",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "c37fafee984255000d7a0c06037745d177bd83ed1a292e73f5358a99a6c0974d",
+      "checksum": "868e6f69254078d2d1ab3caa84c42e78385c95cd04d5c640312c7526667676aa",
       "revision": null,
       "tag": null,
-      "url": "https://github.com/tacogips/ccusage-gauge/releases/download/v0.3.1/ccusage-gauge-0.3.1-darwin-arm64.tar.gz",
+      "url": "https://github.com/tacogips/ccusage-gauge/releases/download/v0.4.0/ccusage-gauge-0.4.0-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -68,6 +70,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.3.1"
+    "stable": "0.4.0"
   }
 }
