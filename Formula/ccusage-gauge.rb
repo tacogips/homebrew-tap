@@ -10,11 +10,11 @@ class CcusageGauge < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/ccusage-gauge/releases/download/v0.4.1/ccusage-gauge-0.4.1-darwin-arm64.tar.gz"
-      sha256 "3eaa2ff51602b60788771a4c8a42894414cb305845bedbe144c7bfd4c5aa197d"
+      url "https://github.com/tacogips/ccusage-gauge/releases/download/v0.4.2/ccusage-gauge-0.4.2-darwin-arm64.tar.gz"
+      sha256 "d43b53fbca50f58880fe472a642d42784897a17167ba4d02e2adede49dfddcb6"
     else
-      url "https://github.com/tacogips/ccusage-gauge/releases/download/v0.4.1/ccusage-gauge-0.4.1-darwin-x64.tar.gz"
-      sha256 "2f58cb5812e359560d1f8f5611ee629b78be69ecfba405032519da92f0c3aca1"
+      url "https://github.com/tacogips/ccusage-gauge/releases/download/v0.4.2/ccusage-gauge-0.4.2-darwin-x64.tar.gz"
+      sha256 "0ac672ebd64afdf374221657d0aba3e9fb936f9c13a3a793b5dba6ad08cd93c4"
     end
   end
 
@@ -25,6 +25,6 @@ class CcusageGauge < Formula
   end
 
   test do
-    assert_match "0.4.1", shell_output("#{bin}/ccusage-gauge --version")
+    assert_match "0.4.2", shell_output("#{bin}/ccusage-gauge --version")
   end
 end
