@@ -45,6 +45,7 @@ jobs:
           else
             brew tap --custom-remote tacogips/tap "$GITHUB_WORKSPACE"
           fi
+          brew trust --tap tacogips/tap
 
       - name: Generate metadata
         run: python3 .github/scripts/generate_api_metadata.py
