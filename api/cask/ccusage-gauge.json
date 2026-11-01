@@ -46,7 +46,7 @@
   "deprecation_reason": null,
   "deprecation_replacement_cask": null,
   "deprecation_replacement_formula": null,
-  "desc": "Menu bar gauge and native dashboard for AI coding-agent usage costs",
+  "desc": "Menu bar gauge for Claude Code and Codex subscription limits, credits, and costs",
   "disable_args": null,
   "disable_date": null,
   "disable_reason": null,
@@ -68,7 +68,7 @@
   "pinned_version": null,
   "rename": [],
   "ruby_source_checksum": {
-    "sha256": "34e28505102cc3e3696eb8d248f814eccc1f6675c76a53821f9ea46b8751f300"
+    "sha256": "3fb03fc7f1081c63517ca781f6914db44a6cd448faf80a3744cae6263078de1d"
   },
   "ruby_source_path": "Casks/ccusage-gauge.rb",
   "sha256": "0c75c3f5c5880f57dc9a3662830044b5a1d16a7a04a407e3855912d3804e3cab",
@@ -84,7 +84,7 @@
     "arm64_sonoma"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "e236c15b4ef53cd4944811161fea3651d258962c",
+  "tap_git_head": "b9f0f6fc99b9e9faff0f455f10c02849c9aacd5e",
   "token": "ccusage-gauge",
   "url": "https://github.com/tacogips/ccusage-gauge/releases/download/v0.4.3/ccusage-gauge-0.4.3-darwin-arm64.dmg",
   "url_specs": {},

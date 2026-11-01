@@ -14,7 +14,7 @@
   "deprecation_reason": null,
   "deprecation_replacement_cask": null,
   "deprecation_replacement_formula": null,
-  "desc": "Native dashboard and CLI for AI coding-agent usage costs",
+  "desc": "Dashboard and CLI for Claude Code and Codex subscription limits and usage costs",
   "disable_args": null,
   "disable_date": null,
   "disable_reason": null,
@@ -46,13 +46,13 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "986ad7069489f66bc44b4b2fbb276d6d2c7bcea57c67309e2b7d0b5063e9dd7d"
+    "sha256": "eea70830b940cde74681b97920e8146c8be6b231ead2c1a4327fc6a522cb820f"
   },
   "ruby_source_path": "Formula/ccusage-gauge.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "e236c15b4ef53cd4944811161fea3651d258962c",
+  "tap_git_head": "b9f0f6fc99b9e9faff0f455f10c02849c9aacd5e",
   "test_dependencies": [],
   "urls": {
     "stable": {
