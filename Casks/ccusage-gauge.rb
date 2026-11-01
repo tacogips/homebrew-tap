@@ -7,7 +7,7 @@ cask "ccusage-gauge" do
 
   url "https://github.com/tacogips/ccusage-gauge/releases/download/v0.4.3/ccusage-gauge-#{version}-#{arch}.dmg"
   name "CCUsage Gauge"
-  desc "Menu bar gauge and native dashboard for AI coding-agent usage costs"
+  desc "Menu bar gauge for Claude Code and Codex subscription limits, credits, and costs"
   homepage "https://github.com/tacogips/ccusage-gauge"
 
   livecheck do
