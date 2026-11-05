@@ -84,7 +84,7 @@
     "arm64_sonoma"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "8b039132c1646985852212c0622a62eae77fc3ee",
+  "tap_git_head": "b2f0c0708d1db2c27f314d8f9c09435d8d7682e5",
   "token": "ccusage-gauge",
   "url": "https://github.com/tacogips/ccusage-gauge/releases/download/v0.4.3/ccusage-gauge-0.4.3-darwin-arm64.dmg",
   "url_specs": {},
