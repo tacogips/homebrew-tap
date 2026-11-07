@@ -1,7 +1,7 @@
 class AgentGateway < Formula
   desc "ACP stdio agent that routes prompts to AI vendor CLIs and APIs"
   homepage "https://github.com/tacogips/agent-gateway"
-  version "0.1.7"
+  version "0.1.8"
   license "MIT"
 
   livecheck do
@@ -11,11 +11,11 @@ class AgentGateway < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/agent-gateway/releases/download/v0.1.7/agent-gateway-0.1.7-darwin-arm64.tar.gz"
-      sha256 "f40938ae59b0e79072041c91d65d565e4889ec1ff451ceddc2adf4bd4a6114bc"
+      url "https://github.com/tacogips/agent-gateway/releases/download/v0.1.8/agent-gateway-0.1.8-darwin-arm64.tar.gz"
+      sha256 "3d760b68124ea2e3dd3c4f3e96b31a8b0258fe010b68b61839bd928845336cf9"
     else
-      url "https://github.com/tacogips/agent-gateway/releases/download/v0.1.7/agent-gateway-0.1.7-darwin-x64.tar.gz"
-      sha256 "6b382101e82f1196f8074f19ac68478e591f1e56464da590bcf3e2ca1c3788ea"
+      url "https://github.com/tacogips/agent-gateway/releases/download/v0.1.8/agent-gateway-0.1.8-darwin-x64.tar.gz"
+      sha256 "67b45e77e29ae138e9762769b4f28f34a64a6e0ed4d16b57a30276f41b6e3ee8"
     end
   end
 
@@ -24,6 +24,6 @@ class AgentGateway < Formula
   end
 
   test do
-    assert_match "0.1.7", shell_output("#{bin}/agent-gateway --version")
+    assert_match "0.1.8", shell_output("#{bin}/agent-gateway --version")
   end
 end
