@@ -46,20 +46,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "52b74ef0aa74283aedbaaee6326d6e6962ce4ece0f972feca39a5cd59a4c0922"
+    "sha256": "d026aa7b17bcb35288f9cd70d1dfebc005f1509c60103e29c4a9ff1f92fd4a72"
   },
   "ruby_source_path": "Formula/agent-gateway.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "e49852073ab88d790e5b2151a35f281de5f51c23",
+  "tap_git_head": "c142af4353a930449958599a6e17efa5525153b0",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "3d760b68124ea2e3dd3c4f3e96b31a8b0258fe010b68b61839bd928845336cf9",
+      "checksum": "79a2fd3d009073ee1bc24d111800c3a962c231ce7de86885e39bd2a1b3d29a4e",
       "revision": null,
       "tag": null,
-      "url": "https://github.com/tacogips/agent-gateway/releases/download/v0.1.8/agent-gateway-0.1.8-darwin-arm64.tar.gz",
+      "url": "https://github.com/tacogips/agent-gateway/releases/download/v0.1.9/agent-gateway-0.1.9-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -70,6 +70,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.1.8"
+    "stable": "0.1.9"
   }
 }

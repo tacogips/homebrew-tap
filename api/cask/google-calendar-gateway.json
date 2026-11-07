@@ -74,7 +74,7 @@
     "arm64_big_sur"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "e49852073ab88d790e5b2151a35f281de5f51c23",
+  "tap_git_head": "c142af4353a930449958599a6e17efa5525153b0",
   "token": "google-calendar-gateway",
   "url": "https://github.com/tacogips/google-calendar-gateway/releases/download/v0.1.9/google-calendar-gateway-0.1.9-darwin-arm64.dmg",
   "url_specs": {},
