@@ -1,0 +1,117 @@
+{
+  "artifacts": [
+    {
+      "app": [
+        "CCUsageGauge.app"
+      ],
+      "target": "/Applications/CCUsageGauge.app"
+    },
+    {
+      "binary": [
+        "/Applications/CCUsageGauge.app/Contents/MacOS/ccusage-gauge",
+        {
+          "target": "ccusage-gauge"
+        }
+      ],
+      "target": "/opt/homebrew/bin/ccusage-gauge"
+    },
+    {
+      "binary": [
+        "/Applications/CCUsageGauge.app/Contents/Helpers/CCUsageGaugeDashboard.app/Contents/MacOS/ccusage-gauge-dashboard",
+        {
+          "target": "ccusage-gauge-dashboard"
+        }
+      ],
+      "target": "/opt/homebrew/bin/ccusage-gauge-dashboard"
+    }
+  ],
+  "auto_updates": null,
+  "autobump": true,
+  "bundle_short_version": null,
+  "bundle_version": null,
+  "caveats": "The app and native dashboard are signed and notarized with Apple Developer ID.\nInstall ccusage separately and configure its path if it is not discoverable.\n",
+  "caveats_rosetta": null,
+  "conflicts_with": null,
+  "container": null,
+  "depends_on": {
+    "macos": {
+      ">=": [
+        "14"
+      ]
+    }
+  },
+  "deprecate_args": null,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "deprecation_replacement_cask": null,
+  "deprecation_replacement_formula": null,
+  "desc": "Menu bar gauge for Claude Code and Codex subscription limits, credits, and costs",
+  "disable_args": null,
+  "disable_date": null,
+  "disable_reason": null,
+  "disable_replacement_cask": null,
+  "disable_replacement_formula": null,
+  "disabled": false,
+  "full_token": "tacogips/tap/ccusage-gauge",
+  "homepage": "https://github.com/tacogips/ccusage-gauge",
+  "installed": null,
+  "installed_time": null,
+  "languages": [],
+  "name": [
+    "CCUsage Gauge"
+  ],
+  "no_autobump_message": null,
+  "old_tokens": [],
+  "outdated": false,
+  "pinned": false,
+  "pinned_version": null,
+  "rename": [],
+  "ruby_source_checksum": {
+    "sha256": "3fb03fc7f1081c63517ca781f6914db44a6cd448faf80a3744cae6263078de1d"
+  },
+  "ruby_source_path": "Casks/ccusage-gauge.rb",
+  "sha256": "0c75c3f5c5880f57dc9a3662830044b5a1d16a7a04a407e3855912d3804e3cab",
+  "skip_livecheck": false,
+  "supported_platforms": [
+    "golden_gate",
+    "arm64_golden_gate",
+    "tahoe",
+    "arm64_tahoe",
+    "sequoia",
+    "arm64_sequoia",
+    "sonoma",
+    "arm64_sonoma"
+  ],
+  "tap": "tacogips/tap",
+  "tap_git_head": "c5c40198d326b141095600a8457d19c6644de12a",
+  "token": "ccusage-gauge",
+  "url": "https://github.com/tacogips/ccusage-gauge/releases/download/v0.4.3/ccusage-gauge-0.4.3-darwin-arm64.dmg",
+  "url_specs": {},
+  "variations": {
+    "arm64_linux": {
+      "sha256": null
+    },
+    "golden_gate": {
+      "sha256": "aed899b87b48167cbc3bbfe7516c33441f70068986e630aa6b299c9650906c16",
+      "url": "https://github.com/tacogips/ccusage-gauge/releases/download/v0.4.3/ccusage-gauge-0.4.3-darwin-x64.dmg"
+    },
+    "sequoia": {
+      "sha256": "aed899b87b48167cbc3bbfe7516c33441f70068986e630aa6b299c9650906c16",
+      "url": "https://github.com/tacogips/ccusage-gauge/releases/download/v0.4.3/ccusage-gauge-0.4.3-darwin-x64.dmg"
+    },
+    "sonoma": {
+      "sha256": "aed899b87b48167cbc3bbfe7516c33441f70068986e630aa6b299c9650906c16",
+      "url": "https://github.com/tacogips/ccusage-gauge/releases/download/v0.4.3/ccusage-gauge-0.4.3-darwin-x64.dmg"
+    },
+    "tahoe": {
+      "sha256": "aed899b87b48167cbc3bbfe7516c33441f70068986e630aa6b299c9650906c16",
+      "url": "https://github.com/tacogips/ccusage-gauge/releases/download/v0.4.3/ccusage-gauge-0.4.3-darwin-x64.dmg"
+    },
+    "x86_64_linux": {
+      "sha256": null,
+      "url": "https://github.com/tacogips/ccusage-gauge/releases/download/v0.4.3/ccusage-gauge-0.4.3-darwin-x64.dmg"
+    }
+  },
+  "version": "0.4.3"
+}

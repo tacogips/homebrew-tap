@@ -1,0 +1,98 @@
+{
+  "artifacts": [
+    {
+      "app": [
+        "Nodetto.app"
+      ],
+      "target": "/Applications/Nodetto.app"
+    },
+    {
+      "binary": [
+        "/Applications/Nodetto.app/Contents/MacOS/nodetto-cli"
+      ],
+      "target": "/opt/homebrew/bin/nodetto-cli"
+    },
+    {
+      "zap": [
+        {
+          "trash": [
+            "~/Library/Application Support/me.tacogips.nodetto",
+            "~/Library/Caches/me.tacogips.nodetto",
+            "~/Library/WebKit/me.tacogips.nodetto"
+          ]
+        }
+      ]
+    }
+  ],
+  "auto_updates": null,
+  "autobump": true,
+  "bundle_short_version": null,
+  "bundle_version": null,
+  "caveats": "This cask installs the signed and notarized local-only Nodetto.app and links its\nnative Rust nodetto-cli command (AI drawing, image and schema export, formatting and\nvalidation of nodetto JSONL documents) into the Homebrew prefix.\nCloud sync and account controls are disabled in this desktop client.\nOpen a document from a terminal with: nodetto-cli open FILE.jsonl\nStart the MCP server with: nodetto-cli mcp\nNo Node.js or Bun installation is required.\n",
+  "caveats_rosetta": null,
+  "conflicts_with": null,
+  "container": null,
+  "depends_on": {
+    "arch": [
+      {
+        "bits": 64,
+        "type": "arm"
+      }
+    ],
+    "macos": {
+      ">=": [
+        "12"
+      ]
+    }
+  },
+  "deprecate_args": null,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "deprecation_replacement_cask": null,
+  "deprecation_replacement_formula": null,
+  "desc": "Local-only diagram, ERD and design editor",
+  "disable_args": null,
+  "disable_date": null,
+  "disable_reason": null,
+  "disable_replacement_cask": null,
+  "disable_replacement_formula": null,
+  "disabled": false,
+  "full_token": "tacogips/tap/nodetto",
+  "homepage": "https://github.com/tacogips/nodetto-app",
+  "installed": null,
+  "installed_time": null,
+  "languages": [],
+  "name": [
+    "Nodetto"
+  ],
+  "no_autobump_message": null,
+  "old_tokens": [
+    "diagra"
+  ],
+  "outdated": false,
+  "pinned": false,
+  "pinned_version": null,
+  "rename": [],
+  "ruby_source_checksum": {
+    "sha256": "d9e33e172f0f4ebd077cd038e6ba2ba46c538165f85ee9868894478779166a82"
+  },
+  "ruby_source_path": "Casks/nodetto.rb",
+  "sha256": "19016e747b1153bf3273031117820e0f87a08503d47f7fe9017714b38c6c42d2",
+  "skip_livecheck": false,
+  "supported_platforms": [
+    "arm64_golden_gate",
+    "arm64_tahoe",
+    "arm64_sequoia",
+    "arm64_sonoma",
+    "arm64_ventura",
+    "arm64_monterey"
+  ],
+  "tap": "tacogips/tap",
+  "tap_git_head": "c5c40198d326b141095600a8457d19c6644de12a",
+  "token": "nodetto",
+  "url": "https://github.com/tacogips/nodetto-app/releases/download/v0.10.3/Nodetto_0.10.3_aarch64.dmg",
+  "url_specs": {},
+  "variations": {},
+  "version": "0.10.3"
+}
