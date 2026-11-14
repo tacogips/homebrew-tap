@@ -1,7 +1,6 @@
 class Kinko < Formula
   desc "Local encrypted environment-variable manager"
   homepage "https://github.com/tacogips/kinko"
-  version "0.1.11"
   license "MIT"
 
   livecheck do
