@@ -14,7 +14,7 @@
   "deprecation_reason": null,
   "deprecation_replacement_cask": null,
   "deprecation_replacement_formula": null,
-  "desc": "Encrypted environment variable manager for repository and shared scopes",
+  "desc": "Local encrypted environment-variable manager",
   "disable_args": null,
   "disable_date": null,
   "disable_reason": null,
@@ -46,20 +46,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "74e880d14a19830858a83ff9f6a627f7aff2ac5872a8a0ea48e3d0163e5f700f"
+    "sha256": "590f95831ad9b4a89f23c59a9c0c76fa4d0dfa030163dda4fc3959caf744bc07"
   },
   "ruby_source_path": "Formula/kinko.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "c5c40198d326b141095600a8457d19c6644de12a",
+  "tap_git_head": "10f23d62edc8bf8ad98e9ef674ec5a63a62bf0fb",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "46a9a05bf3ab76cd6f9fb950b3aa7a2a7c8e4e2f262fdd5a1aae3b9904d9f73f",
+      "checksum": "a361f4862cb7e8e281fcfb5ac6fbf0ac142dc753ee2b9bb76e35ade138a4e4c2",
       "revision": null,
       "tag": null,
-      "url": "https://github.com/tacogips/kinko/releases/download/v0.1.10/kinko_0.1.10_darwin_arm64.tar.gz",
+      "url": "https://github.com/tacogips/kinko/releases/download/v0.1.11/kinko-0.1.11-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -70,6 +70,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.1.10"
+    "stable": "0.1.11"
   }
 }
