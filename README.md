@@ -1,0 +1,29 @@
+# homebrew-tap
+
+Custom Homebrew tap for `tacogips` packages.
+
+## Available formulae
+
+- `divedra`
+- `ign`
+- `kinko`
+- `riela`
+
+## Available casks
+
+- `bifrost-gauge`
+- `chilla`
+- `riela`
+
+## Usage
+
+```bash
+brew tap tacogips/tap
+brew install divedra
+brew install ign
+brew install kinko
+brew install riela
+brew install --cask bifrost-gauge
+brew install --cask chilla
+brew install --cask riela
+```
