@@ -1,6 +1,7 @@
 class Kinko < Formula
-  desc "Encrypted environment variable manager for repository and shared scopes"
+  desc "Local encrypted environment-variable manager"
   homepage "https://github.com/tacogips/kinko"
+  version "0.1.11"
   license "MIT"
 
   livecheck do
@@ -10,29 +11,31 @@ class Kinko < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/kinko/releases/download/v0.1.10/kinko_0.1.10_darwin_arm64.tar.gz"
-      sha256 "46a9a05bf3ab76cd6f9fb950b3aa7a2a7c8e4e2f262fdd5a1aae3b9904d9f73f"
+      url "https://github.com/tacogips/kinko/releases/download/v0.1.11/kinko-0.1.11-darwin-arm64.tar.gz"
+      sha256 "a361f4862cb7e8e281fcfb5ac6fbf0ac142dc753ee2b9bb76e35ade138a4e4c2"
     else
-      url "https://github.com/tacogips/kinko/releases/download/v0.1.10/kinko_0.1.10_darwin_amd64.tar.gz"
-      sha256 "ba1262ae25bc4e16e60dad0372d8cb38ccce76a8e523702ebe9e0263842823ce"
+      url "https://github.com/tacogips/kinko/releases/download/v0.1.11/kinko-0.1.11-darwin-x64.tar.gz"
+      sha256 "10f7e3ee0ec969d5530f0c2ed0369c9baa6203a1c8e079aadd0b3baafc1db328"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/kinko/releases/download/v0.1.10/kinko_0.1.10_linux_arm64.tar.gz"
-      sha256 "0ca7be71a7f714762d6e1323bf97790faa4a87ef297c2d1ff8764e4f4b785177"
+      url "https://github.com/tacogips/kinko/releases/download/v0.1.11/kinko-0.1.11-linux-arm64.tar.gz"
+      sha256 "a284aaa3d742b29d302a9a1fa67b14ec51ea1e82368b9f0ea787c950cd7d7a3f"
     else
-      url "https://github.com/tacogips/kinko/releases/download/v0.1.10/kinko_0.1.10_linux_amd64.tar.gz"
-      sha256 "5054753a8254748db761cd689f07b964e10509ed7d67bf52e261d6f08f126281"
+      url "https://github.com/tacogips/kinko/releases/download/v0.1.11/kinko-0.1.11-linux-x64.tar.gz"
+      sha256 "f5b6455085ac3c7902b5cac6bc721b5552f890219f264b284ca91aecfad80147"
     end
   end
 
   def install
-    bin.install Dir["kinko_*"].first => "kinko"
+    bin.install "bin/kinko"
   end
 
   test do
-    assert_equal "0.1.10", shell_output("#{bin}/kinko version").strip
+    assert_equal "0.1.11", shell_output("#{bin}/kinko version").strip
+    assert_path_exists bin/"kinko"
+    assert_predicate bin/"kinko", :executable?
   end
 end
