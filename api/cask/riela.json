@@ -56,10 +56,10 @@
   "pinned_version": null,
   "rename": [],
   "ruby_source_checksum": {
-    "sha256": "357d9472c3bfbb5638a67f29f08a258d5707ea9c7f3f5594f787271c50ef8b92"
+    "sha256": "a05b27168c94661dc7b4639522919dd159c85105c9cff0a0989eaf282fb21f7c"
   },
   "ruby_source_path": "Casks/riela.rb",
-  "sha256": "882531b70ae8d77b83646fc9a4a567ad50ac1550d9f21d9c1e4f62002fd83078",
+  "sha256": "71624cb8fd84e6d475d90a44770b79da66242f5f521e1dd9f27e789ae3eb595b",
   "skip_livecheck": false,
   "supported_platforms": [
     "golden_gate",
@@ -72,26 +72,26 @@
     "arm64_sonoma"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "21bb47ff297aeb14424493541d52be8d85d03550",
+  "tap_git_head": "e3ee941841fdab20bc89068d225796573e86f83a",
   "token": "riela",
-  "url": "https://github.com/tacogips/riela/releases/download/v0.3.9/riela-0.3.9-darwin-arm64.dmg",
+  "url": "https://github.com/tacogips/riela/releases/download/v0.3.10/riela-0.3.10-darwin-arm64.dmg",
   "url_specs": {},
   "variations": {
     "golden_gate": {
-      "url": "https://github.com/tacogips/riela/releases/download/v0.3.9/riela-0.3.9-.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.3.10/riela-0.3.10-.dmg"
     },
     "sequoia": {
-      "url": "https://github.com/tacogips/riela/releases/download/v0.3.9/riela-0.3.9-.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.3.10/riela-0.3.10-.dmg"
     },
     "sonoma": {
-      "url": "https://github.com/tacogips/riela/releases/download/v0.3.9/riela-0.3.9-.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.3.10/riela-0.3.10-.dmg"
     },
     "tahoe": {
-      "url": "https://github.com/tacogips/riela/releases/download/v0.3.9/riela-0.3.9-.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.3.10/riela-0.3.10-.dmg"
     },
     "x86_64_linux": {
-      "url": "https://github.com/tacogips/riela/releases/download/v0.3.9/riela-0.3.9-.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.3.10/riela-0.3.10-.dmg"
     }
   },
-  "version": "0.3.9"
+  "version": "0.3.10"
 }
