@@ -1,11 +1,11 @@
 cask "ccusage-gauge" do
   arch arm: "darwin-arm64", intel: "darwin-x64"
 
-  version "0.4.3"
-  sha256 arm:   "0c75c3f5c5880f57dc9a3662830044b5a1d16a7a04a407e3855912d3804e3cab",
-         intel: "aed899b87b48167cbc3bbfe7516c33441f70068986e630aa6b299c9650906c16"
+  version "0.5.0"
+  sha256 arm:   "cf886af7fd972206c87da09ece6ce14e6db3bb00a6d1c590ef44d2abc338b9af",
+         intel: "64a2fa7aa6cbdf01cfe3fa5fc1ed763a90dba4aba6c353c2959ad277891c006e"
 
-  url "https://github.com/tacogips/ccusage-gauge/releases/download/v0.4.3/ccusage-gauge-#{version}-#{arch}.dmg"
+  url "https://github.com/tacogips/ccusage-gauge/releases/download/v0.5.0/ccusage-gauge-#{version}-#{arch}.dmg"
   name "CCUsage Gauge"
   desc "Menu bar gauge for Claude Code and Codex subscription limits, credits, and costs"
   homepage "https://github.com/tacogips/ccusage-gauge"
