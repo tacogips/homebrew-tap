@@ -81,7 +81,7 @@
     "arm64_big_sur"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "2728c906c72a61824325fd259d68eb164c46a92f",
+  "tap_git_head": "dda1bcef1ee8f2fd4ee1ecfafe6e2b0aba7fc8b7",
   "token": "apple-gateway",
   "url": "https://github.com/tacogips/apple-gateway/releases/download/v0.1.18/apple-gateway-full-0.1.18-darwin-arm64.dmg",
   "url_specs": {},
