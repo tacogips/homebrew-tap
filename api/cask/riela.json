@@ -56,10 +56,10 @@
   "pinned_version": null,
   "rename": [],
   "ruby_source_checksum": {
-    "sha256": "bcec505c5913fb54efffea61f4ff77c4a9a5353e460805679b99c2035ca76d00"
+    "sha256": "c633fe9105fac5875dfee6db2abe37dd0a0d20467488932a6898e6a6f2d9b50d"
   },
   "ruby_source_path": "Casks/riela.rb",
-  "sha256": "a1a1699c18965d23214f0043a75f31eb29a95f81c09f510af81f7f85118bbe35",
+  "sha256": "558c3d3291333a6f3d07a759cfcd0ba006a583f1f7f090f8a975367581941c15",
   "skip_livecheck": false,
   "supported_platforms": [
     "golden_gate",
@@ -72,26 +72,26 @@
     "arm64_sonoma"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "d5bccb17261fb1347cf3854e14ce1d5328b46021",
+  "tap_git_head": "5021b2a2af4cc7bbdda2aadb5ab986db961befa1",
   "token": "riela",
-  "url": "https://github.com/tacogips/riela/releases/download/v0.3.11/riela-0.3.11-darwin-arm64.dmg",
+  "url": "https://github.com/tacogips/riela/releases/download/v0.3.12/riela-0.3.12-darwin-arm64.dmg",
   "url_specs": {},
   "variations": {
     "golden_gate": {
-      "url": "https://github.com/tacogips/riela/releases/download/v0.3.11/riela-0.3.11-.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.3.12/riela-0.3.12-.dmg"
     },
     "sequoia": {
-      "url": "https://github.com/tacogips/riela/releases/download/v0.3.11/riela-0.3.11-.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.3.12/riela-0.3.12-.dmg"
     },
     "sonoma": {
-      "url": "https://github.com/tacogips/riela/releases/download/v0.3.11/riela-0.3.11-.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.3.12/riela-0.3.12-.dmg"
     },
     "tahoe": {
-      "url": "https://github.com/tacogips/riela/releases/download/v0.3.11/riela-0.3.11-.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.3.12/riela-0.3.12-.dmg"
     },
     "x86_64_linux": {
-      "url": "https://github.com/tacogips/riela/releases/download/v0.3.11/riela-0.3.11-.dmg"
+      "url": "https://github.com/tacogips/riela/releases/download/v0.3.12/riela-0.3.12-.dmg"
     }
   },
-  "version": "0.3.11"
+  "version": "0.3.12"
 }
