@@ -14,7 +14,7 @@
   "deprecation_reason": null,
   "deprecation_replacement_cask": null,
   "deprecation_replacement_formula": null,
-  "desc": "Dashboard and CLI for Claude Code, Codex, and Gemini subscription limits and usage costs",
+  "desc": "Dashboard and CLI for Claude Code, Codex, and Antigravity subscription limits and usage costs",
   "disable_args": null,
   "disable_date": null,
   "disable_reason": null,
@@ -48,20 +48,20 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "dafc86d2672e6a9943a0384b3e815f1d74641f8788eabbd61375b48bf1ee8eaa"
+    "sha256": "563148bd522283ed585b8bbd524369abf8c52c5787eb241f4aa9d8ed0d5c942f"
   },
   "ruby_source_path": "Formula/ai-usage-gauge.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "a2b04a68e423eecfdb00ce74dc309981fbff8a38",
+  "tap_git_head": "23a3c907e42e20383bf425a9a485aa9b9d3fe94f",
   "test_dependencies": [],
   "urls": {
     "stable": {
-      "checksum": "8998787e5a646710be463d3db4ab9d27527b0adb5244cce0816a2a5ff71ff82e",
+      "checksum": "f7bd39495e7f15db89be41ff7d961fbb34076ac0728b58f732675f57be19fce5",
       "revision": null,
       "tag": null,
-      "url": "https://github.com/tacogips/ai-usage-gauge/releases/download/v0.5.0/ccusage-gauge-0.5.0-darwin-arm64.tar.gz",
+      "url": "https://github.com/tacogips/ai-usage-gauge/releases/download/v0.6.0/ai-usage-gauge-0.6.0-darwin-arm64.tar.gz",
       "using": null
     }
   },
@@ -72,6 +72,6 @@
   "versions": {
     "bottle": false,
     "head": null,
-    "stable": "0.5.0"
+    "stable": "0.6.0"
   }
 }

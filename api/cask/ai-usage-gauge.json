@@ -2,34 +2,25 @@
   "artifacts": [
     {
       "app": [
-        "CCUsageGauge.app"
+        "AIUsageGauge.app"
       ],
-      "target": "/Applications/CCUsageGauge.app"
+      "target": "/Applications/AIUsageGauge.app"
     },
     {
       "binary": [
-        "/Applications/CCUsageGauge.app/Contents/MacOS/ccusage-gauge",
+        "/Applications/AIUsageGauge.app/Contents/MacOS/ai-usage-gauge",
         {
-          "target": "ccusage-gauge"
+          "target": "ai-usage-gauge"
         }
       ],
-      "target": "/opt/homebrew/bin/ccusage-gauge"
-    },
-    {
-      "binary": [
-        "/Applications/CCUsageGauge.app/Contents/Helpers/CCUsageGaugeDashboard.app/Contents/MacOS/ccusage-gauge-dashboard",
-        {
-          "target": "ccusage-gauge-dashboard"
-        }
-      ],
-      "target": "/opt/homebrew/bin/ccusage-gauge-dashboard"
+      "target": "/opt/homebrew/bin/ai-usage-gauge"
     }
   ],
   "auto_updates": null,
   "autobump": true,
   "bundle_short_version": null,
   "bundle_version": null,
-  "caveats": "The app and native dashboard are signed and notarized with Apple Developer ID.\nInstall ccusage separately and configure its path if it is not discoverable.\n",
+  "caveats": "The app and native dashboard are signed and notarized with Apple Developer ID.\nLocal usage is computed natively in Rust without requiring a local ccusage CLI.\n",
   "caveats_rosetta": null,
   "conflicts_with": null,
   "container": null,
@@ -46,7 +37,7 @@
   "deprecation_reason": null,
   "deprecation_replacement_cask": null,
   "deprecation_replacement_formula": null,
-  "desc": "Menu bar gauge for Claude Code, Codex, and Gemini subscription limits, credits, and costs",
+  "desc": "Menu bar gauge for Claude Code, Codex, and Antigravity subscription limits, credits, and costs",
   "disable_args": null,
   "disable_date": null,
   "disable_reason": null,
@@ -70,10 +61,10 @@
   "pinned_version": null,
   "rename": [],
   "ruby_source_checksum": {
-    "sha256": "be28e1948b7185a7bc537f5fd66eba16e5396e5f9f557c3304468de3df554fdd"
+    "sha256": "25b86ac75e112eab7d8fbec9c2b8f4a5ac21a8482eccea4608120aea814510b3"
   },
   "ruby_source_path": "Casks/ai-usage-gauge.rb",
-  "sha256": "46b8c94d7870a9fd26353b8463917daa689c038cccb6c2126e5b36f619ba4745",
+  "sha256": "1c869fd26aabbf0f6a0ad05c3124eed61fbd1d93903b08b4a18acec9ab7bd90e",
   "skip_livecheck": false,
   "supported_platforms": [
     "golden_gate",
@@ -86,34 +77,34 @@
     "arm64_sonoma"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "a2b04a68e423eecfdb00ce74dc309981fbff8a38",
+  "tap_git_head": "23a3c907e42e20383bf425a9a485aa9b9d3fe94f",
   "token": "ai-usage-gauge",
-  "url": "https://github.com/tacogips/ai-usage-gauge/releases/download/v0.5.1/ccusage-gauge-0.5.1-darwin-arm64.dmg",
+  "url": "https://github.com/tacogips/ai-usage-gauge/releases/download/v0.6.0/ai-usage-gauge-0.6.0-darwin-arm64.dmg",
   "url_specs": {},
   "variations": {
     "arm64_linux": {
       "sha256": null
     },
     "golden_gate": {
-      "sha256": "75c18d08c26920b2f07d1e3387e8674e6f5a6051cd8c29fffde57a426a48b964",
-      "url": "https://github.com/tacogips/ai-usage-gauge/releases/download/v0.5.1/ccusage-gauge-0.5.1-darwin-x64.dmg"
+      "sha256": "2c7f5e5d458b502c1fb45b02bbfcbc0d9598af865b56908416e5c72ef9c7ad89",
+      "url": "https://github.com/tacogips/ai-usage-gauge/releases/download/v0.6.0/ai-usage-gauge-0.6.0-darwin-x64.dmg"
     },
     "sequoia": {
-      "sha256": "75c18d08c26920b2f07d1e3387e8674e6f5a6051cd8c29fffde57a426a48b964",
-      "url": "https://github.com/tacogips/ai-usage-gauge/releases/download/v0.5.1/ccusage-gauge-0.5.1-darwin-x64.dmg"
+      "sha256": "2c7f5e5d458b502c1fb45b02bbfcbc0d9598af865b56908416e5c72ef9c7ad89",
+      "url": "https://github.com/tacogips/ai-usage-gauge/releases/download/v0.6.0/ai-usage-gauge-0.6.0-darwin-x64.dmg"
     },
     "sonoma": {
-      "sha256": "75c18d08c26920b2f07d1e3387e8674e6f5a6051cd8c29fffde57a426a48b964",
-      "url": "https://github.com/tacogips/ai-usage-gauge/releases/download/v0.5.1/ccusage-gauge-0.5.1-darwin-x64.dmg"
+      "sha256": "2c7f5e5d458b502c1fb45b02bbfcbc0d9598af865b56908416e5c72ef9c7ad89",
+      "url": "https://github.com/tacogips/ai-usage-gauge/releases/download/v0.6.0/ai-usage-gauge-0.6.0-darwin-x64.dmg"
     },
     "tahoe": {
-      "sha256": "75c18d08c26920b2f07d1e3387e8674e6f5a6051cd8c29fffde57a426a48b964",
-      "url": "https://github.com/tacogips/ai-usage-gauge/releases/download/v0.5.1/ccusage-gauge-0.5.1-darwin-x64.dmg"
+      "sha256": "2c7f5e5d458b502c1fb45b02bbfcbc0d9598af865b56908416e5c72ef9c7ad89",
+      "url": "https://github.com/tacogips/ai-usage-gauge/releases/download/v0.6.0/ai-usage-gauge-0.6.0-darwin-x64.dmg"
     },
     "x86_64_linux": {
       "sha256": null,
-      "url": "https://github.com/tacogips/ai-usage-gauge/releases/download/v0.5.1/ccusage-gauge-0.5.1-darwin-x64.dmg"
+      "url": "https://github.com/tacogips/ai-usage-gauge/releases/download/v0.6.0/ai-usage-gauge-0.6.0-darwin-x64.dmg"
     }
   },
-  "version": "0.5.1"
+  "version": "0.6.0"
 }
