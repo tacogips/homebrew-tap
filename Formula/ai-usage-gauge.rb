@@ -1,5 +1,5 @@
 class AiUsageGauge < Formula
-  desc "Dashboard and CLI for Claude Code, Codex, and Antigravity subscription limits and usage costs"
+  desc "Dashboard and CLI for Claude, Codex, and Antigravity usage and costs"
   homepage "https://github.com/tacogips/ai-usage-gauge"
   license "MIT"
 
