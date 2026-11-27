@@ -1,4 +1,5 @@
 {
   "calendar-gateway": "google-calendar-gateway",
+  "ccusage-gauge": "ai-usage-gauge",
   "diagra": "nodetto"
 }

@@ -1,14 +1,14 @@
-cask "ccusage-gauge" do
+cask "ai-usage-gauge" do
   arch arm: "darwin-arm64", intel: "darwin-x64"
 
   version "0.5.1"
   sha256 arm:   "46b8c94d7870a9fd26353b8463917daa689c038cccb6c2126e5b36f619ba4745",
          intel: "75c18d08c26920b2f07d1e3387e8674e6f5a6051cd8c29fffde57a426a48b964"
 
-  url "https://github.com/tacogips/ccusage-gauge/releases/download/v0.5.1/ccusage-gauge-#{version}-#{arch}.dmg"
-  name "CCUsage Gauge"
-  desc "Menu bar gauge for Claude Code and Codex subscription limits, credits, and costs"
-  homepage "https://github.com/tacogips/ccusage-gauge"
+  url "https://github.com/tacogips/ai-usage-gauge/releases/download/v0.5.1/ccusage-gauge-#{version}-#{arch}.dmg"
+  name "AI Usage Gauge"
+  desc "Menu bar gauge for Claude Code, Codex, and Gemini subscription limits, credits, and costs"
+  homepage "https://github.com/tacogips/ai-usage-gauge"
 
   livecheck do
     url :url
