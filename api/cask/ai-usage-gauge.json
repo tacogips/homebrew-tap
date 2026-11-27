@@ -77,7 +77,7 @@
     "arm64_sonoma"
   ],
   "tap": "tacogips/tap",
-  "tap_git_head": "23a3c907e42e20383bf425a9a485aa9b9d3fe94f",
+  "tap_git_head": "3a04cfa27d3476b6875815905815cf8bf4e0daa5",
   "token": "ai-usage-gauge",
   "url": "https://github.com/tacogips/ai-usage-gauge/releases/download/v0.6.0/ai-usage-gauge-0.6.0-darwin-arm64.dmg",
   "url_specs": {},

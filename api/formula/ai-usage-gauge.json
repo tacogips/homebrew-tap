@@ -14,7 +14,7 @@
   "deprecation_reason": null,
   "deprecation_replacement_cask": null,
   "deprecation_replacement_formula": null,
-  "desc": "Dashboard and CLI for Claude Code, Codex, and Antigravity subscription limits and usage costs",
+  "desc": "Dashboard and CLI for Claude, Codex, and Antigravity usage and costs",
   "disable_args": null,
   "disable_date": null,
   "disable_reason": null,
@@ -48,13 +48,13 @@
   "requirements": [],
   "revision": 0,
   "ruby_source_checksum": {
-    "sha256": "563148bd522283ed585b8bbd524369abf8c52c5787eb241f4aa9d8ed0d5c942f"
+    "sha256": "f28cf2dbda38f9bf17171cc86e8918bed4b818a4bc72eaacf2948fb51cf65644"
   },
   "ruby_source_path": "Formula/ai-usage-gauge.rb",
   "service": null,
   "skip_livecheck": false,
   "tap": "tacogips/tap",
-  "tap_git_head": "23a3c907e42e20383bf425a9a485aa9b9d3fe94f",
+  "tap_git_head": "3a04cfa27d3476b6875815905815cf8bf4e0daa5",
   "test_dependencies": [],
   "urls": {
     "stable": {
