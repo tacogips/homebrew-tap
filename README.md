@@ -10,7 +10,7 @@ Metadata is regenerated automatically whenever a formula or cask changes.
 
 - `anydoc-swift`
 - `google-calendar-gateway`
-- `ccusage-gauge`
+- `ai-usage-gauge`
 - `divedra`
 - `ign`
 - `kinko`
@@ -21,7 +21,7 @@ Metadata is regenerated automatically whenever a formula or cask changes.
 - `bifrost-gauge`
 - `google-calendar-gateway`
 - `chilla`
-- `ccusage-gauge`
+- `ai-usage-gauge`
 - `nodetto`
 - `kaiba`
 - `riela`
@@ -33,7 +33,7 @@ Metadata is regenerated automatically whenever a formula or cask changes.
 brew tap tacogips/tap
 brew install anydoc-swift
 brew install google-calendar-gateway
-brew install ccusage-gauge
+brew install ai-usage-gauge
 brew install divedra
 brew install ign
 brew install kinko
@@ -41,7 +41,7 @@ brew install riela
 brew install --cask bifrost-gauge
 brew install --cask google-calendar-gateway
 brew install --cask chilla
-brew install --cask ccusage-gauge
+brew install --cask ai-usage-gauge
 brew install --cask nodetto
 brew install --cask kaiba
 brew install --cask riela

@@ -1,5 +1,5 @@
 class AiUsageGauge < Formula
-  desc "Dashboard and CLI for Claude Code, Codex, and Gemini subscription limits and usage costs"
+  desc "Dashboard and CLI for Claude Code, Codex, and Antigravity subscription limits and usage costs"
   homepage "https://github.com/tacogips/ai-usage-gauge"
   license "MIT"
 
@@ -10,21 +10,21 @@ class AiUsageGauge < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tacogips/ai-usage-gauge/releases/download/v0.5.0/ccusage-gauge-0.5.0-darwin-arm64.tar.gz"
-      sha256 "8998787e5a646710be463d3db4ab9d27527b0adb5244cce0816a2a5ff71ff82e"
+      url "https://github.com/tacogips/ai-usage-gauge/releases/download/v0.6.0/ai-usage-gauge-0.6.0-darwin-arm64.tar.gz"
+      sha256 "f7bd39495e7f15db89be41ff7d961fbb34076ac0728b58f732675f57be19fce5"
     else
-      url "https://github.com/tacogips/ai-usage-gauge/releases/download/v0.5.0/ccusage-gauge-0.5.0-darwin-x64.tar.gz"
-      sha256 "1f435b4a3c5f7e1b7d14dbfe2b52e26a3aeb693b7f891a4af6df7e42bb85bd35"
+      url "https://github.com/tacogips/ai-usage-gauge/releases/download/v0.6.0/ai-usage-gauge-0.6.0-darwin-x64.tar.gz"
+      sha256 "2e59e343115677a49e5b9fff0a4255ca39a78e66cc2cb99c11e8bc2651d9fced"
     end
   end
 
   def install
-    bin.install "bin/ccusage-gauge"
-    bin.install "bin/ccusage-gauge-dashboard"
-    share.install "share/ccusage-gauge"
+    bin.install "bin/ai-usage-gauge"
+    bin.install "bin/ai-usage-gauge-app"
+    share.install "share/ai-usage-gauge"
   end
 
   test do
-    assert_match "0.5.0", shell_output("#{bin}/ccusage-gauge --version")
+    assert_match "0.6.0", shell_output("#{bin}/ai-usage-gauge --version")
   end
 end
